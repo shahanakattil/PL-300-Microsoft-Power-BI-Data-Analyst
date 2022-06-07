@@ -1,12 +1,4 @@
----
-lab:
-    title: 'Prepare Data in Power BI Desktop'
-    module: 'Module 2 - Get Data in Power BI'
----
-
 # **Prepare Data in Power BI Desktop**
-
-**The estimated time to complete the lab is 45 minutes**
 
 In this lab you commence the development of a Power BI Desktop solution for the Adventure Works company. It involves connecting to source data, previewing the data, and using data preview techniques to understand the characteristics and quality of the source data.
 
@@ -68,7 +60,7 @@ In this task you will first save the Power BI Desktop file.
 
  	![Picture 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
 
-1. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
 
 1. In the **File Name** box, enter **Sales Analysis**.
 
@@ -282,7 +274,7 @@ In this task you will create a query based on a CSV file.
 
 	![Picture 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image35.png)
 
-2. In the **Open** window, navigate to the **D:\PL300\Resources** folder, and select the **ResellerSalesTargets.csv** file.
+2. In the **Open** window, navigate to the **C:\Allfiles\Resources** folder, and select the **ResellerSalesTargets.csv** file.
 
 3. Click **Open**.
 
@@ -315,7 +307,7 @@ In this task you will create a query based on a CSV file.
 
 In this task you will create an additional query based on a different CSV file.
 
-1. Use the steps in the previous task to create a query based on the **D:\PL300\Resources\ColorFormats.csv** file.
+1. Use the steps in the previous task to create a query based on the **C:\Allfiles\Resources\ColorFormats.csv** file.
 
 	![Picture 75](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image39.png)
 
