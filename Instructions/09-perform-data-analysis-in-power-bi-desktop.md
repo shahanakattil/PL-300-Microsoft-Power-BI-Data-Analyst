@@ -124,7 +124,7 @@ In this task you will create the **Sales Exploration** report.
 
 	![Picture 12](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image10.png)
 
-7. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
+7. In the **Save As** window, navigate to the **C:\AllFiles\MySolution** folder.
 
 8. In the **File Name** box, enter **Sales Exploration** and click **Save**.
 
@@ -228,11 +228,11 @@ In this task you will create a forecast to determine possible future sales reven
 
 3. Add the following fields to the visual wells/areas:
 
-	- X-axis: **Date \| Date**
+	- Axis: **Date | Date**
 
-	- Y-axis: **Sales \| Sales** 
+	- Values: **Sales | Sales** 
 
-	![Picture 46](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image23.png)
+	![Picture 46](Linked_image_Files/10-perform-data-928.png)
 
 4. In the **Filters** pane, add the **Date \| Year** field to the **Filters On This Page** well/area.
 
@@ -258,13 +258,12 @@ In this task you will create a forecast to determine possible future sales reven
 
 	*If the **Forecast** section is not available, it’s probably because the visual hasn’t been correctly configured. Forecasting is only available when two conditions are met: the axis has a single field of type date, and there’s only one value field.*
 
-9. Turn the **Forecast** option to **On**.
+9. Turn the **Forecast** option to **On**/ Click **Add**
 
 	![Picture 51](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image28.png)
 
 10. Configure the following forecast properties:
 
-	- Units: Months
 
 	- Forecast length: 1 month
 

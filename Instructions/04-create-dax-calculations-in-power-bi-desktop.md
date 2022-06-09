@@ -114,7 +114,7 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 	![Picture 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
-	*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+	*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **C:\AllFiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
 	*A calculated table is created by first entering the table name, followed by the equals symbol (=), followed by a DAX formula that returns a table. Note that the table name cannot already exist in the data model.*
 
@@ -205,7 +205,7 @@ In this task you will create the **Date** table.
 
 In this task you will add additional columns to enable filtering and grouping by different time periods. You will also create a calculated column to control the sort order of other columns.
 
-*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
+*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **C:\AllFiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
 1. On the **Table Tools** contextual ribbon, from inside the **Calculations** group, click **New Column**.
 
