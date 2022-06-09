@@ -116,11 +116,11 @@ In this task you will setup the environment for the lab.
 
 	![Picture 2038](Linked_image_Files/new-source.png)
 
-1. Now navigate to **C:\Allfiles\Resources** and select the **ResellerSalesTargets.csv** file and &**Open**.
+1. Now navigate to **C:\Allfiles\Resources** and select the **ResellerSalesTargets.csv** file and **Open**.
 
 	![Picture 2012](Linked_image_Files/select-csv.png)
 
-1. On the window that opens pops up, select **OK**.
+1. On the window that opens pops up, select **OK**. You can now proceed to the next task.
 
 	![Picture 2012](Linked_image_Files/select-ok.png)
 
