@@ -176,7 +176,7 @@ In this task you will create several measures with DAX expressions that use the 
 
 4. In the **Fields** pane, ensure that the **Sales All Region** measure is selected (when selected, it will have a dark gray background), and then in the formula bar, replace the measure name and formula with the following formula:
 
-    *Tip: To replace the existing formula, first copy the snippet. Then, click inside the formula bar and press **Ctrl+A** to select all text. Then, press **Ctrl+V** to paste the snippet to overwrite the selected text. Then press **Enter**.*
+*Tip: To replace the existing formula, first copy the snippet. Then, click inside the formula bar and press **Ctrl+A** to select all text. Then, press **Ctrl+V** to paste the snippet to overwrite the selected text. Then press **Enter**.*
 
 
 
@@ -204,7 +204,6 @@ In this task you will create several measures with DAX expressions that use the 
 
 8. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
-
     ```
     Sales % Country =  
     ‎DIVIDE(  
@@ -215,8 +214,7 @@ In this task you will create several measures with DAX expressions that use the 
     ‎ )  
     ‎)
     ```
-
-
+    
 9. Notice that the **Sales % Country** measure formula differs slightly from the **Sales % All Region** measure formula.
 
     *The difference is that the denominator modifies the filter context by removing filters on the **Region** column of the **Region** table, not all columns of the **Region** table. It means that any filters applied to the group or country columns are preserved. It’ll achieve a result that represents the sales as a percentage of country.*

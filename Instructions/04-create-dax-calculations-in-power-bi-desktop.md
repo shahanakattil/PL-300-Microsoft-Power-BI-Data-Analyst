@@ -213,7 +213,6 @@ In this task you will add additional columns to enable filtering and grouping by
 
 2. In the formula bar, type the following (or copy from the snippets file), and then press **Enter**:
 
-
 	```
 	Year =
 	"FY" & YEAR('Date'[Date]) + IF(MONTH('Date'[Date]) > 6, 1)
