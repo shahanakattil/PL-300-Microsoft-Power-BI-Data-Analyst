@@ -102,7 +102,7 @@ In this task you will setup the environment for the lab.
 
 1. In the Power Query Editor window, in the Queries pane. If you see that the **ResellerSalesTargets** and **ColorFormats** are showing a warning. 
 
-**(Skip the following steps if you do not see a warning and proceed to the next task)**
+	**(Skip the following steps if you do not see a warning and proceed to the next task)**
 
 	![Picture 202](Linked_image_Files/warning-1.png)
 
