@@ -1,10 +1,3 @@
----
-lab:
-    title: 'Design a Report in Power BI Desktop, Part 2'
-    module: 'Module 7 - Create Reports'
----
-
-
 # **Design a Report in Power BI Desktop, Part 2**
 
 **The estimated time to complete the lab is 45 minutes**
@@ -113,7 +106,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
 
-8. In the **Open** window, navigate to the **D:\PL300\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** folder.
+8. In the **Open** window, navigate to the **C:\AllFiles\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -123,19 +116,32 @@ In this task you will setup the environment for the lab by opening the starter r
 
 11. Close any informational windows that may open.
 
-12. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
+12. Notice the yellow warning message beneath the ribbon.
 
-13. Select **Save As**.
+	*The message alerts you to the fact that the queries have not been applied to load as model tables.*
+
+13. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
+
+	![Picture 8](Linked_image_Files/discard-changes-1.png)
+
+14. Now you will see another pop up as shown below, select **Discard**.
+
+	![Picture 8](Linked_image_Files/discard-changes-2.png)
+
+
+15. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
+
+16. Select **Save As**.
 
 	![Picture 4](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image10.png)
 
-14. If prompted to apply changes, click **Apply**.
+17. If prompted to apply changes, click **Apply**.
 
 	![Picture 3](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image11.png)
 
-15. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
+18. In the **Save As** window, navigate to the **C:\AllFiles\MySolution** folder.
 
-16. Click **Save**.
+19. Click **Save**.
 
 	![Picture 2](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image12.png)
 

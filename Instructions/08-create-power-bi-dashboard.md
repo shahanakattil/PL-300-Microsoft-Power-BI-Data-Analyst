@@ -1,6 +1,5 @@
 # **Create a Power BI Dashboard**
 
-
 In this lab you will create the **Sales Monitoring** dashboard.
 
 In this lab you learn how to:
@@ -113,19 +112,39 @@ In this task you will setup the environment for the lab by opening the starter r
 
 11. Close any informational windows that may open.
 
-12. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
+12. Notice the yellow warning message beneath the ribbon.
 
-13. Select **Save As**.
+	*The message alerts you to the fact that the queries have not been applied to load as model tables.*
+
+13. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
+
+	![Picture 8](Linked_image_Files/discard-changes-1.png)
+
+14. Now you will see another pop up as shown below, select **Discard**.
+
+	![Picture 8](Linked_image_Files/discard-changes-2.png)
+
+
+
+15. If prompted to apply changes, click **Apply Later**.
+
+	![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
+
+
+
+16. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
+
+17. Select **Save As**.
 
     ![Picture 29](Linked_image_Files/09-create-power-bi-dashboard_image11.png)
 
-14. If prompted to apply changes, click **Apply Later**.
+18. If prompted to apply changes, click **Apply Later**.
 
-    ![Picture 10](Linked_image_Files/09-create-power-bi-dashboard_image12.png)
+	![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
-15. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
+19. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
 
-16. Click **Save**.
+20. Click **Save**.
 
     ![Picture 9](Linked_image_Files/09-create-power-bi-dashboard_image13.png)
 
