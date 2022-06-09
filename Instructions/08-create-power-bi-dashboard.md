@@ -1,4 +1,4 @@
-# **Create a Power BI Dashboard**
+# **PL-300 Module 8: Create a Power BI Dashboard**
 
 In this lab you will create the **Sales Monitoring** dashboard.
 

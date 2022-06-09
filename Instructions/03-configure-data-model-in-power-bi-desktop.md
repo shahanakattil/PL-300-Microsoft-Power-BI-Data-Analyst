@@ -1,4 +1,4 @@
-# **Model Data in Power BI Desktop**
+# **PL-300 Module 3: Model Data in Power BI Desktop**
 
 In this lab you will commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You will also create hierarchies and create quick measures.
 

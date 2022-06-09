@@ -1,4 +1,4 @@
-# **Create DAX Calculations in Power BI Desktop, Part 2**
+# **PL-300 Module 5: Create DAX Calculations in Power BI Desktop, Part 2**
 
 **The estimated time to complete the lab is 45 minutes**
 

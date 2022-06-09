@@ -1,4 +1,4 @@
-# **Enforce Row-Level Security**
+# **PL-300 Module 10: Enforce Row-Level Security**
 
 **The estimated time to complete the lab is 45 minutes**
 

@@ -1,4 +1,4 @@
-# **Design a Report in Power BI Desktop, Part 1**
+# **PL-300 Module 6: Design a Report in Power BI Desktop, Part 1**
 
 **The estimated time to complete the lab is 45 minutes**
 
