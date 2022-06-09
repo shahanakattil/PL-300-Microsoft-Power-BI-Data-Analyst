@@ -77,14 +77,9 @@ In this task you will setup the environment for the lab.
 
 	*The message alerts you to the fact that the queries have not been applied to load as model tables.*
 
-1. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
+1. To dismiss the warning message, at the right of the yellow warning message, click **X**.
 
-	![Picture 8](Linked_image_Files/discard-changes-1.png)
-
-1. Now you will see another pop up as shown below, select **Discard**.
-
-	![Picture 8](Linked_image_Files/discard-changes-2.png)
-
+	![Picture 13](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image6.png)
 1. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
 
 1. Select **Save As**.
@@ -104,6 +99,31 @@ In this task you will setup the environment for the lab.
 1. To open the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **Queries** group, click the **Transform Data** icon.
 
 	![Picture 20](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
+
+1. In the Power Query Editor window, in the Queries pane. You will see that the **ResellerSalesTargets** and **ColorFormats** are showing a warning.
+
+	![Picture 202](Linked_image_Files/warning-1.png)
+
+1. Right click on **ResellerSalesTargets** and select **Delete**. Repeat the same for **ColorFormats**.	
+	
+	![Picture 209](Linked_image_Files/delete-1.png)
+
+1. On the **Delete Query** pane, select **Delete**
+
+	![Picture 203](Linked_image_Files/confirm-delete-1.png)
+
+1. Now on the Power Query Editor, under **Home** select the downward arrow on **New Source** and select **Text/CSV**.
+
+	![Picture 2038](Linked_image_Files/new-source.png)
+
+1. Now navigate to **C:\Allfiles\Resources** and select the **ResellerSalesTargets.csv** file and &**Open**.
+
+	![Picture 2012](Linked_image_Files/select-csv.png)
+
+1. On the window that opens pops up, select **OK**.
+
+	![Picture 2012](Linked_image_Files/select-ok.png)
+
 
 ### **Task 2: Configure the Salesperson query**
 
@@ -457,7 +477,7 @@ In this task you will configure the **Sales** query.
 
 7. In the **Custom Column Formula** box, enter the following expression (after the equals symbol):
 
-8. For your convenience, you can copy the expression from the **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.
+8. For your convenience, you can copy the expression from the **C:\AllFiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.
 
 
    **Power Query**
