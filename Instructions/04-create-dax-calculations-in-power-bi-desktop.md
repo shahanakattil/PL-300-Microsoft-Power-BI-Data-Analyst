@@ -1,10 +1,3 @@
----
-lab:
-    title: 'Create DAX Calculations in Power BI Desktop, Part 1'
-    module: 'Module 5 - Create Model Calculations using DAX in Power BI'
----
-
-
 # **Create DAX Calculations in Power BI Desktop, Part 1**
 
 **The estimated time to complete the lab is 45 minutes**
@@ -71,7 +64,7 @@ In this task you will setup the environment for the lab.
 
  	![Picture 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-1. In the **Open** window, navigate to the **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **C:\Allfiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -87,11 +80,11 @@ In this task you will setup the environment for the lab.
 
  	![Picture 34](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image6.png)
 
-1. If prompted to apply changes, click **Apply**.
+1. If prompted to apply changes, click **Apply Later**.
 
  	![Picture 25](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image7.png)
 
-1. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
 
 1. Click **Save**.
 
@@ -173,22 +166,18 @@ In this task you will create the **Date** table.
 
 3. In the formula bar, enter the following:
 
-
-	**DAX**
-
-
 	```
 	Date =  
 	CALENDARAUTO(6)
 	```
 
 
-	![Picture 6](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image16.png)
+![Picture 6](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image16.png)
 
 	
-	*The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behavior scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data is stored.*
+*The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behavior scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data is stored.*
 
-	*This function can take a single optional argument that is the last month number of a year. When omitted, the value is 12, meaning that December is the last month of the year. In this case, 6 is entered, meaning that June is the last month of the year.*
+*This function can take a single optional argument that is the last month number of a year. When omitted, the value is 12, meaning that December is the last month of the year. In this case, 6 is entered, meaning that June is the last month of the year.*
 
 4. Notice the column of date values.
 
@@ -213,18 +202,15 @@ In this task you will add additional columns to enable filtering and grouping by
 2. In the formula bar, type the following (or copy from the snippets file), and then press **Enter**:
 
 
-	**DAX**
-
-
 	```
 	Year =
 	"FY" & YEAR('Date'[Date]) + IF(MONTH('Date'[Date]) > 6, 1)
 	```
 
 
-	*A calculated column is created by first entering the column name, followed by the equals symbol (=), followed by a DAX formula that returns a single-value result. The column name cannot already exist in the table.*
+*A calculated column is created by first entering the column name, followed by the equals symbol (=), followed by a DAX formula that returns a single-value result. The column name cannot already exist in the table.*
 
-	*The formula uses the date’s year value but adds one to the year value when the month is after June. It’s how fiscal years at Adventure Works are calculated.*
+*The formula uses the date’s year value but adds one to the year value when the month is after June. It’s how fiscal years at Adventure Works are calculated.*
 
 3. Verify that the new column was added.
 
@@ -272,17 +258,13 @@ In this task you will add additional columns to enable filtering and grouping by
 
 13. Add the **MonthKey** column to the **Date** table.
 
-
-	**DAX**
-
-
 	```
 	MonthKey =
 	(YEAR('Date'[Date]) * 100) + MONTH('Date'[Date])
 	```
 
 
-	*This formula computes a numeric value for each year/month combination.*
+*This formula computes a numeric value for each year/month combination.*
 
 14. In Data view, verify that the new column contains numeric values (e.g. 201707 for July 2017, etc.).
 
@@ -389,10 +371,6 @@ In this task you will create simple measures. Simple measures aggregate values i
 
 5. In the formula bar, add the following measure definition:
 
-
-	**DAX**
-
-
 	```
 	Avg Price =  
 	‎AVERAGE(Sales[Unit Price])
@@ -495,10 +473,6 @@ In this task you will create additional measures that use more complex formulas.
 
 5. Create the following measure on the **Targets** table:
 
-
-	**DAX**
-
-
 	```
 	Target =
 
@@ -512,7 +486,7 @@ In this task you will create additional measures that use more complex formulas.
 	```
 
 
-	*The HASONEVALUE() function tests whether a single value in the **Salesperson** column is filtered. When true, the expression returns the sum of target amounts (for just that salesperson). When false, BLANK is returned.*
+*The HASONEVALUE() function tests whether a single value in the **Salesperson** column is filtered. When true, the expression returns the sum of target amounts (for just that salesperson). When false, BLANK is returned.*
 
 6. Format the **Target** measure for zero decimal places.
 
