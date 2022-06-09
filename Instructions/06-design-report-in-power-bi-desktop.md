@@ -1,10 +1,3 @@
----
-lab:
-    title: 'Design a Report in Power BI Desktop, Part 1'
-    module: 'Module 7 - Create Reports'
----
-
-
 # **Design a Report in Power BI Desktop, Part 1**
 
 **The estimated time to complete the lab is 45 minutes**
@@ -101,7 +94,7 @@ In this task you will enable map and filled map visuals in the environment for t
 1. A message will appear at the top-right of the browser stating the Tenant settings changes will be applied within the next 15 minutes. 
 
 
-	![Picture 105](Linked_image_Files/07-design-report-in-power-bi-desktop_image105.png)
+![Picture 105](Linked_image_Files/07-design-report-in-power-bi-desktop_image105.png)
 
 
 
@@ -137,7 +130,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
 
-8. In the **Open** window, navigate to the **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter** folder.
+8. In the **Open** window, navigate to the **C:\Allfiles\Labs\06-design-report-in-power-bi-desktop\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -147,19 +140,27 @@ In this task you will setup the environment for the lab by opening the starter r
 
 11. Close any informational windows that may open.
 
-12. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
+12. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
 
-13. Select **Save As**.
+	![Picture 8](Linked_image_Files/discard-changes-1.png)
+
+13. Now you will see another pop up as shown below, select **Discard**.
+
+	![Picture 8](Linked_image_Files/discard-changes-2.png)
+
+14. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
+
+15. Select **Save As**.
 
 	![Picture 8](Linked_image_Files/07-design-report-in-power-bi-desktop_image9.png)
 
-14. If prompted to apply changes, click **Apply**.
+16. If prompted to apply changes, click **Apply Later**.
 
-	![Picture 5](Linked_image_Files/07-design-report-in-power-bi-desktop_image10.png)
+	![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
-15. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
+17. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
 
-16. Click **Save**.
+18. Click **Save**.
 
 	![Picture 4](Linked_image_Files/07-design-report-in-power-bi-desktop_image11.png)
 
@@ -183,7 +184,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 	![Picture 1](Linked_image_Files/07-design-report-in-power-bi-desktop_image15.png)
 
-4. In the **Open** window, navigate to the **D:\PL300\Resources** folder.
+4. In the **Open** window, navigate to the **C:\AllFiles\Resources** folder.
 
 5. Select the **AdventureWorksLogo.jpg** file, and then click **Open**.
 

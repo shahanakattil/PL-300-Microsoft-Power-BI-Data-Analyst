@@ -1,6 +1,5 @@
 # **Model Data in Power BI Desktop**
 
-
 In this lab you will commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You will also create hierarchies and create quick measures.
 
 In this lab you learn how to:
@@ -74,6 +73,19 @@ In this task you will setup the environment for the lab.
 
 1. Close any informational windows that may open.
 
+1. Notice the yellow warning message beneath the ribbon.
+
+	*The message alerts you to the fact that the queries have not been applied to load as model tables.*
+
+1. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
+
+	![Picture 8](Linked_image_Files/discard-changes-1.png)
+
+1. Now you will see another pop up as shown below, select **Discard**.
+
+	![Picture 8](Linked_image_Files/discard-changes-2.png)
+
+
 1. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
 
 1. Select **Save As**.
@@ -82,7 +94,7 @@ In this task you will setup the environment for the lab.
 
 1. If prompted to apply changes, click **Apply Later**.
 
- 	![Picture 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image7.png)
+    ![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
 1. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
 

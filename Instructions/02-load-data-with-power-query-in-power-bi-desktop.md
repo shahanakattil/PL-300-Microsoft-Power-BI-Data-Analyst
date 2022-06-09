@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Load Data in Power BI Desktop'
-    module: 'Module 3 - Clean, Transform, and Load Data in Power BI'
----
-
 # **Load Data in Power BI Desktop**
 
 **The estimated time to complete the lab is 45 minutes**
@@ -69,7 +63,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 11](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image4.png)
 
-1. In the **Open** window, navigate to the **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **C:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -81,11 +75,15 @@ In this task you will setup the environment for the lab.
 
 1. Notice the yellow warning message beneath the ribbon.
 
-	*The message alerts you to the fact that the queries have not been applied to load as model tables. You’ll apply the queries later in this lab.*
+	*The message alerts you to the fact that the queries have not been applied to load as model tables.*
 
-1. To dismiss the warning message, at the right of the yellow warning message, click **X**.
+1. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
 
-	![Picture 13](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image6.png)
+	![Picture 8](Linked_image_Files/discard-changes-1.png)
+
+1. Now you will see another pop up as shown below, select **Discard**.
+
+	![Picture 8](Linked_image_Files/discard-changes-2.png)
 
 1. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
 
@@ -97,7 +95,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
-1. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
 
 1. Click **Save**.
 

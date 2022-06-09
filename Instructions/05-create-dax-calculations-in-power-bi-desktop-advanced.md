@@ -1,10 +1,3 @@
----
-lab:
-    title: 'Create DAX Calculations in Power BI Desktop, Part 2'
-    module: 'Module 5 - Create Model Calculations using DAX in Power BI'
----
-
-
 # **Create DAX Calculations in Power BI Desktop, Part 2**
 
 **The estimated time to complete the lab is 45 minutes**
@@ -69,7 +62,7 @@ In this task you will setup the environment for the lab.
 
     ![Picture 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-1. In the **Open** window, navigate to the **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** folder.
+1. In the **Open** window, navigate to the **C:\AllFiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -79,17 +72,30 @@ In this task you will setup the environment for the lab.
 
 1. Close any informational windows that may open.
 
+1. Notice the yellow warning message beneath the ribbon.
+
+	*The message alerts you to the fact that the queries have not been applied to load as model tables.*
+
+1. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
+
+	![Picture 8](Linked_image_Files/discard-changes-1.png)
+
+1. Now you will see another pop up as shown below, select **Discard**.
+
+	![Picture 8](Linked_image_Files/discard-changes-2.png)
+
+
 1. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
 
 1. Select **Save As**.
 
     ![Picture 7](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image6.png)
 
-1. If prompted to apply changes, click **Apply**.
+1. If prompted to apply changes, click **Apply Later**.
 
-    ![Picture 6](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image7.png)
+    ![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
-1. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\AllFiles\MySolution** folder.
 
 1. Click **Save**.
 
@@ -147,10 +153,6 @@ In this task you will create several measures with DAX expressions that use the 
 
     *For your convenience, all DAX definitions in this lab can be copied from the **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
 
-
-    **DAX**
-
-
     ```
     Sales All Region =
 
@@ -158,11 +160,11 @@ In this task you will create several measures with DAX expressions that use the 
     ```
 
 
-    *The CALCULATE() function is a powerful function used to manipulate the filter context. The first argument takes an expression or a measure (a measure is just a named expression). Subsequent arguments allow modifying the filter context.*
+*The CALCULATE() function is a powerful function used to manipulate the filter context. The first argument takes an expression or a measure (a measure is just a named expression). Subsequent arguments allow modifying the filter context.*
 
-    *The REMOVEFILTERS() function removes active filters. It can take either no arguments, or a table, a column, or multiple columns as its argument.*
+*The REMOVEFILTERS() function removes active filters. It can take either no arguments, or a table, a column, or multiple columns as its argument.*
 
-    *In this formula, the measure evaluates the sum of the **Sales** column in a modified filter context, which removes any filters applied to the columns of the **Region** table.*
+*In this formula, the measure evaluates the sum of the **Sales** column in a modified filter context, which removes any filters applied to the columns of the **Region** table.*
 
 2. Add the **Sales All Region** measure to the matrix visual.
 
@@ -177,8 +179,6 @@ In this task you will create several measures with DAX expressions that use the 
     *Tip: To replace the existing formula, first copy the snippet. Then, click inside the formula bar and press **Ctrl+A** to select all text. Then, press **Ctrl+V** to paste the snippet to overwrite the selected text. Then press **Enter**.*
 
 
-    **DAX**
-
 
     ```
     Sales % All Region =  
@@ -192,7 +192,7 @@ In this task you will create several measures with DAX expressions that use the 
     ```
 
 
-    *The measure has been renamed to accurately reflect the updated formula. The DIVIDE() function divides the **Sales** measure (not modified by filter context) by the **Sales** measure in a modified context, which removes any filters applied to the **Region** table.*
+*The measure has been renamed to accurately reflect the updated formula. The DIVIDE() function divides the **Sales** measure (not modified by filter context) by the **Sales** measure in a modified context, which removes any filters applied to the **Region** table.*
 
 5. In the matrix visual, notice that the measure has been renamed and that a different values now appear for each group, country, and region.
 
@@ -204,8 +204,6 @@ In this task you will create several measures with DAX expressions that use the 
 
 8. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
-
-    **DAX**
 
     ```
     Sales % Country =  
@@ -234,8 +232,6 @@ In this task you will create several measures with DAX expressions that use the 
 12. To improve the readability of this measure in visual, overwrite the **Sales % Country** measure with this improved formula.
 
 
-    **DAX**
-
 
     ```
     Sales % Country =  
@@ -252,16 +248,13 @@ In this task you will create several measures with DAX expressions that use the 
     ```
 
 
-    *Embedded within the IF() function, the ISINSCOPE() function is used to test whether the region column is the level in a hierarchy of levels. When true, the DIVIDE() function is evaluated. The absence of a false part means that blank is returned when the region column is not in scope.*
+*Embedded within the IF() function, the ISINSCOPE() function is used to test whether the region column is the level in a hierarchy of levels. When true, the DIVIDE() function is evaluated. The absence of a false part means that blank is returned when the region column is not in scope.*
 
 13. Notice that the **Sales % Country** measure now only returns a value when a region is in scope.
 
     ![Picture 55](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image19.png)
 
 14. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
-
-
-    **DAX**
 
 
     ```
@@ -279,14 +272,11 @@ In this task you will create several measures with DAX expressions that use the 
     ```
 
 
-    *To achieve sales as a percentage of group, two filters can be applied to effectively remove the filters on two columns.*
+*To achieve sales as a percentage of group, two filters can be applied to effectively remove the filters on two columns.*
 
 15. Add the **Sales % Group** measure to the matrix visual.
 
 16. To improve the readability of this measure in visual, overwrite the **Sales % Group** measure with this improved formula.
-
-
-    **DAX**
 
 
     ```
@@ -331,18 +321,15 @@ In this task you will create a sales YTD measure.
 2. Add a measure to the **Sales** table, based on the following expression, and formatted to zero decimal places:
 
 
-    **DAX**
-
-
     ```
     Sales YTD =  
     ‎TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
     ```
 
 
-    *The TOTALYTD() function evaluates an expression—in this case the sum of the **Sales** column—over a given date column. The date column must belong to a date table marked as a date table, as was done in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+*The TOTALYTD() function evaluates an expression—in this case the sum of the **Sales** column—over a given date column. The date column must belong to a date table marked as a date table, as was done in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
 
-    *The function can also take a third optional argument representing the last date of a year. The absence of this date means that December 31 is the last date of the year. For Adventure Works, June in the last month of their year, and so “6-30” is used.*
+*The function can also take a third optional argument representing the last date of a year. The absence of this date means that December 31 is the last date of the year. For Adventure Works, June in the last month of their year, and so “6-30” is used.*
 
 3. Add the **Sales** field and the **Sales YTD** measure to the matrix visual.
 
@@ -361,8 +348,6 @@ In this task you will create a sales YoY growth measure.
 1. Add an additional measure to the **Sales** table, based on the following expression:
 
 
-    **DAX**
-
 
     ```
     Sales YoY Growth =  
@@ -380,9 +365,9 @@ In this task you will create a sales YoY growth measure.
     ```
 
 
-    *The **Sales YoY Growth** measure formula declares a variable. Variables can be useful for simplifying the formula logic, and more efficient when an expression needs to be evaluated multiple times within the formula (which will be the case for the YoY growth logic). Variables are declared by a unique name, and the measure expression must then be output after the **RETURN** keyword.*
+*The **Sales YoY Growth** measure formula declares a variable. Variables can be useful for simplifying the formula logic, and more efficient when an expression needs to be evaluated multiple times within the formula (which will be the case for the YoY growth logic). Variables are declared by a unique name, and the measure expression must then be output after the **RETURN** keyword.*
 
-    *The **SalesPriorYear** variable is assigned an expression which calculates the sum of the **Sales** column in a modified context that uses the PARALLELPERIOD() function to shift 12 months back from each date in filter context.*
+*The **SalesPriorYear** variable is assigned an expression which calculates the sum of the **Sales** column in a modified context that uses the PARALLELPERIOD() function to shift 12 months back from each date in filter context.*
 
 2. Add the **Sales YoY Growth** measure to the matrix visual.
 
@@ -395,10 +380,6 @@ In this task you will create a sales YoY growth measure.
     *Now that the “difficult part” of the formula has been tested, you can overwrite the measure with the final formula which computes the growth result.*
 
 5. To complete the measure, overwrite the **Sales YoY Growth** measure with this formula, formatting it as a percentage with two decimal places:
-
-
-    **DAX**
-
 
     ```
     Sales YoY Growth =  
