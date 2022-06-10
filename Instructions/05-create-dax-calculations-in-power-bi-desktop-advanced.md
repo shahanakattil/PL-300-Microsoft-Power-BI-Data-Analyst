@@ -255,7 +255,7 @@ In this task you will create several measures with DAX expressions that use the 
 14. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
 
-    ```
+```
     Sales % Group =  
     ‎DIVIDE(  
     ‎ SUM(Sales[Sales]),  
@@ -267,7 +267,7 @@ In this task you will create several measures with DAX expressions that use the 
     ‎ )  
     ‎ )  
     ‎)
-    ```
+```
 
 
 *To achieve sales as a percentage of group, two filters can be applied to effectively remove the filters on two columns.*
