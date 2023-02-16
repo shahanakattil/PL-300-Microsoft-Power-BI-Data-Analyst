@@ -479,28 +479,27 @@ In this task you will configure the **Sales** query.
 
 7. In the **Custom Column Formula** box, enter the following expression (after the equals symbol):
 
-8. For your convenience, you can copy the expression from the **C:\AllFiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.
-
-
-   **Power Query**
+  **Power Query**
    ```
    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
    ```
 
 
-*This expression tests if the **TotalProductCost** value is missing. If it is, produces a value by multiplying the **OrderQuantity** value by the **StandardCost** value; otherwise, it uses the existing **TotalProductCost** value.*
+  > *This expression tests if the **TotalProductCost** value is missing. If it is, produces a value by multiplying the **OrderQuantity** value by the **StandardCost** value; otherwise, it uses the existing **TotalProductCost** value.*
 
-9. Click **OK**.
+  > **Note:** Alternatively, you can copy the expression from the **C:\AllFiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** file.
+
+8. Click **OK**.
 
 	![Picture 5666](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image49.png)
 
-10. Remove the following two columns:
+9. Remove the following two columns:
 
 	- TotalProductCost
 
 	- StandardCost
 
-11. Rename the following three columns:
+10. Rename the following three columns:
 
 	- **OrderQuantity** to **Quantity**
 
@@ -508,13 +507,13 @@ In this task you will configure the **Sales** query.
 
 	- **SalesAmount** to **Sales**
 
-12. To modify the column data type, in the **Quantity** column header, at the left of the column name, click the **1.2** icon, and then select **Whole Number**.
+11. To modify the column data type, in the **Quantity** column header, at the left of the column name, click the **1.2** icon, and then select **Whole Number**.
 
 	![Picture 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
 
 	*Configuring the correct data type is important. When the column contains numeric value, it’s also important to choose the correct type if you expect to perform mathematic calculations.*
 
-13. Modify the following three column data types to **Fixed Decimal Number**.
+12. Modify the following three column data types to **Fixed Decimal Number**.
 
 	- Unit Price
 
@@ -526,7 +525,7 @@ In this task you will configure the **Sales** query.
 
 	*The fixed decimal number data type stores values with full precision, and so requires more storage space that decimal number. It’s important to use the fixed decimal number type for financial values, or rates (like exchange rates).*
 
-14. In the status bar, verify that the query has 10 columns and 999+ rows.
+13. In the status bar, verify that the query has 10 columns and 999+ rows.
 
 	![Picture 5669](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image52.png)
 
