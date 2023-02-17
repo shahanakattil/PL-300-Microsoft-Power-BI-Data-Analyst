@@ -68,7 +68,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
 8. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
 
-    ![Picture 40](Linked_image_Files/09-create-power-bi-dashboard_image4.png)
+    ![Picture 40](Linked_image_Files/07-my-workspace-new.png)
 
 9. Leave the Microsoft Edge browser window open.
 
@@ -154,17 +154,11 @@ In this task you will setup the environment for the lab by creating a dataset.
 
 *Important: If you have already published the report in the **Design a Report in Power BI Desktop, Part 2** lab, continue from the next task.*
 
-1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, at the bottom, click **Get Data**.
+1. In the Microsoft Edge browser window, in the Power BI service, navigate to My Workspace.
 
     ![Picture 8](Linked_image_Files/09-create-power-bi-dashboard_image14.png)
-
-2. In the **Files** tile, click **Get**.
-
-    ![Picture 2](Linked_image_Files/09-create-power-bi-dashboard_image15.png)
-
-3. Click the **Local File** tile.
-
-    ![Picture 5](Linked_image_Files/09-create-power-bi-dashboard_image16.png)
+    
+1. Select **Upload > Browse**.
 
 4. In the **Open** window, navigate to the **C:\Allfiles\Labs\08-create-power-bi-dashboard\Solution** folder.
 
@@ -186,9 +180,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
     *When pinning visuals to a dashboard, they will use the current filter context. Once pinned, the filter context cannot be changed. For time-based filters, it’s a better idea to use a relative date slicer (or, Q&A using a relative time-based question).*
 
-4. To create a dashboard and pin a visual, hover the cursor over the **Sales and Profit Margin by Month** (column/line) visual.
-
-5. At the bottom-right corner, click the pushpin.
+4. To create a dashboard and pin a visual, hover the cursor over the S**ales and Profit Margin by Month** (column/line) visual, and select the **pushpin**.
 
     ![Picture 43](Linked_image_Files/09-create-power-bi-dashboard_image18.png)
 
@@ -200,9 +192,9 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
     ![Picture 1](Linked_image_Files/09-create-power-bi-dashboard_image20.png)
 
-8. Open the **Navigation** pane, select **My Workspace** and then open the **Sales Monitoring** dashboard.
+8. On the **Navigation** pane, select **My Workspace** and then open the **Sales Monitoring** dashboard.
 
-    ![Picture 44](Linked_image_Files/09-create-power-bi-dashboard_image21.png)
+    ![Picture 44](Linked_image_Files/upd-mod8.png)
 
 9. Notice that the dashboard has a single tile.
 
@@ -214,7 +206,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
     *You can use the Q&A feature to ask a question, and Power BI will respond will a visual.*
 
-11. Click any one of the suggested questions beneath the Q&A box, in blue boxes.
+11. Click any one of the suggested questions beneath the Q&A box, in the boxes.
 
 12. Review the response.
 
@@ -235,6 +227,8 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
     ![Picture 12](Linked_image_Files/09-create-power-bi-dashboard_image26.png)
 
 17. Notice the response is now **$33M**.
+
+    > **Note:** You might get the different value in response.
 
     ![Picture 13](Linked_image_Files/09-create-power-bi-dashboard_image27.png)
 
@@ -313,8 +307,7 @@ In this task you will edit the details of two tiles.
 8. Notice that the tile describes the last refresh time (which done when loading the data model in Power BI Desktop).
 
 
-
-    *You’ll refresh the dataset in the next exercise. Typically, this would be achieved by using scheduled refresh, in which case Power BI would use a gateway to connect to the SQL Server database. However, due to constraints in the classroom setup, there is no gateway. So, you’ll open Power BI Desktop, perform a manual data refresh, and then upload the file to your workspace.*
+   > *You’ll refresh the dataset in the next exercise. Typically, this would be achieved by using scheduled refresh, in which case Power BI would use a gateway to connect to the SQL Server database. However, due to constraints in the classroom setup, there is no gateway. So, you’ll open Power BI Desktop, perform a manual data refresh, and then upload the file to your workspace.*
 
 ## **Exercise 2: Refresh the Dataset**
 
@@ -366,7 +359,7 @@ In this task you will review the dashboard to notice updated sales.
 
 1. In the Microsoft Edge browser window, in the Power BI service, review the **Sales Monitoring** dashboard.
 
-2. In the **Sales, Profit Margin** tile, in the subtitle, notice that the data was refreshed **NOW**.
+2. In the **Sales, Profit Margin** tile, in the subtitle, notice that the data was **REFRESHED:NOW**.
 
 3. Notice also that there is now a column for **2020 Jun**.
 
@@ -375,5 +368,3 @@ In this task you will review the dashboard to notice updated sales.
     ![Picture 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
 
     
-
-4. To close the pane, click **Close**.
