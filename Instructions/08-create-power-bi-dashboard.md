@@ -155,8 +155,6 @@ In this task you will setup the environment for the lab by creating a dataset.
 *Important: If you have already published the report in the **Design a Report in Power BI Desktop, Part 2** lab, continue from the next task.*
 
 1. In the Microsoft Edge browser window, in the Power BI service, navigate to My Workspace.
-
-    ![Picture 8](Linked_image_Files/09-create-power-bi-dashboard_image14.png)
     
 1. Select **Upload > Browse**.
 
