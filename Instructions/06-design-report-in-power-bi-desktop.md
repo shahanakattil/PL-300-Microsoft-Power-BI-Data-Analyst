@@ -73,7 +73,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 In this task you will enable map and filled map visuals in the environment for the lab by updating the Integration settings in the Power BI Admin portal. 
 
 
-1. To open the Power BI Admin portal, at the top-right of the browser, click the **Settings** icon.
+1. To open the Power BI Admin portal, at the top-right corner of the browser, click on the ellipses and then select the **Settings** icon.
 
  	![Picture 101](Linked_image_Files/07-design-report-in-power-bi-desktop_image101.png)
 
