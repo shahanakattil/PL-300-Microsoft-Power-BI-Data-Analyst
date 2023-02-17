@@ -75,8 +75,6 @@ In this task you will enable map and filled map visuals in the environment for t
 
 1. To open the Power BI Admin portal, at the top-right corner of the browser, click on the ellipses and then select the **Settings** icon.
 
- 	![Picture 101](Linked_image_Files/07-design-report-in-power-bi-desktop_image101.png)
-
 1. Select **Admin portal**.
 
  	![Picture 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
