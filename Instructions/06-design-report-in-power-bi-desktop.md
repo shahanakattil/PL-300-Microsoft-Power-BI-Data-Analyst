@@ -459,8 +459,12 @@ In this task you will design the third—and final—report page. When you’ve 
 	*It’s now possible to see the same data expressed by two different visualization types. This isn’t a good use of the page layout, however, you’ll improve it in the **Design a Report in Power BI Desktop, Part 2** lab by superimposing the visuals. By adding buttons to the page, you’ll allow the report user to determine which of the two visuals is visible.*
 
 	*The design of the third—and final—page is now complete.*
+	
+## **Exercise 2: Explore the Report**
 
-### **Task 7: Publish the report**
+In this exercise you will explore the report that was published to Power BI.
+
+### **Task 1: Publish the report**
 
 In this task you will publish the report.
 
@@ -486,11 +490,7 @@ In this task you will publish the report.
 
 	*You’ll explore the report in the Power BI service in the next exercise.*
 
-## **Exercise 2: Explore the Report**
-
-In this exercise you will explore the report that was published to Power BI.
-
-### **Task 1: Explore the report**
+### **Task 2: Explore the report**
 
 In this task you will explore the report that was published to Power BI.
 
