@@ -149,7 +149,7 @@ In this task you will create a matrix visual to support testing your new measure
 
 In this task you will create several measures with DAX expressions that use the CALCULATE() function to manipulate filter context.
 
-1. Add a measure to the **Sales** table, based on the following expression:
+1. Right-click on the **Sales** table and select **New measure** option to add a measure to the **Sales** table, based on the following expression:
 
     *For your convenience, all DAX definitions in this lab can be copied from the **C:\AllFiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** file.*
 
@@ -181,14 +181,14 @@ In this task you will create several measures with DAX expressions that use the 
 
 
 ```
-    Sales % All Region =  
-    ‎DIVIDE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ REMOVEFILTERS(Region)  
-    ‎ )  
-    ‎)
+    Sales % All Region =
+DIVIDE(
+	SUM(Sales[Sales]),
+	CALCULATE(
+		SUM(Sales[Sales]),
+		REMOVEFILTERS(Region)
+	)
+)
 ```
 
 
@@ -205,14 +205,15 @@ In this task you will create several measures with DAX expressions that use the 
 8. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
 ```
-    Sales % Country =  
-    ‎DIVIDE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ REMOVEFILTERS(Region[Region])  
-    ‎ )  
-    ‎)
+    Sales % Country =
+DIVIDE(
+	SUM(Sales[Sales]),
+	CALCULATE(
+		SUM(Sales[Sales]),
+		REMOVEFILTERS(Region[Region])
+	)
+)
+
 ```
     
 9. Notice that the **Sales % Country** measure formula differs slightly from the **Sales % All Region** measure formula.
@@ -232,17 +233,17 @@ In this task you will create several measures with DAX expressions that use the 
 
 
 ```
-    Sales % Country =  
-    ‎IF(  
-    ‎ ISINSCOPE(Region[Region]),  
-    ‎ DIVIDE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ REMOVEFILTERS(Region[Region])  
-    ‎ )  
-    ‎ )  
-    ‎)
+    Sales % Country =
+IF(
+	ISINSCOPE(Region[Region]),
+	DIVIDE(
+		SUM(Sales[Sales]),
+		CALCULATE(
+			SUM(Sales[Sales]),
+			REMOVEFILTERS(Region[Region])
+		)
+	)
+)
 ```
 
 
@@ -256,17 +257,17 @@ In this task you will create several measures with DAX expressions that use the 
 
 
 ```
-    Sales % Group =  
-    ‎DIVIDE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ REMOVEFILTERS(  
-    ‎ Region[Region],  
-    ‎ Region[Country]  
-    ‎ )  
-    ‎ )  
-    ‎)
+   Sales % Group =
+DIVIDE(
+	SUM(Sales[Sales]),
+	CALCULATE(
+		SUM(Sales[Sales]),
+		REMOVEFILTERS(
+			Region[Region],
+			Region[Country]
+		)
+	)
+)
 ```
 
 
@@ -278,21 +279,21 @@ In this task you will create several measures with DAX expressions that use the 
 
 
 ```
-    Sales % Group =  
-    ‎IF(  
-    ‎ ISINSCOPE(Region[Region])  
-    ‎ || ISINSCOPE(Region[Country]),  
-    ‎ DIVIDE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ REMOVEFILTERS(  
-    ‎ Region[Region],  
-    ‎ Region[Country]  
-    ‎ )  
-    ‎ )  
-    ‎ )  
-    ‎)
+Sales % Group =
+IF(
+	ISINSCOPE(Region[Region])
+		|| ISINSCOPE(Region[Country]),
+	DIVIDE(
+		SUM(Sales[Sales]),
+		CALCULATE(
+			SUM(Sales[Sales]),
+			REMOVEFILTERS(
+				Region[Region],
+				Region[Country]
+			)
+		)
+	)
+)
 ```
 
 
@@ -321,7 +322,7 @@ In this task you will create a sales YTD measure.
 
 ```
     Sales YTD =  
-    ‎TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
+    TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
 ```
 
 
@@ -348,18 +349,18 @@ In this task you will create a sales YoY growth measure.
 
 
 ```
-    Sales YoY Growth =  
-    ‎VAR SalesPriorYear =  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ PARALLELPERIOD(  
-    ‎ 'Date'[Date],  
-    ‎ -12,  
-    ‎ MONTH  
-    ‎ )  
-    ‎ )  
-    ‎RETURN  
-    ‎ SalesPriorYear
+    Sales YoY Growth =
+VAR SalesPriorYear =
+	CALCULATE(
+		SUM(Sales[Sales]),
+		PARALLELPERIOD(
+			'Date'[Date],
+			-12,
+			MONTH
+		)
+	)
+RETURN
+	SalesPriorYear
 ```
 
 
@@ -380,21 +381,21 @@ In this task you will create a sales YoY growth measure.
 5. To complete the measure, overwrite the **Sales YoY Growth** measure with this formula, formatting it as a percentage with two decimal places:
 
     ```
-    Sales YoY Growth =  
-    ‎VAR SalesPriorYear =  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ PARALLELPERIOD(  
-    ‎ 'Date'[Date],  
-    ‎ -12,  
-    ‎ MONTH  
-    ‎ )  
-    ‎ )  
-    ‎RETURN  
-    ‎ DIVIDE(  
-    ‎ (SUM(Sales[Sales]) - SalesPriorYear),  
-    ‎ SalesPriorYear  
-    ‎ )
+    Sales YoY Growth =
+VAR SalesPriorYear =
+	CALCULATE(
+		SUM(Sales[Sales]),
+		PARALLELPERIOD(
+			'Date'[Date],
+			-12,
+			MONTH
+		)
+	)
+RETURN
+	DIVIDE(
+		(SUM(Sales[Sales]) - SalesPriorYear),
+		SalesPriorYear
+	)
     ```
 
 
