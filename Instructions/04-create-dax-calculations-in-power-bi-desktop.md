@@ -134,17 +134,29 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 4. Switch to Model view.
 
+      ![](Linked_image_Files/upd-1.png)
+
 5. Notice that the **Salesperson** table is available (take care, it might be hidden from view, in which case scroll horizontally to locate it).
 
-6. Create a relationship from the **Salesperson \| EmployeeKey** column to the **Sales \| EmployeeKey** column.
+1. Click on **Manage relationships** under the Home tab.
+    
+      ![](Linked_image_Files/upd-2.png)
+    
+1. Under Manage relationships, select **New**.
 
-7. Right-click the inactive relationship between the **Salesperson (Performance)** and **Sales** tables, and then select **Delete**.
+      ![](Linked_image_Files/upd-3.png)
+   
+1. Create a relationship from the **Salesperson \| EmployeeKey** column to the **Sales \| EmployeeKey** column.
 
-	![Picture 2](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image12.png)
+      ![](Linked_image_Files/upd-5.png)
 
-8. When prompted to confirm the deletion, click **OK**.
+7. Right-click the inactive relationship between the **Salesperson (Performance)** and **Sales (1)** tables, and then select **Delete (2)**.
 
-	![Picture 3](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image13.png)
+      ![](Linked_image_Files/upd-4.png)
+
+8. When prompted to confirm the deletion, click **Delete**.
+
+	![Picture 3](Linked_image_Files/upd-6.png)
 
 9. In the **Salesperson** table, multi-select the following columns, and then hide them (set the **Is Hidden** property to **Yes**):
 
@@ -153,6 +165,8 @@ In this task you will create the **Salesperson** table (direct relationship to *
 	- EmployeeKey
 
 	- UPN
+
+      ![Picture 3](Linked_image_Files/upd-7.png)
 
 10. In the model diagram, select the **Salesperson** table.
 
@@ -234,6 +248,8 @@ In this task you will add additional columns to enable filtering and grouping by
 	- Month
 
 	![Picture 14](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image21.png)
+	
+	> **Note:** For creating the mentioned above colums, you can copy the formula from the the snippets file, located in **C:\AllFiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.
 
 5. To validate the calculations, switch to Report view.
 
@@ -422,7 +438,8 @@ In this task you will create simple measures. Simple measures aggregate values i
 
 	- Assign to a display folder named **Pricing**
 
-	![Picture 33](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image40.png)
+       ![Picture 33](Linked_image_Files/upd-8.png)
+        
 
 12. Hide the **Unit Price** column.
 
@@ -434,7 +451,7 @@ In this task you will create simple measures. Simple measures aggregate values i
 
 	- Assign to a display folder named **Counts**
 
-	![Picture 36](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image41.png)
+	![Picture 36](Linked_image_Files/upd-9.png)
 
 14. In Report view, in the **Values** well/area of the matrix visual, for the **Unit Price** field, click **X** to remove it.
 
