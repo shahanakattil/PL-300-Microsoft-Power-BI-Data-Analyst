@@ -78,9 +78,8 @@ In this task you will setup the environment for the lab.
 
 	![Picture 3](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image6.png)
 
-1. If prompted to apply changes, click **Apply**.
+1. If prompted to apply changes, click **Apply Later**.
 
-	![Picture 15](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image7.png)
 
 1. In the **Save As** window, navigate to the **C:\AllFiles\MySolution** folder.
 
