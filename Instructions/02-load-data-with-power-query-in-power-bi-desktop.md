@@ -523,7 +523,7 @@ In this task you will configure the **Sales** query.
 
 	![Picture 5668](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image51.png)
 
-	*The fixed decimal number data type stores values with full precision, and so requires more storage space that decimal number. It’s important to use the fixed decimal number type for financial values, or rates (like exchange rates).*
+	*The fixed decimal number data type allows for 19 digits, and allows for more precision to avoid rounding errors. It’s important to use the fixed decimal number type for financial values, or rates (like exchange rates).*
 
 13. In the status bar, verify that the query has 10 columns and 999+ rows.
 
