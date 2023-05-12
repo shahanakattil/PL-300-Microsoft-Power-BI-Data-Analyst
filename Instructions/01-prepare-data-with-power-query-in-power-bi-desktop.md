@@ -69,15 +69,15 @@ In this task, you start by opening a starter Power BI file (.pbix). The starter 
 
 1. In the **File Name** box, enter **Sales Analysis**.
 
- 	![Picture 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
+ 	![Picture 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(4).png)
 
 1. Click **Save**.
 
-	![Picture 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
+	![Picture 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image-(5).png)
 
 	Tip: You can also save the file by click the **Save** icon located at the top-left.
 
-	![Picture 18](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image6.png)
+	![Picture 18](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(6).png)
 
 ### **Task 2: Get data from SQL Server**
 
