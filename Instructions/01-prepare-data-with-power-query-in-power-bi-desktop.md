@@ -249,7 +249,7 @@ In this task you will create a query based on a CSV file.
 
 1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, click the **New Source** down-arrow, and then select **Text/CSV**.
 
-	![Picture 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image35.png)
+	![Picture 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(35).png)
 
 2. In the **Open** window, navigate to the **C:\Allfiles\Resources** folder, and select the **ResellerSalesTargets.csv** file.
 
@@ -259,12 +259,12 @@ In this task you will create a query based on a CSV file.
 
 5. Click **OK**.
 
-	![Picture 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image36.png)
+	![Picture 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(36).png)
  
 
 6. In the **Queries** pane, notice the addition of the **ResellerSalesTargets** query.
 
-	![Picture 72](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image37.png)
+	![Picture 72](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(37).png)
 
 	The **ResellerSalesTargets** CSV file contains one row per salesperson, per year. Each row records 12 monthly sales targets (expressed in thousands). Note that the business year for the Adventure Works company commences on July 1.
 
@@ -274,7 +274,7 @@ In this task you will create a query based on a CSV file.
 
 8. Review the icons in each column header, to the left of the column name.
 
-	![Picture 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image38.png)
+	![Picture 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(38).png)
 
 	The icons represent the column data type. **123** is whole number, and **ABC** is text.
 
@@ -292,15 +292,15 @@ In this task you will complete the lab.
 
 	- Column profile
 
-	![Picture 76](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image40.png)
+	![Picture 76](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(40).png)
 
 2. To save the Power BI Desktop file, in the **Power Query Editor** window, on the **File** backstage view, select **Save**.
 
-	![Picture 77](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image41.png)
+	![Picture 77](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(41).png)
 
 3. When prompted to apply the queries, click **Apply Later**.
 
-	![Picture 86](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image42.png)
+	![Picture 86](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(42).png)
 
 	Applying the queries will load their data to the data model. You’re not ready to do that, as there are many transformations that must be applied first.
 
