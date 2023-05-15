@@ -241,8 +241,10 @@ In this task you will add additional columns to enable filtering and grouping by
 
 	![Picture 12](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image20.png)
 
-4. Use the snippets file definitions to create the following two calculated columns for the **Date** table:
-
+4. Perform step-1 again, then use the snippets file definitions to create the following two calculated columns for the **Date** table:
+   
+	> **Note:** after creating quarter column, again perform step-1, for creating new column for month.
+	
 	- Quarter
 
 	- Month
