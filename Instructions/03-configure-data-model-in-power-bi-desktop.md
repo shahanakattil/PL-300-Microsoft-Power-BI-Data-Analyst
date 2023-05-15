@@ -422,7 +422,7 @@ In this task you will switch to Report view, and review the model interface.
 
 3. Expand the **Sales \| OrderDate** field, and then notice that it reveals a date hierarchy.
 
-	![Picture 359](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image40.png)
+	![Picture 359](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(40).png)
 
 	*The **Targets \| TargetMonth** field delivers a similar hierarchy. These hierarchies were not created by you. They were created automatically. There is a problem, however. The Adventure Works financial year commences on July 1 of each year. But, in these automatically created date hierarchies, the date hierarchy year commences on January 1 of each year.*
 
@@ -432,23 +432,23 @@ In this task you will switch to Report view, and review the model interface.
 
 5. At the left, select **Options and Settings**, and then select **Options**.
 
-	![Picture 360](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image41.png)
+	![Picture 360](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(41).png)
 
 6. In the **Options** window, at the left, in the **Current File** group, select **Data Load**.
 
-	![Picture 361](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image42.png)
+	![Picture 361](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(42).png)
 
 7. In the **Time Intelligence** section, uncheck **Auto Date/Time**.
 
-	![Picture 362](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image43.png)
+	![Picture 362](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(43).png)
 
 8. Click **OK**.
 
-	![Picture 9](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image44.png)
+	![Picture 9](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(44).png)
 
 9. In the **Fields** pane, notice that the date hierarchies are no longer available.
 
-	![Picture 363](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image45.png)
+	![Picture 363](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(45).png)
 
 
 ## **Exercise 4: Create Quick Measures**
@@ -461,11 +461,11 @@ In this task you will create two quick measures to calculate profit and profit m
 
 1. In the **Fields** pane, right-click the **Sales** table, and then select **New Quick Measure**.
 
-	![Picture 366](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image46.png)
+	![Picture 366](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(46).png)
 
 2. In the **Quick Measures** window, in the **Calculation** dropdown list, from inside the **Mathematical Operations** group, select **Subtraction**.
 
-	![Picture 367](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image47.png)
+	![Picture 367](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(47).png)
 
 3. In the **Fields** pane of the **Quick Measures** window, expand the **Sales** table.
 
@@ -473,17 +473,17 @@ In this task you will create two quick measures to calculate profit and profit m
 
 5. Drag the **Cost** field into the **Value to Subtract** box.
 
-	![Picture 368](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image48.png)
+	![Picture 368](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(48).png)
 
 6. Click **OK**.
 
-	![Picture 369](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image49.png)
+	![Picture 369](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(49).png)
 
 	*A quick measure creates the calculation formula for you. They’re easy and fast to create for simple and common calculations. You’ll create measures without using this tool in the **Create DAX Calculations in Power BI Desktop** lab.*
 
 7. In the **Fields** pane, inside the **Sales** table, notice that new measure.
 
-	![Picture 370](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image50.png)
+	![Picture 370](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(50).png)
 
 	*Measures are adorned with the calculator icon.*
 
