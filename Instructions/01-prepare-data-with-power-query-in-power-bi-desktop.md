@@ -85,17 +85,17 @@ In this task you will create queries based on SQL Server tables.
 
 1. On the **Home** ribbon tab, from inside the **Data** group, click **SQL Server**.
 
-	![Picture 19](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image11.png)
+	![Picture 19](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(11).png)
 
 2. In the **SQL Server Database** window, in the **Server** box, enter **localhost**.
 
-	![Picture 21](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image12.png)
+	![Picture 21](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(12).png)
 
 	In this lab you’ll connect to the SQL Server database by using **localhost**. This isn’t a recommended practice when creating your own solutions. It’s because gateway data sources cannot resolve **localhost**.
 
 3. Click **OK**.
 
-	![Picture 22](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image13.png)
+	![Picture 22](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(13).png)
 
 4. If prompted for credentials, in the **SQL Server Database** window, select **Use my current credentials**. Then click on **Connect**.
 
@@ -103,11 +103,11 @@ In this task you will create queries based on SQL Server tables.
 
 	The **AdventureWorksDW2020** database is based on the **AdventureWorksDW2017** sample database. It has been modified to support the learning objectives of the course labs.
 
-	![Picture 28](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image17.png)
+	![Picture 28](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(17).png)
 
 5. Select—but don’t check—the **DimEmployee** table.
 
-	![Picture 29](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image18.png)
+	![Picture 29](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(18).png)
 
 6. In the right pane, notice a preview of the table data.
 
@@ -131,7 +131,7 @@ In this task you will create queries based on SQL Server tables.
 
 	You won’t be transforming the data in this lab. The objectives of this lab focus on exploring and profiling the data in the **Power Query Editor** window.
 
-	![Picture 30](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image19.png)
+	![Picture 30](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(19).png)
 
 ### **Task 3: Preview Data in Power Query Editor**
 
@@ -139,19 +139,19 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 1. In the **Power Query Editor** window, at the left, notice the **Queries** pane.
 
-	![Picture 31](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image20.png)
+	![Picture 31](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(20).png)
 
 	The **Queries** pane contains one query for each table you checked.
 
 2. Select the first query—**DimEmployee**.
 
-	![Picture 33](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image21.png)
+	![Picture 33](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(21).png)
 
 	The **DimEmployee** table in the SQL Server database stores one row for each employee. A subset of the rows from this table represents the salespeople, which will be relevant to the model you’ll develop.
 
 3. At the bottom left, in the status bar, notice the table statistics—the table has 33 columns, and 296 rows.
 
-	![Picture 36](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image22.png)
+	![Picture 36](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(22).png)
 
 4. In the data preview pane, scroll horizontally to review all columns.
 
@@ -161,7 +161,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 6. To assess column quality, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Quality**.
 
-	![Picture 35](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image23.png)
+	![Picture 35](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(23).png)
 
 	The column quality feature allows you to easily determine the percentage of valid, error, or empty values found in columns.
 
