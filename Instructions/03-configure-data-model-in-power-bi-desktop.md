@@ -489,7 +489,7 @@ In this task you will create two quick measures to calculate profit and profit m
 
 8. To rename the measure, right-click it, and then select **Rename**.
 
-	![Picture 371](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image51.png)
+	![Picture 371](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(51).png)
 
 	*Tip: To rename a field, you can also double-click it, or select it and press **F2**.*
 
@@ -505,27 +505,27 @@ In this task you will create two quick measures to calculate profit and profit m
 
 	- Rename the measure as **Profit Margin**
 
-	![Picture 372](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image52.png)
+	![Picture 372](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(52).png)
 
-	![Picture 373](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image53.png)
+	![Picture 373](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(53).png)
 
 11. Ensure the **Profit Margin** measure is selected, and then on the **Measure Tools** contextual ribbon, set the format to **Percentage**, with two decimal places.
 
-	![Picture 374](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image54.png)
+	![Picture 374](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(54).png)
 
 12. To test the two measures, first select the table visual on the report page.
 
 13. In the **Fields** pane, check the two measures.
 
-	![Picture 375](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image55.png)
+	![Picture 375](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(55).png)
 
 14. Click and drag the right guide to widen the table visual.
 
-	![Picture 376](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image56.png)
+	![Picture 376](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(56).png)
 
 15. Verify that the measures produce reasonable results that are correctly formatted.
 
-	![Picture 378](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image57.png)
+	![Picture 378](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(57).png)
 
 ### **Task 2: Create a many-to-many relationship**
 
