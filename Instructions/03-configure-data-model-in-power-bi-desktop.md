@@ -539,7 +539,7 @@ In this task you will create a many-to-many relationship between the **Salespers
 
 	*The labs use a shorthand notation to reference a field. It will look like this: **Salesperson \| Salesperson** . In this example, **Salesperson**  is the table name and **Salesperson**  is the field name.*
 
-	![Picture 1](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image9.png)
+	![Picture 1](Linked_image_Files/image-(9).png)
 
 	*The table displays sales made by each salesperson. However, there’s another relationship between salespeople and sales. Some salespeople belong to one, two, or possibly more sales regions. In addition, sales regions can have multiple salespeople assigned to them.*
 
@@ -549,7 +549,7 @@ In this task you will create a many-to-many relationship between the **Salespers
 
 3. Switch to Model view.
 
-	![Picture 10](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image10.png)
+	![Picture 10](Linked_image_Files/image(10).png)
 
 4. Drag the **SalespersonRegion** table to position it between the **Region** and **Salesperson** tables.
 
@@ -567,7 +567,7 @@ In this task you will create a many-to-many relationship between the **Salespers
 
 	*Consider that the **Salesperson** table filters the **Sales** table. It also filters the **SalespersonRegion** table, but it does not continue by propagating filters to the **Region** table (the arrowhead is pointing the wrong direction).*
 
-	![Picture 380](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image11.png)
+	![Picture 380](Linked_image_Files/image(11).png)
 
 8. To edit the relationship between the **Region** and **SalespersonRegion** tables, double-click the relationship.
 
@@ -575,15 +575,15 @@ In this task you will create a many-to-many relationship between the **Salespers
 
 10. Check the **Apply Security Filter in Both Directions** checkbox.
 
-	![Picture 381](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image12.png)
+	![Picture 381](Linked_image_Files/image(12).png)
 
 11. Click **OK**.
 
-	![Picture 335](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image13.png)
+	![Picture 335](Linked_image_Files/image(13).png)
 
 12. Notice that the relationship has a double arrowhead.
 
-	![Picture 382](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image14.png)
+	![Picture 382](Linked_image_Files/image(14).png)
 
 13. Switch to Report view, and then notice that the sales values have still not changed.
 
@@ -595,21 +595,21 @@ In this task you will create a many-to-many relationship between the **Salespers
 
 16. In the **Edit Relationship** window, uncheck the **Make This Relationship Active** checkbox.
 
-	![Picture 383](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image15.png)
+	![Picture 383](Linked_image_Files/image(15).png)
 
 17. Click **OK**.
 
-	![Picture 5696](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image16.png)
+	![Picture 5696](Linked_image_Files/image(16).png)
 
 	*The filter propagation will now follow the only active path.*
 
 18. In the diagram, notice that the inactive relationship is represented by a dashed line.
 
-	![Picture 5697](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image17.png)
+	![Picture 5697](Linked_image_Files/image(17).png)
 
 19. Switch to Report view, and then notice that the sales for Michael Blythe is now nearly $22 million.
 
-	![Picture 5698](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image18.png)
+	![Picture 5698](Linked_image_Files/image(18).png)
 
 20. Notice also, that the sales for each salesperson—if added—would exceed the table total.
 
@@ -633,7 +633,7 @@ In this task you will create a relationship to the **Targets** table
 
 3. Resize the table visual so all columns are visible.
 
-	![Picture 5699](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image19.png)
+	![Picture 5699](Linked_image_Files/image-(19).png)
 
 	*It’s now possible to visualize sales and targets—but take care for two reasons. First, there’s no filter on a time period, and so targets also include future target amounts. Second, targets are not additive, and so the total should not be displayed. They can either be disabled by formatting the visual or removed by using calculation logic. You’ll follow the second approach by creating a target measure in the **Create Advanced DAX Calculations in Power BI Desktop** lab that’ll return BLANK when more than one salesperson is filtered.*
 
