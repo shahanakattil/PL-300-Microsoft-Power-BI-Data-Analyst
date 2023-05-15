@@ -279,13 +279,13 @@ In this task you will configure the **Region** table.
 
 	- Region
 
-	![Picture 350](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image31.png)
+	![Picture 350](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(31).png)
 
 2. Select the **Country** column (not the **Country** hierarchy level).
 
 3. In the **Properties** pane, expand the **Advanced** section (at the bottom of the pane), and then in the **Data Category** dropdown list, select **Country/Region**.
 
-	![Picture 352](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image32.png)
+	![Picture 352](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(32).png)
 
 	*Data categorization can provide hints to the report designer. In this case, categorizing the column as country or region provides more accurate information to Power BI when it renders a map visualization.*
 
@@ -299,7 +299,7 @@ In this task you will configure the **Reseller** table.
 
 	- Reseller
 
-	![Picture 351](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image33.png)
+	![Picture 351](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(33).png)
 
 2. Create a second hierarchy named **Geography**, with the following four levels:
 
@@ -311,7 +311,7 @@ In this task you will configure the **Reseller** table.
 
 	- Reseller
 
-	![Picture 353](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image34.png)
+	![Picture 353](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(34).png)
 
 
 ### **Task 4: Configure the Sales table**
@@ -322,7 +322,7 @@ In this task you will configure the **Sales** table.
 
 2. In the **Properties** pane, in the **Description** box, enter: **Based on standard cost**
 
-	![Picture 358](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image35.png)
+	![Picture 358](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(35).png)
 
 	*Descriptions can be applied to tables, columns, hierarchies, or measures. In the **Fields** pane, description text is revealed in a tooltip when a report author hovers their cursor over the field.*
 
@@ -330,7 +330,7 @@ In this task you will configure the **Sales** table.
 
 4. In the **Properties** pane, from inside the **Formatting** section, slide the **Thousands Separator** property to **Yes**.
 
-	![Picture 357](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image36.png)
+	![Picture 357](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(36).png)
 
 5. Select the **Unit Price** column.
 
@@ -338,7 +338,7 @@ In this task you will configure the **Sales** table.
 
 7. In the **Advanced** group (you may need to scroll down to locate it), in the **Summarize By** dropdown list, select **Average**.
 
-	![Picture 354](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image37.png)
+	![Picture 354](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(37).png)
 
 	*By default, numeric columns will summarize by summing values together. This default behavior is not suitable for a column like **Unit Price**, which represents a rate. Setting the default summarization to average will produce a meaningful result.*
 
@@ -378,7 +378,7 @@ In this task you will update multiple columns using single bulk updates. You wil
 
 3. In the **Properties** pane, slide the **Is Hidden** property to **Yes**.
 
-	![Picture 355](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image38.png)
+	![Picture 355](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(38).png)
 
 	*The columns were hidden because they’re either used by relationships or will be used in row-level security configuration or calculation logic.*
 
@@ -394,7 +394,7 @@ In this task you will update multiple columns using single bulk updates. You wil
 
 5. In the **Properties** pane, from inside the **Formatting** section, set the **Decimal Places** property to **0** (zero).
 
-	![Picture 356](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image39.png)
+	![Picture 356](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(39).png)
 
 ## **Exercise 3: Review the Model Interface**
 
