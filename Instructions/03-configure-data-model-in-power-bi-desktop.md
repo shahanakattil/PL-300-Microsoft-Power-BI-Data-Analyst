@@ -57,7 +57,7 @@ In this task you will setup the environment for the lab.
 
 1. Select **Open Report**.
 
- 	![Picture 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image3.png)
+ 	![Picture 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(3).png)
 
 1. Click **Browse Reports**.
 
@@ -79,18 +79,18 @@ In this task you will setup the environment for the lab.
 
 1. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
 
-	![Picture 8](Linked_image_Files/discard-changes-1.png)
+	![Picture 8](Linked_image_Files/discard-changes-(1).png)
 
 1. Now you will see another pop up as shown below, select **Discard**.
 
-	![Picture 8](Linked_image_Files/discard-changes-2.png)
+	![Picture 8](Linked_image_Files/discard-changes-(2).png)
 
 
 1. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
 
 1. Select **Save As**.
 
- 	![Picture 5](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image6.png)
+ 	![Picture 5](Linked_image_Files/saveas.png)
 
 1. If prompted to apply changes, click **Apply Later**.
 
