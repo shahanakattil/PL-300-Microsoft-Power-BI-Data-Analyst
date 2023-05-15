@@ -140,21 +140,21 @@ In this task you will create model relationships.
 
 8. On the **Modeling** ribbon tab, from inside the **Relationships** group, click **Manage Relationships**.
 
-	![Picture 331](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image14.png)
+	![Picture 331](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(14).png)
 
 9. In the **Manage Relationships** window, notice that no relationships are yet defined.
 
 10. To create a relationship, click **New**.
 
-	![Picture 332](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image15.png)
+	![Picture 332](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(15).png)
 
 11. In the **Create Relationship** window, in the first dropdown list, select the **Product** table.
 
-	![Picture 333](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image16.png)
+	![Picture 333](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(16).png)
 
 12. In the second dropdown list (beneath the **Product** table grid), select the **Sales** table.
 
-	![Picture 334](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image17.png)
+	![Picture 334](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(17).png)
 
 13. Notice the **ProductKey** columns in each table have been automatically selected.
 
@@ -174,15 +174,15 @@ In this task you will create model relationships.
 
 17. Click **OK**.
 
-	![Picture 335](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image18.png)
+	![Picture 335](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(18).png)
 
 18. In the **Manage Relationships** window, notice that the new relationship is listed, and then click **Close**.
 
-	![Picture 336](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image19.png)
+	![Picture 336](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(19).png)
 
 19. In the report, notice that the table visual updated to display different values for each product category.
 
-	![Picture 337](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image20.png)
+	![Picture 337](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(20).png)
 
 	*Filters applied to the **Product** table now propagate to the **Sales** table.*
 
