@@ -188,7 +188,7 @@ In this task you will create model relationships.
 
 20. Switch to Model view, and then notice there is now a connector between the two tables (it does not matter if the tables are positioned next to each other).
 
-	![Picture 338](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image21.png)
+	![Picture 338](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(21).png)
 
 21. In the diagram, notice that you can interpret the cardinality which is represented by the **1** and ***** indicators.
 
@@ -200,7 +200,7 @@ In this task you will create model relationships.
 
 23. To create a new relationship using a different technique, from the **Reseller** table, drag the **ResellerKey** column on to the **ResellerKey** column of the **Sales** table.
 
-	![Picture 339](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image22.png)
+	![Picture 339](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image-(22).png)
 
 	*Tip: Sometime a column doesn’t want to be dragged. If this situation arises, select a different column, and then select the column you intend to drag again, and then try again. Ensure that you see the new relationship added to the diagram.*
 
@@ -212,7 +212,7 @@ In this task you will create model relationships.
 
 25. In the diagram, arrange the tables so that the **Sales** table is positioned in the center of the diagram, and the related tables are arranged about it. Position the disconnected tables to the side.
 
-	![Picture 340](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image23.png)
+	![Picture 340](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image-(23).png)
 
 
 26. Save the Power BI Desktop file.
@@ -229,11 +229,11 @@ In this task you will configure the **Product** table.
 
 2. To create a hierarchy, in the **Fields** pane, right-click the **Category** column, and then select **Create Hierarchy**.
 
-	![Picture 341](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image24.png)
+	![Picture 341](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(24).png)
 
 3. In the **Properties** pane (to the left of the **Fields** pane), in the **Name** box, replace the text with **Products**.
 
-	![Picture 344](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image25.png)
+	![Picture 344](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(25).png)
 
 4. To add the second level to the hierarchy, in the **Properties** pane, in the **Hierarchy** dropdown list, select **Subcategory** (you might need to scroll down inside the pane).
 
@@ -241,17 +241,17 @@ In this task you will configure the **Product** table.
 
 6. To complete the hierarchy design, click **Apply Level Changes**.
 
-	![Picture 343](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image26.png)
+	![Picture 343](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(26).png)
 
 	*Tip: Don’t forget to click **Apply Level Changes**—it’s a common mistake to overlook this step.*
 
 7. In the **Fields** pane, notice the **Products** hierarchy.
 
-	![Picture 347](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image27.png)
+	![Picture 347](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(27).png)
 
 8. To reveal the hierarchy levels, expand the **Products** hierarchy.
 
-	![Picture 346](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image28.png)
+	![Picture 346](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(28).png)
 
 9. To organize columns into a display folder, in the **Fields** pane, first select the **Background Color Format** column.
 
@@ -259,11 +259,11 @@ In this task you will configure the **Product** table.
 
 11. In the **Properties** pane, in the **Display Folder** box, enter **Formatting**.
 
-	![Picture 348](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image29.png)
+	![Picture 348](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(29).png)
 
 12. In the **Fields** pane, notice that the two columns are now inside a folder.
 
-	![Picture 349](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image30.png)
+	![Picture 349](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(30).png)
 
 	*Display folders are a great way to declutter tables—especially for tables that comprise many fields.*
 
