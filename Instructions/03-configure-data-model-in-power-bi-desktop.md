@@ -108,7 +108,7 @@ In this task you will create model relationships.
 
 1. In Power BI Desktop, at the left, click the **Model** view icon.
 
-	![Picture 1](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image9.png)
+	![Picture 1](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(9).png)
 
 2. If you do not see all seven tables, scroll horizontally to the right, and then drag and arrange the tables more closely together so they can all be seen at the same time.
 
@@ -118,15 +118,15 @@ In this task you will create model relationships.
 
 3. To return to Report view, at the left, click the **Report** view icon.
 
-	![Picture 327](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image10.png)
+	![Picture 327](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(10).png)
 
 4. To view all table fields, in the **Fields** pane, right-click an empty area, and then select **Expand All**.
 
-	![Picture 328](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image11.png)
+	![Picture 328](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(11).png)
 
 5. To create a table visual, in the **Fields** pane, from inside the **Product** table, check the **Category** field.
 
-	![Picture 329](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image12.png)
+	![Picture 329](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(12).png)
 
 	*The labs use a shorthand notation to reference a field. It will look like this: **Product \| Category**. In this example, **Product** is the table name and **Category** is the field name.*
 
@@ -134,7 +134,7 @@ In this task you will create model relationships.
 
 7. Notice that the table visual lists four product categories, and that the sales value is the same for each, and the same for the total.
 
-	![Picture 330](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image13.png)
+	![Picture 330](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(13).png)
 
 	*The issue is that the table is based on fields from different tables. The expectation is that each product category displays the sales for that category. However, because there isn’t a model relationship between these tables, the **Sales** table is not filtered. You’ll now add a relationship to propagate filters between the tables.*
 
