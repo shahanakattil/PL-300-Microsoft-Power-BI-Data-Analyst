@@ -479,7 +479,7 @@ In this task you will create two quick measures to calculate profit and profit m
 
 	![Picture 369](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image49.png)
 
-	*A quick measure creates the calculation formula for you. They’re easy and fast to create for simple and common calculations. You’ll create measures without using this tool in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+	*A quick measure creates the calculation formula for you. They’re easy and fast to create for simple and common calculations. You’ll create measures without using this tool in the **Create DAX Calculations in Power BI Desktop** lab.*
 
 7. In the **Fields** pane, inside the **Sales** table, notice that new measure.
 
