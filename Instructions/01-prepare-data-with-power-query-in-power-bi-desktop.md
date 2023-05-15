@@ -167,29 +167,29 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 7. For the **Position** column (sixth last column), notice that 94% of rows are empty (null).
 
-	![Picture 38](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image24.png)
+	![Picture 38](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(24).png)
 
 8. To assess column distribution, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Distribution**.
 
-	![Picture 40](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image25.png)
+	![Picture 40](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(25).png)
 
 9. Review the **Position** column again, and notice that there are four distinct values, and one unique value.
 
 10. Review the column distribution for the **EmployeeKey** (first) column—there are 296 distinct values, and 296 unique values.
 
-	![Picture 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
+	![Picture 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(26).png)
 
 	When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some model tables have unique columns. These unique columns can be used to create one-to-many relationships, which you will do in the **Model Data in Power BI Desktop** lab.
 
 11. In the **Queries** pane, select the **DimEmployeeSalesTerritory** query.
 
-	![Picture 44](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image27.png)
+	![Picture 44](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(27).png)
 
 	The **DimEmployeeSalesTerritory** table stores one row for each employee and the sales territory regions they manage. The table supports relating many regions to a single employee. Some employees manage one, two, or possibly more regions. When you model this data, you’ll need to define a many-to-many relationship.
 
 12. In the **Queries** pane, select the **DimProduct** query.
 
-	![Picture 46](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image28.png)
+	![Picture 46](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(28).png)
 
 	The **DimProduct** table contains one row per product sold by the company.
 
@@ -201,13 +201,13 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 15. In the **Queries** pane, select the **DimReseller** query.
 
-	![Picture 49](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image29.png)
+	![Picture 49](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(29).png)
 
 	The **DimReseller** table contains one row per reseller. Resellers sell, distribute, or value add to the Adventure Works products.
 
 16. To view column values, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Profile**.
 
-	![Picture 41](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image30.png)
+	![Picture 41](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(30).png)
 
 17. Select the **BusinessType** column header.
 
@@ -217,7 +217,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 20. Notice the data quality issue: there are two labels for warehouse (**Warehouse**, and the misspelled **Ware House**).
 
-	![Picture 51](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image31.png)
+	![Picture 51](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(31).png)
 
 21. Hover the cursor over the **Ware House** bar, and notice that there are five rows with this value.
 
@@ -225,19 +225,19 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 22. In the **Queries** pane, select the **DimSalesTerritory** query.
 
-	![Picture 52](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image32.png)
+	![Picture 52](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(32).png)
 
 	The **DimSalesTerritory** table contains one row per sales region, including **Corporate HQ** (headquarters). Regions are assigned to a country, and countries are assigned to groups. In the **Model Data in Power BI Desktop** lab, you’ll create a hierarchy to support analysis at region, country, or group level.
 
 23. In the **Queries** pane, select the **FactResellerSales** query.
 
-	![Picture 54](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image33.png)
+	![Picture 54](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(33).png)
 
 	The **FactResellerSales** table contains one row per sales order line—a sales order contains one or more line items.
 
 24. Review the column quality for the **TotalProductCost** column, and notice that 8% of the rows are empty.
 
-	![Picture 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image34.png)
+	![Picture 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(34).png)
 
 	Missing **TotalProductCost** column values is a data quality issue. To address the issue, in the **Load Data in Power BI Desktop** lab, you’ll apply transformations to fill in missing values by using the product standard cost, which is stored in the related **DimProduct** table.
 
