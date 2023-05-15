@@ -382,7 +382,7 @@ In this task you will update multiple columns using single bulk updates. You wil
 
 	*The columns were hidden because they’re either used by relationships or will be used in row-level security configuration or calculation logic.*
 
-	*You’ll use the **SalesOrderNumber** in a calculation in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+	*You’ll use the **SalesOrderNumber** in a calculation in the **Create DAX Calculations in Power BI Desktop** lab.*
 
 4. Multi-select the following three columns:
 
