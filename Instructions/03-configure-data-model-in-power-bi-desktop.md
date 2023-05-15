@@ -69,7 +69,7 @@ In this task you will setup the environment for the lab.
 
 1. Click **Open**.
 
- 	![Picture 7](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image5.png)
+ 	![Picture 7](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(5).png)
 
 1. Close any informational windows that may open.
 
