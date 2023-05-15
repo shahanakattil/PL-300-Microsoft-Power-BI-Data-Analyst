@@ -129,7 +129,7 @@ In this task you will create a matrix visual to support testing your new measure
 
 7. To format the visual, in the **Visualizations** pane, select the **Format** pane.
 
-    ![Picture 14](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
+    ![Picture 14](Linked_image_Files/lab-05-PL-300.png)
 
 8. In the **Search** box, enter **Stepped**.
 
