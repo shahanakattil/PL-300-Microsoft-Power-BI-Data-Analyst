@@ -180,7 +180,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 In this task you will design the first report page. When you’ve completed the design, the page will look like the following:
 
-![Image of page 1, comprising a logo, two slicers, and three visuals.](Linked_image_Files/image(12).png)
+   ![Image of page 1, comprising a logo, two slicers, and three visuals.](Linked_image_Files/image(12).png)
 
 1. In Power BI Desktop, to rename the page, at the bottom-left, right-click **Page 1**, and then select **Rename**.
 
