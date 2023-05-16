@@ -552,7 +552,7 @@ In this task you will explore the report that was published to Power BI.
 
 18. Notice that the **Region** slicer has a different selection to the **Region** slicer on the **Overview** page.
 
-	*The slicers are not synchronized. You’ll modify the report design to ensure they sync between pages in the **Design a Report in Power BI Desktop, Part 2** lab.*
+	*The slicers are not synchronized. You’ll modify the report design to ensure they sync between pages in the **Enhance a Report in Power BI Desktop** lab.*
 
 19. In the **Filters** pane (located at the right), expand a filter card, and apply some filters.
 
