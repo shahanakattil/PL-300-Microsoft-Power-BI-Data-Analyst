@@ -94,24 +94,21 @@ In this task you will enable map and filled map visuals in the environment for t
 
 1. Select **Admin portal**.
 
- 	![Picture 102](Linked_image_Files/lab6-image-(102).png)
+   ![Picture 102](Linked_image_Files/lab6-image-(102).png)
 
 1. Scroll down the page to Integration settings. Click the arrow to expand the Map and filled map visuals option.
 
- 	![Picture 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
+   ![Picture 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
 
 1. Set the Map and filled map visuals option to **Enabled**.
 
 1. Click **Apply**, to apply the changes. 
 
-	![Picture 104](Linked_image_Files/enable.png)
+   ![Picture 104](Linked_image_Files/enable.png)
 
 1. A message will appear at the top-right of the browser stating the Tenant settings changes will be applied within the next 15 minutes. 
 
-
-![Picture 105](Linked_image_Files/07-design-report-in-power-bi-desktop_image105.png)
-
-
+   ![Picture 105](Linked_image_Files/enable-1.png)
 
 1. Leave the Microsoft Edge browser window open.
 
