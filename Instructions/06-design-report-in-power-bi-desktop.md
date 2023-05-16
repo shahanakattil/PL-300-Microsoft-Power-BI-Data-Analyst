@@ -118,13 +118,13 @@ In this task you will setup the environment for the lab by opening the starter r
 
 *Important: If you are continuing on from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
 
-1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
+1. To open the Power BI Desktop, click the Microsoft Power BI Desktop shortcut.
 
-	![Picture 48](Linked_image_Files/07-design-report-in-power-bi-desktop_image3.png)
+   ![](Linked_image_Files/powerbi.png)
 
 2. To close the getting started window, at the top-left of the window, click **X**.
 
-	![Picture 47](Linked_image_Files/07-design-report-in-power-bi-desktop_image4.png)
+	![Picture 47](Linked_image_Files/close.png)
 
 3. To sign in to the Power BI service, at the top-right, click **Sign In**.
 
