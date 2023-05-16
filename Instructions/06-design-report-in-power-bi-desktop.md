@@ -217,9 +217,9 @@ In this task you will design the first report page. When you’ve completed the 
 
 	![Picture 49](Linked_image_Files/image(18).png)
 
-11. To convert the slicer from a list to a dropdown, at the top-right of the slicer, click the down-arrow, and then select **Dropdown**.
+11. To convert the slicer from a list to a dropdown, navigate to Visualizations > Format visual > Visual > Slicer Settings > Style, and then select Dropdown from the dropdown menu.
 
-	![Picture 18](Linked_image_Files/image(19).png)
+	![Picture 18](Linked_image_Files/06_slicer_style-1.png)
 
 12. Resize and position the slicer so it sits beneath the image and is the same width as the image.
 
