@@ -193,7 +193,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 2. Rename the page as **Overview**, and then press **Enter**.
 
-	![Picture 37](Linked_image_Files/07-design-report-in-power-bi-desktop_image14.png)
+	![Picture 37](Linked_image_Files/overview.png)
 
 3. To add an image, on the **Insert** ribbon tab, from inside the **Elements** group, click **Image**.
 
@@ -341,7 +341,7 @@ In this task you will design the second report page. When you’ve completed the
 
 2. Rename the page to **Profit**.
 
-	![Picture 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
+	![Picture 43](Linked_image_Files/profit.png)
 
   
 
@@ -410,6 +410,8 @@ In this task you will design the third—and final—report page. When you’ve 
 ![Image of page 3, comprising a slicer and three visuals.](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
 
 1. Create a new page, and then rename it as **My Performance**.
+
+	![](Linked_image_Files/performance.png)
 
 1. To simulate the performance of row-level security filters, drag the **Salesperson (Performance) \| Salesperson** field to the page level filters in the filter pane.
 	
