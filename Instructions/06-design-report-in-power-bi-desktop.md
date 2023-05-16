@@ -454,7 +454,7 @@ In this task you will design the third—and final—report page. When you’ve 
 
 	![Picture 61](Linked_image_Files/07-design-report-in-power-bi-desktop_image58.png)
 
-	*It’s now possible to see the same data expressed by two different visualization types. This isn’t a good use of the page layout, however, you’ll improve it in the **Design a Report in Power BI Desktop, Part 2** lab by superimposing the visuals. By adding buttons to the page, you’ll allow the report user to determine which of the two visuals is visible.*
+	*It’s now possible to see the same data expressed by two different visualization types. This isn’t a good use of the page layout, however, you’ll improve it in the **Enhance a Report in Power BI Desktop** lab by superimposing the visuals. By adding buttons to the page, you’ll allow the report user to determine which of the two visuals is visible.*
 
 	*The design of the third—and final—page is now complete.*
 	
