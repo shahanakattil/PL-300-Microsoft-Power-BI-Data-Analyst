@@ -404,7 +404,7 @@ In this task you will design the second report page. When you’ve completed the
 
 In this task you will design the third—and final—report page. When you’ve completed the design, the page will look like the following:
 
-![Image of page 3, comprising a slicer and three visuals.](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
+![Image of page 3, comprising a slicer and three visuals.](Linked_image_Files/image(47).png)
 
 1. Create a new page, and then rename it as **My Performance**.
 
@@ -412,7 +412,7 @@ In this task you will design the third—and final—report page. When you’ve 
 
 1. To simulate the performance of row-level security filters, drag the **Salesperson (Performance) \| Salesperson** field to the page level filters in the filter pane.
 	
-	![Image of Salesperson field in filter pane.](Linked_image_Files/07-design-report-in-power-bi-desktop_image999.png) 
+	![Image of Salesperson field in filter pane.](Linked_image_Files/image(999).png) 
 
 1. Select **Michael Blythe**. Data on the **My Performance** report page will now be filtered to display data for Michael Blythe only.
 
@@ -422,11 +422,11 @@ In this task you will design the third—and final—report page. When you’ve 
 
 1. In the slicer, set the page to filter by **FY2019**.
 
-	![Picture 71](Linked_image_Files/07-design-report-in-power-bi-desktop_image50.png)
+	![Picture 71](Linked_image_Files/image(50).png)
 
 1. Add a **Multi-row Card** visual, and then resize and reposition it so it sits to the right of the slicer and fills the remaining width of the page.
 
-	![Picture 56](Linked_image_Files/07-design-report-in-power-bi-desktop_image51.png)
+	![Picture 56](Linked_image_Files/image(51).png)
 
 	![Picture 74](Linked_image_Files/07-design-report-in-power-bi-desktop_image52.png)
 
@@ -452,7 +452,7 @@ In this task you will design the third—and final—report page. When you’ve 
 
 1. Add a **Clustered Bar Chart** visual, and then resize and position it so it sits beneath the multi-row card visual and fills the remaining height of the page, and half the width of the multi-row card visual.
 
-	![Picture 59](Linked_image_Files/07-design-report-in-power-bi-desktop_image54.png)
+	![Picture 59](Linked_image_Files/image(54).png)
 
 	![Picture 78](Linked_image_Files/07-design-report-in-power-bi-desktop_image55.png)
 
@@ -462,7 +462,7 @@ In this task you will design the third—and final—report page. When you’ve 
 
 	- X-axis: **Sales \| Sales** and **Targets \| Target**
 
-	![Picture 80](Linked_image_Files/07-design-report-in-power-bi-desktop_image56.png)
+	![Picture 80](Linked_image_Files/image(56).png)
 
 1. To create a copy of the visual, press **Ctrl+C**, and then press **Ctrl+V**.
 
@@ -472,7 +472,7 @@ In this task you will design the third—and final—report page. When you’ve 
 
 1. To modify the visualization type, in the **Visualizations** pane, select **Clustered Column Chart**.
 
-	![Picture 61](Linked_image_Files/07-design-report-in-power-bi-desktop_image58.png)
+	![Picture 61](Linked_image_Files/image(58).png)
 
 	*It’s now possible to see the same data expressed by two different visualization types. This isn’t a good use of the page layout, however, you’ll improve it in the **Enhance a Report in Power BI Desktop** lab by superimposing the visuals. By adding buttons to the page, you’ll allow the report user to determine which of the two visuals is visible.*
 
@@ -492,7 +492,7 @@ In this task you will publish the report.
 
 3. On the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
 
-	![Picture 67](Linked_image_Files/07-design-report-in-power-bi-desktop_image59.png)
+	![Picture 67](Linked_image_Files/image(59).png)
 
 4. In the **Publish to Power** BI window, notice that **My Workspace** is selected.
 
