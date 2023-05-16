@@ -100,7 +100,7 @@ In this task you will enable map and filled map visuals in the environment for t
 
 1. Scroll down the page to Integration settings. Click the arrow to expand the Map and filled map visuals option.
 
-   ![Picture 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
+   ![Picture 103](Linked_image_Files/image(103).png)
 
 1. Set the Map and filled map visuals option to **Enabled**.
 
@@ -176,13 +176,13 @@ In this task you will setup the environment for the lab by opening the starter r
 
 18. Click **Save**.
 
-	![Picture 4](Linked_image_Files/07-design-report-in-power-bi-desktop_image11.png)
+	![Picture 4](Linked_image_Files/image(11).png)
 
 ### **Task 4: Design page 1**
 
 In this task you will design the first report page. When you’ve completed the design, the page will look like the following:
 
-![Image of page 1, comprising a logo, two slicers, and three visuals.](Linked_image_Files/07-design-report-in-power-bi-desktop_image12.png)
+![Image of page 1, comprising a logo, two slicers, and three visuals.](Linked_image_Files/image(12).png)
 
 1. In Power BI Desktop, to rename the page, at the bottom-left, right-click **Page 1**, and then select **Rename**.
 
