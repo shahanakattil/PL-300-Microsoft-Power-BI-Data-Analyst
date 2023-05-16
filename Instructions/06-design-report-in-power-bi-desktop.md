@@ -356,6 +356,8 @@ In this task you will design the second report page. When you’ve completed the
 6. Add a matrix visual, and resize and position it so it fills the remaining space of the report page
 
 	![Picture 45](Linked_image_Files/07-design-report-in-power-bi-desktop_image41.png)
+	
+	![](Linked_image_Files/matrix.png)
 
 7. Add the **Date \| Fiscal** hierarchy to the matrix **Rows** well/area.
 
