@@ -315,7 +315,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 38. To format the visual, open the **Format** pane.
 
-	![Picture 3](Linked_image_Files/07-design-report-in-power-bi-desktop_image35.png)
+	![Picture 3](Linked_image_Files/formatvisual.png)
 
 39. Expand the **Bars** and then the **Colors** group, and then set the **Default Color** property to a suitable color (to complement the column/line chart).
 
@@ -443,13 +443,15 @@ In this task you will design the third—and final—report page. When you’ve 
 
 	- Targets \| Variance Margin
 
-1. Format the visual:
+1. To format the visual, open the **Format** pane.
+   
+   ![Picture 3](Linked_image_Files/formatvisual.png)
 
 	- In the **Callout values** group, increase the **Text Size** property to **28pt**
 
-	- In the **Background** group, set the **Color** to a light gray color
+	- In the **Cards** expand style set the **Background** group **Color** to a light gray color
 
-	![Picture 79](Linked_image_Files/07-design-report-in-power-bi-desktop_image53.png)
+	  ![Picture 79](Linked_image_Files/07-design-report-in-power-bi-desktop_image53.png)
 
 1. Add a **Clustered Bar Chart** visual, and then resize and position it so it sits beneath the multi-row card visual and fills the remaining height of the page, and half the width of the multi-row card visual.
 
