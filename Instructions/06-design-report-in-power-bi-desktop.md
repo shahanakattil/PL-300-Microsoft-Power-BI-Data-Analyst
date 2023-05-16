@@ -538,7 +538,7 @@ In this task you will explore the report that was published to Power BI.
 
 9. Hover the cursor over the bar chart visual, and then at the top-right, hover the cursor over the filter icon.
 
-	![Picture 95](Linked_image_Files/07-design-report-in-power-bi-desktop_image64.png)
+	![Picture 95](Linked_image_Files/image(64).png)
 
 	*The filter icon allows you to understand all filters that are applied to the visual, including slicers and cross filters from other visual.*
 
@@ -548,7 +548,7 @@ In this task you will explore the report that was published to Power BI.
 
 12. Hover the cursor over the map visual, and then at the top-right, click the **Focus mode** icon.
 
-	![Picture 96](Linked_image_Files/07-design-report-in-power-bi-desktop_image65.png)
+	![Picture 96](Linked_image_Files/image(65).png)
 
 	*Focus mode zooms the visual to full page size.*
 
@@ -556,17 +556,17 @@ In this task you will explore the report that was published to Power BI.
 
 14. To return to the report page, at the top-left, click **Back to Report**.
 
-	![Picture 86](Linked_image_Files/07-design-report-in-power-bi-desktop_image66.png)
+	![Picture 86](Linked_image_Files/image(66).png)
 
 15. Hover the cursor over the map visual again, and then at the top-right, click the ellipsis (…), and then notice the menu options.
 
-	![Picture 97](Linked_image_Files/07-design-report-in-power-bi-desktop_image67.png)
+	![Picture 97](Linked_image_Files/image(67).png)
 
 16. Try out each of the options, except **Chat in Teams**.
 
 17. At the left, in the **Pages** pane, select the **Profit** page.
 
-	![Picture 84](Linked_image_Files/07-design-report-in-power-bi-desktop_image68.png)
+	![Picture 84](Linked_image_Files/image(68).png)
 
 18. Notice that the **Region** slicer has a different selection to the **Region** slicer on the **Overview** page.
 
@@ -580,11 +580,11 @@ In this task you will explore the report that was published to Power BI.
 
 21. Select the **My Performance** page.
 
-	![Picture 89](Linked_image_Files/07-design-report-in-power-bi-desktop_image69.png)
+	![Picture 89](Linked_image_Files/image(69).png)
 
 22. At the top-right on the menu bar, click **View**, and then select **Full Screen**.
 
-	![Picture 98](Linked_image_Files/07-design-report-in-power-bi-desktop_image70.png)
+	![Picture 98](Linked_image_Files/image(70).png)
 
 23. Interact with the page by modifying the slicer, and cross filtering the page.
 
@@ -592,7 +592,7 @@ In this task you will explore the report that was published to Power BI.
 
 25. Click the left icon to exit full screen mode.
 
-	![Picture 91](Linked_image_Files/07-design-report-in-power-bi-desktop_image71.png)
+	![Picture 91](Linked_image_Files/image(71).png)
 
 ### **Task 2: Finish up**
 
