@@ -104,6 +104,8 @@ In this task you will enable map and filled map visuals in the environment for t
 
 1. Set the Map and filled map visuals option to **Enabled**.
 
+   >**Note**: If the Map and filled map visuals is **Enabled** skip the step.
+
 1. Click **Apply**, to apply the changes. 
 
    ![Picture 104](Linked_image_Files/enable.png)
