@@ -110,7 +110,7 @@ In this task you will enable map and filled map visuals in the environment for t
 
 1. A message will appear at the top-right of the browser stating the Tenant settings changes will be applied within the next 15 minutes. 
 
-   ![Picture 105](Linked_image_Files/enable-1.png)
+   ![Picture 105](Linked_image_Files/enable-(1).png)
 
 1. Leave the Microsoft Edge browser window open.
 
@@ -150,7 +150,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 10. Click **Open**.
 
-	![Picture 16](Linked_image_Files/07-design-report-in-power-bi-desktop_image8.png)
+	![Picture 16](Linked_image_Files/image(8).png)
 
 11. Close any informational windows that may open.
 
