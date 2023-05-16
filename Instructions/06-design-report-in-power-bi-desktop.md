@@ -292,9 +292,9 @@ In this task you will design the first report page. When you’ve completed the 
 
 37. Add the following fields to the visual wells/areas:
 
-	- Axis: **Product \| Category**
+	- Y-axis: **Product \| Category**
 
-	- Value: **Sales \| Quantity**
+	- X-axis: **Sales \| Quantity**
 
 38. To format the visual, open the **Format** pane.
 
@@ -438,9 +438,9 @@ In this task you will design the third—and final—report page. When you’ve 
 
 1. Add the following fields to the visual wells/areas:
 
-	- Axis: **Date \| Month**
+	- Y-axis: **Date \| Month**
 
-	- Value: **Sales \| Sales** and **Targets \| Target**
+	- X-axis: **Sales \| Sales** and **Targets \| Target**
 
 	![Picture 80](Linked_image_Files/07-design-report-in-power-bi-desktop_image56.png)
 
