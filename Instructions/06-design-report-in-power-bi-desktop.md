@@ -77,9 +77,9 @@ In this task you will setup the environment for the lab by signing in to Power B
    
 1. Enter a 10 digit phone number and select Get started. Select Get started once more. You will be redirected to Power BI.
    
-   ![](Linked_image_Files/lab6-image-T02.png)
+   ![](Linked_image_Files/lab6-image-(T02).png)
    
-   ![](Linked_image_Files/lab6-image-T03.png)
+   ![](Linked_image_Files/lab6-image-(T003).png)
 
 
 
