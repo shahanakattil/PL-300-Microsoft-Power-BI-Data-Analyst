@@ -157,11 +157,11 @@ In this task you will setup the environment for the lab by opening the starter r
 
 12. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
 
-	![Picture 8](Linked_image_Files/discard-changes-1.png)
+	![Picture 8](Linked_image_Files/discard-changes-(1).png)
 
 13. Now you will see another pop up as shown below, select **Discard**.
 
-	![Picture 8](Linked_image_Files/discard-changes-2.png)
+	![Picture 8](Linked_image_Files/discard-changes-(2).png)
 
 14. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
 
