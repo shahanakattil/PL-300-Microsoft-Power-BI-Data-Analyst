@@ -334,7 +334,7 @@ In this task you will design the second report page. When you’ve completed the
 
 1. To create a new page, at the bottom-left, click the plus icon.
 
-	![Picture 42](Linked_image_Files/07-design-report-in-power-bi-desktop_image38.png)
+	![Picture 42](Linked_image_Files/overview-1.png)
 
 2. Rename the page to **Profit**.
 
