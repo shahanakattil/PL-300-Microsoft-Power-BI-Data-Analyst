@@ -509,9 +509,7 @@ In this task you will publish the report.
 
 In this task you will explore the report that was published to Power BI.
 
-1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane (located at the left, and it could be collapsed), expand **My Workspace**.
-
-	![Picture 93](Linked_image_Files/07-design-report-in-power-bi-desktop_image62.png)
+1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane (located at the left, and it could be collapsed), Select **My Workspace**.
 
 2. Review the contents of the workspace, noticing the **Sales Analysis** report and dataset.
 
@@ -519,7 +517,7 @@ In this task you will explore the report that was published to Power BI.
 
 	*If you don’t see it, press **F5** to reload the browser, and then expand the workspace again.*
 
-	![Picture 94](Linked_image_Files/07-design-report-in-power-bi-desktop_image63.png)
+	![Picture 94](Linked_image_Files/workspace-2.png)
 
 3. To open the report, click the **Sales Analysis** report.
 
