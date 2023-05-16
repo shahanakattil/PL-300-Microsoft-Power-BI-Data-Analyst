@@ -58,7 +58,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
 1. Enter the account details 
 
-   - Enter the Lab username 
+   - Enter the Lab username in **Enter your email address** page.
      * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
      
    - Complete the sign up process by selecting the username
@@ -71,9 +71,11 @@ In this task you will setup the environment for the lab by signing in to Power B
 
  	*Important: Be sure to record your new password.*
 
-1. Complete the sign in process.
+1. Complete the sign in process by clicking on **Continue**
 
    ![](Linked_image_Files/lab6-image-T01.png)
+   
+1. Enter a 10 digit phone number and select Get started. Select Get started once more. You will be redirected to Power BI.
    
    ![](Linked_image_Files/lab6-image-T02.png)
    
