@@ -54,7 +54,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
 1. Click **Sign In** (located at the top-right corner).
 
- 	![Picture 63](Linked_image_Files/07-design-report-in-power-bi-desktop_image2.png)
+ 	![Picture 63](Linked_image_Files/lab6-image(2).png)
 
 1. Enter the account details provided to you (check out the **Resources**).
 
@@ -77,7 +77,7 @@ In this task you will enable map and filled map visuals in the environment for t
 
 1. Select **Admin portal**.
 
- 	![Picture 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
+ 	![Picture 102](Linked_image_Files/lab6-image-(102).png)
 
 1. Scroll down the page to Integration settings. Click the arrow to expand the Map and filled map visuals option.
 
