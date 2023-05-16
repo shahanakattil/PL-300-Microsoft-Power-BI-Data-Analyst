@@ -104,7 +104,7 @@ In this task you will enable map and filled map visuals in the environment for t
 
 1. Click **Apply**, to apply the changes. 
 
-	![Picture 104](Linked_image_Files/07-design-report-in-power-bi-desktop_image104.png)
+	![Picture 104](Linked_image_Files/enable.png)
 
 1. A message will appear at the top-right of the browser stating the Tenant settings changes will be applied within the next 15 minutes. 
 
