@@ -586,4 +586,4 @@ In this task you will complete the lab.
 
 2. Leave the Microsoft Edge browser window open.
 
-	*You will enhance the report design with advanced features in the **Design a Report in Power BI Desktop, Part 2** lab.*
+	*You will enhance the report design with advanced features in the **Enhance a Report in Power BI Desktop** lab.*
