@@ -495,11 +495,11 @@ In this task you will publish the report.
 
 5. To publish the report, click **Select**.
 
-	![Picture 75](Linked_image_Files/07-design-report-in-power-bi-desktop_image60.png)
+	![Picture 75](Linked_image_Files/select-1.png)
 
 6. When the publication has succeeded, click **Got It**.
 
-	![Picture 76](Linked_image_Files/07-design-report-in-power-bi-desktop_image61.png)
+	![Picture 76](Linked_image_Files/got-it.png)
 
 7. Leave Power BI Desktop open.
 
