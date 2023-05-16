@@ -262,7 +262,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 	*By dragging fields into a visual, they will be added to default wells/areas. For precision, you can drag fields directly into the wells/areas, as you will do next.*
 
-26. From the **Fields** pane, drag the **Sales \| Profit Margin** field into the **Line y-axis** well/area.
+26. From the **Data** pane, drag the **Sales \| Profit Margin** field into the **Line y-axis** well/area.
 
 	![Picture 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -378,7 +378,7 @@ In this task you will design the second report page. When you’ve completed the
 
 	![Picture 57](Linked_image_Files/07-design-report-in-power-bi-desktop_image44.png)
 
-10. From the **Fields** pane, drag the **Product \| Category** field into the **Filter On This Page** well/area.
+10. From the **Data** pane, drag the **Product \| Category** field into the **Filter On This Page** well/area.
 
 11. Inside the filter card, at the top-right, click the arrow to collapse the card.
 
