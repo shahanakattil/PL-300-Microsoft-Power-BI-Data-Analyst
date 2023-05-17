@@ -179,7 +179,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 In this task you will sync the **Year** and **Region** slicers.
 
-*You will continue the development of the report created in the **Design a Report in Power BI Desktop, Part 1** lab.*
+*You will continue the development of the report created in the **Design a Report in Power BI Desktop** lab.*
 
 1. In Power BI Desktop, on the **Overview** page, set the **Year** slicer to **FY2018**.
 
