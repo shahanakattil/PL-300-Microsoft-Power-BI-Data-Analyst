@@ -203,7 +203,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
 9. Notice that the dashboard has a single tile.
 
-    ![Picture 45](Linked_image_Files/09-create-power-bi-dashboard_image22.png)
+    ![Picture 45](Linked_image_Files/module09askquery.png)
 
 10. To add a tile based on a question, at the top-left of the dashboard, click **Ask a Question About Your Data**.
 
