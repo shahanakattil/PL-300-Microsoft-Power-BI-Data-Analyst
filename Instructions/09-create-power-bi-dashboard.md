@@ -303,7 +303,7 @@ In this task you will edit the details of two tiles.
 
 6. In the **Tile Details** pane, in the **Functionality** section, check **Display Last Refresh Time**.
 
-    ![Picture 22](Linked_image_Files/09-create-power-bi-dashboard_image40.png)
+    ![Picture 22](Linked_image_Files/module09function.png)
 
 7. Click **Apply**.
 
