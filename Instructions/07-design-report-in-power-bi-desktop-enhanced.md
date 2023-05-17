@@ -437,7 +437,7 @@ In this task you will add two buttons, and assign bookmark actions to each.
 
 1. On the **Insert** ribbon, from inside the **Elements** group, click **Button**, and then select **Blank**.
 
-	![Picture 125](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image48.png)
+	![Picture 125](Linked_image_Files/lab7-image(48).png)
 
 2. Position the button directly beneath the **Year** slicer.
 
@@ -445,19 +445,21 @@ In this task you will add two buttons, and assign bookmark actions to each.
 
 	![Picture 126](Linked_image_Files/lab7-image(49).png)
 
-4. Expand the **Title** section, and then in the **Text** box, enter **Bar Chart**.
+4. Expand the **Title** section, and then in the **Title Text** box, enter **Bar Chart**.
+
+	![](Linked_image_Files/barchart.png)
 
 5. Expand the **Fill** section, and then set a background color using a complementary color.
 
 6. Click **Button** and turn the **Action** property to **On**.
 
-	![Picture 127](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image50.png)
+	![Picture 127](Linked_image_Files/lab7-image(50).png)
 
 7. Expand the **Action** section, and then set the **Type** dropdown list to **Bookmark**.
 
 8. In the **Bookmark** dropdown list, select **Bar Chart ON**.
 
-	![Picture 128](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image51.png)
+	![Picture 128](Linked_image_Files/lab7-image(51).png)
 
 9. Create a copy of the button by using copy and paste, and then configure the new button as follows:
 
