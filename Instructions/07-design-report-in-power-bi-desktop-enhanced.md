@@ -30,13 +30,11 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 7. Design a Report in Power BI Desktop
 
-8. **Design a Report in Power BI Desktop
+8. **Enhance a Report in Power BI Desktop**
 
-9. Enhance a Power BI Dashboard
+9. Perform Data Analysis in Power BI Desktop
 
-10. Perform Data Analysis in Power BI Desktop
-
-11. Enforce Row-Level Security
+10. Enforce Row-Level Security
 
 ## **Exercise 1: Configure Sync Slicers**
 
