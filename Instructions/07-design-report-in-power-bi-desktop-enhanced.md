@@ -449,9 +449,9 @@ In this task you will add two buttons, and assign bookmark actions to each.
 
 	![](Linked_image_Files/barchart.png)
 
-5. Expand the **Fill** section, and then set a background color using a complementary color.
+5. Expand the **Fill** section, and then set a fill color using a complementary color.
 
-6. Click **Button** and turn the **Action** property to **On**.
+6. Expand **Action** section and turn the **Action** property to **On**.
 
 	![Picture 127](Linked_image_Files/lab7-image(50).png)
 
