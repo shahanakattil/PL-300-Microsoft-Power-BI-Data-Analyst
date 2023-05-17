@@ -51,6 +51,26 @@ In this task you will setup the environment for the lab.
 1. To close the getting started window, at the top-left of the window, click **X**.
 
 	![Picture 7](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image2.png)
+	
+1. To sign in to the Power BI service, at the top-right, click **Sign In**.
+
+	![Picture 8](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image6.png)
+	
+1. Complete the sign in process using the same account used to sign in to the Azure portal.
+
+1. Enter the Lab username in **Enter your email address** page.
+    * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+    
+      ![](Linked_image_Files/lab7-image1.png)
+
+    * Complete the sign up process by selecting the username
+  
+      ![](Linked_image_Files/lab7-image2.png)
+  
+1. Enter the password.
+    * Azure Password: <inject key="AzureAdUserPassword"></inject>
+         
+       ![](Linked_image_Files/lab7-image3.png)
 
 1. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
 
