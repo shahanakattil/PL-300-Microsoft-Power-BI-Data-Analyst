@@ -58,7 +58,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
 1. Click **Sign In** (located at the top-right corner).
 
- 	![Picture 11](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image2.png)
+ 	![Picture 63](Linked_image_Files/lab6-image(2).png)
 
 1. Enter the account details provided to you.
 
