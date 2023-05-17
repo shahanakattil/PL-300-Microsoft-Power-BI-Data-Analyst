@@ -24,7 +24,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 6. Create Advanced  DAX Calculations in Power BI Desktop
 
-7. Design a Report in Power BI Desktop
+7. **Design a Report in Power BI Desktop**
 
 8. Enhance a Report in Power BI Desktop
 
