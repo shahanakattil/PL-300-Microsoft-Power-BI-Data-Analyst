@@ -90,7 +90,7 @@ In this task you will setup the environment for the lab.
 
 1. Select **Open Report**.
 
-	![Picture 6](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image3.png)
+	![Picture 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(3).png)
 
 1. Click **Browse Reports**.
 
