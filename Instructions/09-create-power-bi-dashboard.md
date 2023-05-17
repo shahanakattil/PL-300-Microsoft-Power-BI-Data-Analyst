@@ -1,4 +1,4 @@
-# **PL-300 Module 8: Create a Power BI Dashboard**
+# **PL-300 Module 9: Create a Power BI Dashboard**
 
 In this lab you will create the **Sales Monitoring** dashboard.
 
@@ -102,7 +102,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
     ![Picture 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. In the **Open** window, navigate to the **C:\Allfiles\Labs\08-create-power-bi-dashboard\Starter** folder.
+8. In the **Open** window, navigate to the **C:\Allfiles\Labs\09-create-power-bi-dashboard\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -158,7 +158,7 @@ In this task you will setup the environment for the lab by creating a dataset.
     
 1. Select **Upload > Browse**.
 
-4. In the **Open** window, navigate to the **C:\Allfiles\Labs\08-create-power-bi-dashboard\Solution** folder.
+4. In the **Open** window, navigate to the **C:\Allfiles\Labs\09-create-power-bi-dashboard\Starter** folder.
 
 5. Select the **Sales Analysis.pbix** file, and then click **Open**.
 
