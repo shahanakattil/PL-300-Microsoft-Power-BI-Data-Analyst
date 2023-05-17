@@ -153,7 +153,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 20. Click **Save**.
 
-    ![Picture 9](Linked_image_Files/09-create-power-bi-dashboard_image13.png)
+    ![Picture 9](Linked_image_Files/Module09-image20.png)
 
 ### **Task 3: Get started – Publish the report**
 
@@ -187,7 +187,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
 4. To create a dashboard and pin a visual, hover the cursor over the S**ales and Profit Margin by Month** (column/line) visual, and select the **pushpin**.
 
-    ![Picture 43](Linked_image_Files/09-create-power-bi-dashboard_image18.png)
+    ![Picture 43](Linked_image_Files/module9image21.png)
 
 6. In the **Pin to Dashboard** window, in the **Dashboard Name** box, enter **Sales Monitoring**.
 
