@@ -243,7 +243,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
 19. When prompted to pin the tile to the dashboard, click **Pin**.
 
-    ![Picture 17](Linked_image_Files/09-create-power-bi-dashboard_image29.png)
+    ![Picture 17](Linked_image_Files/module09pintodasboard.png)
 
 20. To return to the dashboard, at the top-left corner, click **Exit Q&amp;A**.
 
