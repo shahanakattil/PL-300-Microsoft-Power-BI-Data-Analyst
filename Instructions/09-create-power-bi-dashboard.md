@@ -34,7 +34,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 In this exercise you will create the **Sales Monitoring** dashboard. The completed dashboard will look like the following:
 
-![Image of the completed dashboard, comprising three tiles.](Linked_image_Files/09-create-power-bi-dashboard_image1.png)
+![Image of the completed dashboard, comprising three tiles.](Linked_image_Files/module9.1.png)
 
 ### **Task 1: Get started – Sign in**
 
@@ -115,7 +115,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 10. Click **Open**.
 
-    ![Picture 32](Linked_image_Files/09-create-power-bi-dashboard_image10.png)
+    ![Picture 32](Linked_image_Files/module09-image10.png)
 
 11. Close any informational windows that may open.
 
@@ -135,7 +135,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 15. If prompted to apply changes, click **Apply Later**.
 
-	![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
+	![Picture 22](Linked_image_Files/module09-image15.png)
 
 
 
