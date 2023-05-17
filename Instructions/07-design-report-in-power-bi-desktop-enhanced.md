@@ -365,7 +365,7 @@ In this task you will enhance the drill through page with conditional formatting
 
 In this exercise you will enhance the **My Performance** page with buttons, allowing the report user to select the visual type to display. When you’ve completed the design, the page will look like the following:
 
-![Image of an updated page 3, showing two buttons and now just two visuals.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image38.png)
+![Image of an updated page 3, showing two buttons and now just two visuals.](Linked_image_Files/Lab7-image(38).png)
 
 ### **Task 1: Add bookmarks**
 
@@ -375,19 +375,19 @@ In this task you will add two bookmarks, one to display each of the monthly sale
 
 2. On the **View** ribbon tab, from inside the **Show Panes** group, click **Bookmarks**.
 
-	![Picture 118](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image39.png)
+	![Picture 118](Linked_image_Files/Lab7-image(39).png)
 
 3. On the **View** ribbon tab, from inside the **Show Panes** group, click **Selection**.
 
-	![Picture 119](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image40.png)
+	![Picture 119](Linked_image_Files/Lab7-image(40).png)
 
 4. In the **Selection** pane, beside one of the **Sales and Target by Month** items, to hide the visual, click the eye icon.
 
-	![Picture 120](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image41.png)
+	![Picture 120](Linked_image_Files/Lab7-image(41).png)
 
 5. In the **Bookmarks** pane, click **Add**.
 
-	![Picture 121](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image42.png)
+	![Picture 121](Linked_image_Files/Lab7-image(42).png)
 
 6. To rename the bookmark, double-click the bookmark.
 
@@ -395,13 +395,13 @@ In this task you will add two bookmarks, one to display each of the monthly sale
 
 8. To edit the bookmark, in the **Bookmarks** pane, hover the cursor over the bookmark, click the ellipsis, and then select **Data**.
 
-	![Picture 16](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image43.png)
+	![Picture 16](Linked_image_Files/Lab7-image43.png)
 
 	*Disabling the **Data** option means the bookmark won’t use the current filter state. That’s important because otherwise the bookmark would permanently lock in the filter currently applied by the **Year** slicer.*
 
 9. To update the bookmark, click the ellipsis again, and then select **Update**.
 
-	![Picture 18](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image44.png)
+	![Picture 18](Linked_image_Files/Lab7-image(44).png)
 
 	*In the following steps, you’ll create and configure a second bookmark to show the second visual.*
 
@@ -409,11 +409,11 @@ In this task you will add two bookmarks, one to display each of the monthly sale
 
 	*In other words, make the visible visual hidden, and make the hidden visual visible.*
 
-	![Picture 122](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image45.png)
+	![Picture 122](Linked_image_Files/Lab7-image(45).png)
 
 11. Create a second bookmark, and name it as **Column Chart ON**
 
-	![Picture 123](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image46.png)
+	![Picture 123](Linked_image_Files/Lab7-image(46).png)
 
 12. Configure the second bookmark to ignore filters (**Data** option off), and update the bookmark.
 
