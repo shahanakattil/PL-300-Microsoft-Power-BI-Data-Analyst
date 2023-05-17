@@ -235,11 +235,11 @@ In this task you will create a new page and configure it as a drill through page
 
 	*The labs use a shorthand notation to reference a field. It will look like this: **Product \| Category**. In this example, **Product** is the table name and **Category** is the field name.*
 
-	![Picture 96](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image20.png)
+	![Picture 96](Linked_image_Files/lab7-image(20).png)
 
 4. To test the drill through page, in the drill through filter card, select **Bikes**.
 
-	![Picture 99](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image21.png)
+	![Picture 99](Linked_image_Files/lab7-image(21).png)
 
 5. At the top-left of the report page, notice the arrow button.
 
