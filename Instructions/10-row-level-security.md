@@ -71,6 +71,20 @@ In this task you will setup the environment for the lab.
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
          
        ![](Linked_image_Files/lab7-image3.png)
+       
+1. Complete the sign in process by clicking on **Continue**
+
+   ![](Linked_image_Files/lab6-image-T01.png)
+   
+1. Enter a 10 digit phone number and select Get started. Select Get started once more. You will be redirected to Power BI.
+   
+   ![](Linked_image_Files/lab6-image-(T02).png)
+   
+   ![](Linked_image_Files/lab6-image-(T003).png)
+   
+1. Leave the Microsoft Edge browser window open.
+
+1. Navigate back to **Power BI Desktop**
 
 1. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
 
