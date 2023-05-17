@@ -344,7 +344,7 @@ In this task you will open the **Sales Analysis** Power BI Desktop file, perform
 
 3. To publish the file to your workspace, on the **Home** ribbon tab, from inside the **Share** group, click **Publish** and then click **Select** to publish.
 
-    ![Picture 59](Linked_image_Files/09-create-power-bi-dashboard_image48.png)
+    ![Picture 59](Linked_image_Files/module09publish.png)
 
 4. When prompted to replace the dataset, click **Replace**.
 
