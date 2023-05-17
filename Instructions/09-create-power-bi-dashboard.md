@@ -247,7 +247,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
 20. To return to the dashboard, at the top-left corner, click **Exit Q&amp;A**.
 
-    ![Picture 16](Linked_image_Files/09-create-power-bi-dashboard_image30.png)
+    ![Picture 16](Linked_image_Files/module09exitQA.png)
 
 21. To add the company logo, on the menu bar, click **Edit**, and then select **Add a Tile**.
 
