@@ -191,23 +191,23 @@ In this task you will sync the **Year** and **Region** slicers.
 
 4. On the **View** ribbon tab, from inside the **Show Panes** group, click **Sync Slicers**.
 
-	![Picture 1](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image13.png)
+	![Picture 1](Linked_image_Files/Lab7-image(13).png)
 
 5. In the **Sync Slicers** pane (at the left of the **Visualizations** pane), in the second column (which represents syncing), check the checkboxes for the **Overview** and **My Performance** pages.
 
-	![Picture 93](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image14.png)
+	![Picture 93](Linked_image_Files/Lab7-image(14).png)
 
 6. On the **Overview** page, select the **Region** slicer.
 
 7. Sync the slicer with the **Overview** and **Profit** pages.
 
-	![Picture 94](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image15.png)
+	![Picture 94](Linked_image_Files/Lab7-image(15).png)
 
 8. Test the sync slicers by selecting different filter options, and then verifying that the synced slicers filter by the same selection.
 
 9. To close the **Sync Slicer** page, click the **X** located at the top-right of the pane.
 
-	![Picture 98](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image16.png)
+	![Picture 98](Linked_image_Files/Lab7-image(16).png)
 
 ## **Exercise 2: Configure Drill Through**
 
