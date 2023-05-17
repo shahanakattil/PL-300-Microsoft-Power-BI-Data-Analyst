@@ -116,9 +116,9 @@ In this task you will setup the environment for the lab by opening the starter r
     
       ![](Linked_image_Files/lab7-image1.png)
 
-5. Complete the sign up process by selecting the username
+    * Complete the sign up process by selecting the username
   
-   ![](Linked_image_Files/lab7-image2.png)
+      ![](Linked_image_Files/lab7-image2.png)
   
 6. Enter the password.
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
