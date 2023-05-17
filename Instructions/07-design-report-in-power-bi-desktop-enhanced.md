@@ -485,19 +485,19 @@ In this task you will publish the report.
 
 5. On the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
 
-	![Picture 21](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image52.png)
+	![Picture 21](Linked_image_Files/Lab7-image(52).png)
 
 6. In the **Publish to Power** BI window, notice that **My Workspace** is selected.
 
 7. To publish the report, click **Select**.
 
-	![Picture 20](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image53.png)
+	![Picture 20](Linked_image_Files/LAb7-image(53).png)
 
 8. If prompted to replace the dataset, click **Replace**.
 
 9. When the publication has succeeded, click **Got It**.
 
-	![Picture 19](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image54.png)
+	![Picture 19](Linked_image_Files/Lab7-image(54).png)
 
 10. Close Power BI Desktop.
 
@@ -515,7 +515,7 @@ In this task you will explore the report in the Power BI service.
 
 2. To test the drill through report, in the **Overview** page, in the **Quantity by Category** visual, right-click the **Clothing** bar, and then select **Drill Through \| Product Details**.
 
-	![Picture 130](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image55.png)
+	![Picture 130](Linked_image_Files/Lab7-image(55).png)
 
 3. Notice that the **Product Details** page is for **Clothing**.
 
