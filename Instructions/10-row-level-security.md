@@ -50,7 +50,7 @@ In this task you will setup the environment for the lab.
 
 1. To close the getting started window, at the top-left of the window, click **X**.
 
-	![Picture 7](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image2.png)
+	![Picture 7](Linked_image_Files/lab10-image2.png)
 	
 1. To sign in to the Power BI service, at the top-right, click **Sign In**.
 
@@ -88,7 +88,7 @@ In this task you will setup the environment for the lab.
 
 1. Click **Open**.
 
-	![Picture 4](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image5.png)
+	![Picture 4](Linked_image_Files/lab10-image5.png)
 
 1. Close any informational windows that may open.
 
@@ -105,7 +105,7 @@ In this task you will setup the environment for the lab.
 
 1. Click **Save**.
 
-	![Picture 2](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image8.png)
+	![Picture 2](Linked_image_Files/lab10-image8.png)
 
 ### **Task 2: Enforce row-level security**
 
