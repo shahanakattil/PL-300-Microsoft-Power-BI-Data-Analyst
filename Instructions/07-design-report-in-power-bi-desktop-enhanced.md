@@ -24,15 +24,15 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 3. Model Data in Power BI Desktop
 
-5. Create DAX Calculations in Power BI Desktop, Part 1
+5. Create DAX Calculations in Power BI Desktop
 
-6. Create DAX Calculations in Power BI Desktop, Part 2
+6. Create Advanced DAX Calculations in Power BI Desktop
 
-7. Design a Report in Power BI Desktop, Part 1
+7. Design a Report in Power BI Desktop
 
-8. **Design a Report in Power BI Desktop, Part 2**
+8. **Design a Report in Power BI Desktop
 
-9. Create a Power BI Dashboard
+9. Enhance a Power BI Dashboard
 
 10. Perform Data Analysis in Power BI Desktop
 
