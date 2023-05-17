@@ -147,7 +147,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 18. If prompted to apply changes, click **Apply Later**.
 
-	![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
+	![Picture 22](Linked_image_Files/module09-image15.png)
 
 19. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
 
