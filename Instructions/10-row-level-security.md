@@ -118,8 +118,8 @@ In this task you will setup the environment for the lab.
 
 1. Select **Save As**.
 
-	![Picture 3](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image6.png)
-
+	![Picture 5](Linked_image_Files/saveas.png)
+	
 1. If prompted to apply changes, click **Apply Later**.
 
 
