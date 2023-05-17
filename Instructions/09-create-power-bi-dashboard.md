@@ -219,7 +219,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
 14. In the Q&A box, enter the following: **Sales YTD**
 
-    ![Picture 11](Linked_image_Files/09-create-power-bi-dashboard_image24.png)
+    ![Picture 11](Linked_image_Files/module-09-25.png)
 
 15. Notice the response of **(Blank)**.
 
