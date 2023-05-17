@@ -338,7 +338,7 @@ In this task you will open the **Sales Analysis** Power BI Desktop file, perform
 
 1. In Power BI Desktop file, in the **Fields** pane, right-click the **Sales** table, and then select **Refresh Data**.
 
-    ![Picture 55](Linked_image_Files/09-create-power-bi-dashboard_image47.png)
+    ![Picture 55](Linked_image_Files/module09refresh.png)
 
 2. When the refresh completes, save the Power BI Desktop file.
 
