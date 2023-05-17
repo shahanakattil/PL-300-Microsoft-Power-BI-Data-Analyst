@@ -393,7 +393,7 @@ In this task you will add two bookmarks, one to display each of the monthly sale
 
 6. To rename the bookmark, double-click the bookmark.
 
-7. If the visible chart is the bar chart, rename the bookmark as **Bar Chart ON**, otherwise rename the bookmark as **Column Chart ON**.
+7. If the visible chart is the bar chart, rename the bookmark as **Bar Chart ON** .
 
 8. To edit the bookmark, in the **Bookmarks** pane, hover the cursor over the bookmark, click the ellipsis, and then select **Data**.
 
@@ -413,7 +413,7 @@ In this task you will add two bookmarks, one to display each of the monthly sale
 
 	![Picture 122](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image45.png)
 
-11. Create a second bookmark, and name it appropriately (either **Column Chart ON** or **Bar Chart ON).**
+11. Create a second bookmark, and name it as **Column Chart ON**
 
 	![Picture 123](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image46.png)
 
