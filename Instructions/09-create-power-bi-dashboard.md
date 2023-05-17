@@ -348,7 +348,7 @@ In this task you will open the **Sales Analysis** Power BI Desktop file, perform
 
 4. When prompted to replace the dataset, click **Replace**.
 
-    ![Picture 31](Linked_image_Files/09-create-power-bi-dashboard_image49.png)
+    ![Picture 31](Linked_image_Files/module09.29.png)
 
     *The dataset in the Power BI service now has June 2020 sales data.*
 
@@ -370,6 +370,6 @@ In this task you will review the dashboard to notice updated sales.
 
     *If you don’t see the June 2020 data, you might need to press **F5** to reload the web browser.*
 
-    ![Picture 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
+    ![Picture 33](Linked_image_Files/module9.30.png)
 
     
