@@ -285,11 +285,11 @@ In this task you will edit the details of two tiles.
 
 1. Hover the cursor over the **Sales YTD** tile, and then at the top-right of the tile, click the ellipsis, and then select **Edit Details**.
 
-    ![Picture 50](Linked_image_Files/09-create-power-bi-dashboard_image36.png)
+    ![Picture 50](Linked_image_Files/module0927.png)
 
 2. In the **Tile Details** pane (located at the right), in the **Subtitle** box, enter **FY2020**.
 
-    ![Picture 19](Linked_image_Files/09-create-power-bi-dashboard_image37.png)
+    ![Picture 19](Linked_image_Files/module09-28.png)
 
 3. Click **Apply**.
 
