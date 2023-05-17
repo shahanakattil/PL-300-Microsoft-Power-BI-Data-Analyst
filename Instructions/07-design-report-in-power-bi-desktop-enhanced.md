@@ -58,7 +58,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
  	![Picture 63](Linked_image_Files/lab6-image(2).png)
 
-1. Enter the account details 
+1. If prompted, enter the account details 
 
    - Enter the Lab username in **Enter your email address** page.
      * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
@@ -111,19 +111,19 @@ In this task you will setup the environment for the lab by opening the starter r
 
 4. Complete the sign in process using the same account used to sign in to the Power BI service.
 
-     - Enter the Lab username in **Enter your email address** page.
-       * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+5. Enter the Lab username in **Enter your email address** page.
+    * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+    
+      ![](Linked_image_Files/lab7-image1.png)
 
-         ![](Linked_image_Files/lab7-image1.png)
-
-     - Complete the sign up process by selecting the username
-
-	 ![](Linked_image_Files/lab7-image2.png)
-
-     - Enter the password 
-       * Azure Password: <inject key="AzureAdUserPassword"></inject>
+5. Complete the sign up process by selecting the username
+  
+   ![](Linked_image_Files/lab7-image2.png)
+  
+6. Enter the password.
+    * Azure Password: <inject key="AzureAdUserPassword"></inject>
          
-	 ![](Linked_image_Files/lab7-image3.png)
+       ![](Linked_image_Files/lab7-image3.png)
  
 
 5. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
