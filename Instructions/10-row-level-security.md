@@ -139,7 +139,7 @@ In this task you will enforce row-level security to ensure a salesperson can onl
 
 2. In the **Fields** pane, select the **Salesperson (Performance)** table.
 
-3. Review the data, noticing that Michael Blythe (EmployeeKey 281) has a UPN value of: **michael-blythe@adventureworks.com**
+3. Review the data, noticing that Michael Blythe (EmployeeKey 281) has a UPN value of: *michael-blythe@adventureworks.com*
 
 	*Recall that Michael Blythe is assigned to three sales regions: US Northeast, US Central, and US Southeast.*
 
@@ -175,7 +175,7 @@ In this task you will enforce row-level security to ensure a salesperson can onl
 
 	![Picture 5708](Linked_image_Files/lab10-image27.png)
 
-12. In the **View as Roles** window, check the **Other User** item, and then in the corresponding box, enter: **michael-blythe@adventureworks.com**
+12. In the **View as Roles** window, check the **Other User** item, and then in the corresponding box, enter: *michael-blythe@adventureworks.com*
 
 13. Check the **Salespeople** role.
 
