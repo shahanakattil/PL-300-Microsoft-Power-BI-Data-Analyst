@@ -257,9 +257,11 @@ In this task you will create a new page and configure it as a drill through page
 
 8. Configure the format options for the visual, and then turn the **Category Label** property to **Off**.
 
-	![Picture 103](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image25.png)
+	![Picture 103](Linked_image_Files/lab7-image-(25).png)
 
 9. Set the **Background Color** property to a light shade of gray.
+
+	![Picture 103](Linked_image_Files/background.png)
 
 10. Add a **Table** visual to the page, and then resize and position it so it sits beneath the card visual and fills the remaining space on the page.
 
@@ -279,7 +281,11 @@ In this task you will create a new page and configure it as a drill through page
 
 	- Sales \| Profit Margin
 
+	![Picture 103](Linked_image_Files/fields.png)
+
 12. Configure the format options for the visual, and in the **Values** section, set the **Text Size** property to **20pt**.
+
+    ![Picture 103](Linked_image_Files/textsize.png)
 
 	*The design of the drill through page is almost complete. You’ll enhance the page with conditional formatting in the next exercise.*
 
