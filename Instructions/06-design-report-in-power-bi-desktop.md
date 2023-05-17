@@ -140,7 +140,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 6. Select **Open Report**.
 
-	![Picture 31](Linked_image_Files/07-design-report-in-power-bi-desktop_image6.png)
+	![Picture 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(3).png)
 
 7. Click **Browse Reports**.
 
