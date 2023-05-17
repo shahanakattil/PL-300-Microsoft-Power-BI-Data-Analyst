@@ -277,7 +277,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
 27. Organize the tiles so that the logo appears at the top-left, with the **Sales YTD** tile beneath it, and the **Sales, Profit Margin** tile at the right.
 
-    ![Picture 52](Linked_image_Files/09-create-power-bi-dashboard_image35.png)
+    ![Picture 52](Linked_image_Files/module09-26.png)
 
 ### **Task 5: Edit tile details**
 
