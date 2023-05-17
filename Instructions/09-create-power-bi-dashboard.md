@@ -251,7 +251,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
 21. To add the company logo, on the menu bar, click **Edit**, and then select **Add a Tile**.
 
-    ![Picture 46](Linked_image_Files/09-create-power-bi-dashboard_image31.png)
+    ![Picture 46](Linked_image_Files/module19image20.png)
 
     *Using this technique to add a dashboard tile lets you embellish your dashboard with media, including web content, images, richly-formatted text boxes, and video (using YouTube or Vimeo links).*
 
