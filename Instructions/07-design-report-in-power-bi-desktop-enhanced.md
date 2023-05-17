@@ -213,7 +213,7 @@ In this task you will sync the **Year** and **Region** slicers.
 
 In this exercise you will create a new page and configure it as a drill through page. When you’ve completed the design, the page will look like the following:
 
-![Image of the new page, comprising a card visual and table visual.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image17.png)
+![Image of the new page, comprising a card visual and table visual.](Linked_image_Files/Lab7-image(17).png)
 
 ### **Task 1: Create a drill through page**
 
@@ -221,11 +221,11 @@ In this task you will create a new page and configure it as a drill through page
 
 1. Add a new report page named **Product Details**.
 
-	![Picture 95](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image18.png)
+	![Picture 95](Linked_image_Files/Lab7-image(18).png)
 
 2. Right-click the **Product Details** page tab, and then select **Hide Page**.
 
-	![Picture 97](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image19.png)
+	![Picture 97](Linked_image_Files/Lab7-image(19).png)
 
 	*Report users won’t be able to go to the drill through page directly. They’ll need to access it from visuals on other pages. You’ll learn how to drill through to the page in the final exercise of this lab.*
 
@@ -241,13 +241,13 @@ In this task you will create a new page and configure it as a drill through page
 
 5. At the top-left of the report page, notice the arrow button.
 
-	![Picture 100](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image22.png)
+	![Picture 100](Linked_image_Files/Lab7-image(22).png)
 
 	*A button is added automatically when a field is added to the drill through well/area. It allows report users to navigate back to the page from which they drilled through.*
 
 6. Add a **Card** visual to the page, and then resize and position it so it sits to the right of the button and fills the remaining width of the page.
 
-	![Picture 13](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image23.png)
+	![Picture 13](Linked_image_Files/Lab7-image(23).png)
 
 	![Picture 101](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image24.png)
 
@@ -263,7 +263,7 @@ In this task you will create a new page and configure it as a drill through page
 
 10. Add a **Table** visual to the page, and then resize and position it so it sits beneath the card visual and fills the remaining space on the page.
 
-	![Picture 14](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image26.png)
+	![Picture 14](Linked_image_Files/Lab7-image(26).png)
 
 	![Picture 105](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image27.png)
 
@@ -291,7 +291,7 @@ In this task you will create a new page and configure it as a drill through page
 
 In this exercise you will enhance the drill through page with conditional formatting. When you’ve completed the design, the page will look like the following:
 
-![Image of an updated page, revealing color formatted values and icons.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image28.png)
+![Image of an updated page, revealing color formatted values and icons.](Linked_image_Files/Lab7-image(28).png)
 
 ### **Task 1: Add conditional formatting**
 
@@ -301,15 +301,15 @@ In this task you will enhance the drill through page with conditional formatting
 
 2. In the visualization pane, click the down-arrow on the **Profit Margin** value, and then select **Conditional Formatting \| Icons**.
 
-	![Picture 107](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image29.png)
+	![Picture 107](Linked_image_Files/Lab7-image(29).png)
 
 3. In the **Icons – Profit Margin** window, in the **Icon Layout** dropdown list, select **Right of Data**.
 
-	![Picture 108](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image30.png)
+	![Picture 108](Linked_image_Files/Lab7-image(30).png)
 
 4. To delete the middle rule, at the right of the yellow triangle, select **X**.
 
-	![Picture 109](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image31.png)
+	![Picture 109](Linked_image_Files/Lab7-image(31).png)
 
 5. Configure the first rule (red diamond) as follows:
 
@@ -331,17 +331,17 @@ In this task you will enhance the drill through page with conditional formatting
 
 	- In the sixth control, select **Number**
 
-	![Picture 110](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image32.png)
+	![Picture 110](Linked_image_Files/Lab7-image(32).png)
 
 	*The rules can be interpreted as follows: display a red diamond if the profit margin value is less than 0; otherwise if the value is great or equal to zero, display a green circle.*
 
 7. Click **OK**.
 
-	![Picture 111](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image33.png)
+	![Picture 111](Linked_image_Files/Lab7-image(33).png)
 
 8. In the table visual, verify that the that the correct icons are displayed.
 
-	![Picture 112](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image34.png)
+	![Picture 112](Linked_image_Files/Lab7-image(34).png)
 
 9. Configure background color conditional formatting for the **Color** field.
 
@@ -351,11 +351,11 @@ In this task you will enhance the drill through page with conditional formatting
 
 11. In the **What field should we base this on?** dropdown list, select **Product \| Formatting \| Background Color Format**.
 
-	![Picture 114](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image36.png)
+	![Picture 114](Linked_image_Files/Lab7-image(36).png)
 
 12. Click **OK**.
 
-	![Picture 115](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image37.png)
+	![Picture 115](Linked_image_Files/Lab7-image(37).png)
 
 13. Repeat the previous steps to configure font color conditional formatting for the **Color** field, using the **Product \| Formatting \| Font Color Format** field
 
