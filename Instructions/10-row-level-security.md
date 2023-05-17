@@ -103,7 +103,7 @@ In this task you will enforce row-level security to ensure a salesperson can onl
 
 4. Switch to Report view.
 
-5. On the **Home** ribbon tab, from inside the **Security** group, click **Manage Roles**.
+5. On the **Modeling** ribbon tab, from inside the **Security** group, click **Manage Roles**.
 
 	![Picture 5700](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image21.png)
 
