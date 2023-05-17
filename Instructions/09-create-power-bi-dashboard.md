@@ -191,11 +191,11 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
 6. In the **Pin to Dashboard** window, in the **Dashboard Name** box, enter **Sales Monitoring**.
 
-    ![Picture 3](Linked_image_Files/09-create-power-bi-dashboard_image19.png)
+    ![Picture 3](Linked_image_Files/module09dashboard.png)
 
 7. Click **Pin**.
 
-    ![Picture 1](Linked_image_Files/09-create-power-bi-dashboard_image20.png)
+    ![Picture 1](Linked_image_Files/module09pin.png)
 
 8. On the **Navigation** pane, select **My Workspace** and then open the **Sales Monitoring** dashboard.
 
