@@ -229,7 +229,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
 16. Extend the question with: **in year FY2020**.
 
-    ![Picture 12](Linked_image_Files/09-create-power-bi-dashboard_image26.png)
+    ![Picture 12](Linked_image_Files/module09image-26.png)
 
 17. Notice the response is now **$33M**.
 
