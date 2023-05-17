@@ -60,19 +60,36 @@ In this task you will setup the environment for the lab by signing in to Power B
 
  	![Picture 63](Linked_image_Files/lab6-image(2).png)
 
-1. Enter the account details provided to you.
+1. Enter the account details 
 
+   - Enter the Lab username in **Enter your email address** page.
+     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+     
+   - Complete the sign up process by selecting the username
+
+   - Enter the password 
+   
+     * Azure Password: <inject key="AzureAdUserPassword"></inject>
+ 
 1. If prompted to update the password, reenter the provided password, and then enter and confirm a new password.
 
  	*Important: Be sure to record your new password.*
 
-1. Complete the sign in process.
+1. Complete the sign in process by clicking on **Continue**
+
+   ![](Linked_image_Files/lab6-image-T01.png)
+   
+1. Enter a 10 digit phone number and select Get started. Select Get started once more. You will be redirected to Power BI.
+   
+   ![](Linked_image_Files/lab6-image-(T02).png)
+   
+   ![](Linked_image_Files/lab6-image-(T003).png)
 
 1. If prompted by Microsoft Edge to stay signed in, click **Yes**.
 
-1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
+1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, select **My Workspace**.
 
- 	![Picture 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
+ 	![Picture 22](Linked_image_Files/lab7-workspace.png)
 
 1. Leave the Microsoft Edge browser window open.
 
@@ -95,6 +112,21 @@ In this task you will setup the environment for the lab by opening the starter r
 	![Picture 8](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image6.png)
 
 4. Complete the sign in process using the same account used to sign in to the Power BI service.
+
+     - Enter the Lab username in **Enter your email address** page.
+       * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+
+         ![](Linked_image_Files/lab7-image1.png)
+
+     - Complete the sign up process by selecting the username
+
+	 ![](Linked_image_Files/lab7-image2.png)
+
+     - Enter the password 
+       * Azure Password: <inject key="AzureAdUserPassword"></inject>
+         
+	 ![](Linked_image_Files/lab7-image3.png)
+ 
 
 5. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
 
