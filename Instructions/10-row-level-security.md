@@ -54,7 +54,7 @@ In this task you will setup the environment for the lab.
 	
 1. To sign in to the Power BI service, at the top-right, click **Sign In**.
 
-	![Picture 8](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image6.png)
+	![Picture 8](Linked_image_Files/lab10-image6.png)
 	
 1. Complete the sign in process using the same account used to sign in to the Azure portal.
 
@@ -135,7 +135,7 @@ In this task you will enforce row-level security to ensure a salesperson can onl
 
 1. Switch to Data view.
 
-	![Picture 5701](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image20.png)
+	![Picture 5701](Linked_image_Files/lab10-image20.png)
 
 2. In the **Fields** pane, select the **Salesperson (Performance)** table.
 
@@ -147,73 +147,73 @@ In this task you will enforce row-level security to ensure a salesperson can onl
 
 5. On the **Modeling** ribbon tab, from inside the **Security** group, click **Manage Roles**.
 
-	![Picture 5700](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image21.png)
+	![Picture 5700](Linked_image_Files/lab10-image21.png)
 
 6. In the **Manage Roles** window, click **Create**.
 
-	![Picture 5702](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image22.png)
+	![Picture 5702](Linked_image_Files/lab10-image22.png)
 
 7. In the box, replace the selected text with the name of the role: **Salespeople**, and then press **Enter**.
 
-	![Picture 5703](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image23.png)
+	![Picture 5703](Linked_image_Files/lab10-image23.png)
 
 8. To assign a filter, for the **Salesperson (Performance)** table, click the ellipsis (…) character, and then select **Add Filter \| [UPN]**.
 
-	![Picture 5704](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image24.png)
+	![Picture 5704](Linked_image_Files/lab10-image24.png)
 
 9. In the **Table Filter DAX Expression** box, modify the expression by replacing **“Value”** with **USERPRINCIPALNAME()**.
 
-	![Picture 11](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image25.png)
+	![Picture 11](Linked_image_Files/lab10-image25.png)
 
 	*USERPRINCIPALNAME() is a Data Analysis Expressions (DAX) function that returns the name of the authenticated user. It means that the **Salesperson (Performance)** table will filter by the User Principal Name (UPN) of the user querying the model.*
 
 10. Click **Save**.
 
-	![Picture 5706](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image26.png)
+	![Picture 5706](Linked_image_Files/lab10-image26.png)
 
 11. To test the security role, on the **Modeling** ribbon tab, from inside the **Security** group, click **View As**.
 
-	![Picture 5708](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image27.png)
+	![Picture 5708](Linked_image_Files/lab10-image27.png)
 
 12. In the **View as Roles** window, check the **Other User** item, and then in the corresponding box, enter: **michael-blythe@adventureworks.com**
 
 13. Check the **Salespeople** role.
 
-	![Picture 5709](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image28.png)
+	![Picture 5709](Linked_image_Files/lab10-image28.png)
 
 	*This configuration results in using the **Salespeople** role and impersonating the user with your Michael Blythe’s name.*
 
 14. Click **OK**.
 
-	![Picture 5710](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image29.png)
+	![Picture 5710](Linked_image_Files/lab10-image29.png)
 
 15. Notice the yellow banner above the report page, describing the test security context.
 
-	![Picture 13](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image30.png)
+	![Picture 13](Linked_image_Files/lab10-image30.png)
 
 16. In the table visual, notice that only the salesperson **Michael Blythe** is listed.
 
-	![Picture 5713](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image31.png)
+	![Picture 5713](Linked_image_Files/lab10-image31.png)
 
 17. To stop testing, at the right side of the yellow banner, click **Stop Viewing**.
 
-	![Picture 5712](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image32.png)
+	![Picture 5712](Linked_image_Files/lab10-image32.png)
 
 	*When the Power BI Desktop file is published to the Power BI service, you’ll need to complete a post-publication task to map security principals to the **Salespeople** role. You won’t do that in this lab.*
 
 18. To delete the role, on the **Modeling** ribbon tab, from inside the **Security** group, click **Manage Roles**.
 
-	![Picture 16](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image33.png)
+	![Picture 16](Linked_image_Files/lab10-image33.png)
 
 19. In the **Manage Roles** window, click **Delete**.
 
-	![Picture 17](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image34.png)
+	![Picture 17](Linked_image_Files/lab10-image34.png)
 
 20. When prompted to confirm the deletion, click **Yes, Delete**.
 
 21. Click **Save**.
 
-	![Picture 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
+	![Picture 18](Linked_image_Files/lab10-image35.png)
 
 ### **Task 3: Finish up**
 
