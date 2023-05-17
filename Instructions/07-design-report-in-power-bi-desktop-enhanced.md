@@ -1,4 +1,4 @@
-# **PL-300 Module 7: Design a Report in Power BI Desktop, Part 2**
+# **PL-300 Module 7: Enhance a Report in Power BI Desktop**
 
 **The estimated time to complete the lab is 45 minutes**
 
