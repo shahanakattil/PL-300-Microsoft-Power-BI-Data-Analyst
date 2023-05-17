@@ -130,7 +130,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 6. Select **Open Report**.
 
-	![Picture 7](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image7.png)
+	![Picture 7](Linked_image_Files/Lab7-image(7).png)
 
 7. Click **Browse Reports**.
 
@@ -142,7 +142,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 10. Click **Open**.
 
-	![Picture 5](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image9.png)
+	![Picture 5](Linked_image_Files/Lab7-image(9).png)
 
 11. Close any informational windows that may open.
 
@@ -152,28 +152,28 @@ In this task you will setup the environment for the lab by opening the starter r
 
 13. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
 
-	![Picture 8](Linked_image_Files/discard-changes-1.png)
+	![Picture 8](Linked_image_Files/discard-changes-(1).png)
 
 14. Now you will see another pop up as shown below, select **Discard**.
 
-	![Picture 8](Linked_image_Files/discard-changes-2.png)
+	![Picture 8](Linked_image_Files/discard-changes-(2).png)
 
 
 15. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
 
 16. Select **Save As**.
 
-	![Picture 4](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image10.png)
+	![Picture 4](Linked_image_Files/Lab7-image(10).png)
 
 17. If prompted to apply changes, click **Apply**.
 
-	![Picture 3](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image11.png)
+	![Picture 3](Linked_image_Files/Lab7-image(11).png)
 
 18. In the **Save As** window, navigate to the **C:\AllFiles\MySolution** folder.
 
 19. Click **Save**.
 
-	![Picture 2](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image12.png)
+	![Picture 2](Linked_image_Files/Lab7-image(12).png)
 
 ### **Task 3: Sync slicers**
 
