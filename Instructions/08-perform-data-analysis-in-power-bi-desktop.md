@@ -22,17 +22,17 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 3. Model Data in Power BI Desktop
 
-5. Create DAX Calculations in Power BI Desktop, Part 1
+5. Create DAX Calculations in Power BI Desktop
 
-6. Create DAX Calculations in Power BI Desktop, Part 2
+6. Create Advanced DAX Calculations in Power BI Desktop
 
-7. Design a Report in Power BI Desktop, Part 1
+7. Design a Report in Power BI Desktop
 
-8. Design a Report in Power BI Desktop, Part 2
+8. Enhance a Report in Power BI Desktop
 
-9. Create a Power BI Dashboard
+9. **Perform Data Analysis in Power BI Desktop**
 
-10. **Perform Data Analysis in Power BI Desktop**
+10. Create a Power BI Dashboard
 
 11. Enforce Row-Level Security
 
@@ -48,7 +48,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
 1. To open Microsoft Edge, on the taskbar, click the Microsoft Edge program shortcut.
 
- 	![Picture 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
+ 	![Picture 7](Linked_image_Files/pl300-01.png)
 
 1. In the Microsoft Edge browser window, navigate to **https://powerbi.microsoft.com**.
 
@@ -56,9 +56,11 @@ In this task you will setup the environment for the lab by signing in to Power B
 
 1. Click **Sign In** (located at the top-right corner).
 
- 	![Picture 5](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image2.png)
+ 	![Picture 5](Linked_image_Files/pl300-02.png)
 
 1. Enter the account details provided to you.
+   * Username/Email: <inject key="Username"></inject>
+   * Password: <inject key="Password"></inject>
 
 1. If prompted to update the password, reenter the provided password, and then enter and confirm a new password.
 
@@ -70,7 +72,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
 1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, expand **My Workspace**.
 
- 	![Picture 4](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image3.png)
+ 	![Picture 4](Linked_image_Files/pl300-03.png)
 
 1. Leave the Microsoft Edge browser window open.
 
@@ -96,15 +98,15 @@ In this task you will create the **Sales Exploration** report.
 
 	*Important: If you already have Power BI Desktop open (from a previous lab), close that instance.*
 
-	![Picture 14](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image7.png)
+	![Picture 14](Linked_image_Files/pl300-04.png)
 
 2. To close the getting started window, at the top-left of the window, click **X**.
 
-	![Picture 13](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image8.png)
+	![Picture 13](Linked_image_Files/pl300-05.png)
 
 3. If Power BI Desktop is not signed in to the Power BI service, at the top-right, click **Sign In**.
 
-	![Picture 16](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image9.png)
+	![Picture 16](Linked_image_Files/pl300-06.png)
 
 4. Complete the sign in process using the same account used to sign in to the Power BI service.
 
@@ -112,23 +114,23 @@ In this task you will create the **Sales Exploration** report.
 
 6. Select **Save**.
 
-	![Picture 12](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image10.png)
+	![Picture 12](Linked_image_Files/pl300-07.png)
 
 7. In the **Save As** window, navigate to the **C:\AllFiles\MySolution** folder.
 
 8. In the **File Name** box, enter **Sales Exploration** and click **Save**.
 
-	![Picture 1](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image11.png)
+	![Picture 1](Linked_image_Files/pl300-08.1.png)
 
 9. To create a live connection to the **Sales Analysis** dataset, on the **Home** ribbon tab, from inside the **Data** group, click **Power BI Datasets**.
 
-	![Picture 15](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image12.png)
+	![Picture 15](Linked_image_Files/pl300-09.png)
 
 10. In the **Select a Dataset to Create a Report** window, select the **Sales Analysis** dataset.
 
-11. Click **Connect**.
+11. Click **Create**.
 
-	![Picture 17](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image13.png)
+	![Picture 17](Linked_image_Files/pl300-10.png)
 
 12. Save the Power BI Desktop file.
 
@@ -144,11 +146,11 @@ In this task you will create a scatter chart that can be animated.
 
 1. Rename **Page 1** as **Scatter Chart**.
 
-	![Picture 67](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image14.png)
+	![Picture 67](Linked_image_Files/pl300-11.png)
 
 2. Add a **Scatter Chart** visual to the report page, and then position and resize it so it fills the entire page.
 
-	![Picture 18](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image15.png)
+	![Picture 18](Linked_image_Files/pl300-12.png)
 
 	![Picture 75](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image16.png)
 
@@ -168,7 +170,7 @@ In this task you will create a scatter chart that can be animated.
 
 	- Play Axis: **Date \| Quarter**
 
-	![Picture 39](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image17.png)
+	![Picture 39](Linked_image_Files/pl300-14.png)
 
 	*The chart can be animated when a field is added to the **Play Axis** well/area.*
 
@@ -176,11 +178,11 @@ In this task you will create a scatter chart that can be animated.
 
 5. In the filter card, filter by **Bikes**.
 
-	![Picture 40](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image18.png)
+	![Picture 40](Linked_image_Files/pl300-15.png)
 
 6. To animate the chart, at the bottom left corner, click **Play**.
 
-	![Picture 41](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image19.png)
+	![Picture 41](Linked_image_Files/pl300-16.png)
 
 7. Watch the entire animation cycle from **FY2018 Q1** to **FY2020 Q4**.
 
@@ -206,11 +208,11 @@ In this task you will create a forecast to determine possible future sales reven
 
 1. Add a new page, and then rename the page to **Forecast**.
 
-	![Picture 66](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image20.png)
+	![Picture 66](Linked_image_Files/pl300-17.png)
 
 2. Add a **Line Chart** visual to the report page, and then position and resize it so it fills the entire page.
 
-	![Picture 19](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image21.png)
+	![Picture 19](Linked_image_Files/pl300-18.png)
 
 	![Picture 74](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image22.png)
 
@@ -222,13 +224,13 @@ In this task you will create a forecast to determine possible future sales reven
 
 	- Values: **Sales | Sales** 
 
-	![Picture 46](Linked_image_Files/10-perform-data-928.png)
+	![Picture 46](Linked_image_Files/pl300-20.png)
 
 4. In the **Filters** pane, add the **Date \| Year** field to the **Filters On This Page** well/area.
 
 5. In the filter card, filter by two years: **FY2019** and **FY2020**.
 
-	![Picture 47](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image24.png)
+	![Picture 47](Linked_image_Files/pl300-21.png)
 
 	*When forecasting over a time line, you will need at least two cycles (years) of data to produce an accurate and stable forecast.*
 
@@ -236,36 +238,28 @@ In this task you will create a forecast to determine possible future sales reven
 
 6. Add also the **Product \| Category** field to the **Filters On This Page** well/area, and filter by **Bikes**.
 
-	![Picture 48](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image25.png)
+	![Picture 48](Linked_image_Files/pl300-22.png)
 
 7. To add a forecast, beneath the **Visualizations** pane, select the **Analytics** pane.
 
-	![Picture 20](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image26.png)
+	![Picture 20](Linked_image_Files/pl300-23.png)
 
 8. Expand the **Forecast** section.
 
-
-
-	*If the **Forecast** section is not available, it’s probably because the visual hasn’t been correctly configured. Forecasting is only available when two conditions are met: the axis has a single field of type date, and there’s only one value field.*
+    *If the **Forecast** section is not available, it’s probably because the visual hasn’t been correctly configured. Forecasting is only available when two conditions are met: the axis has a single field of type date, and there’s only one value field.*
 
 9. Turn the **Forecast** option to **On**/ Click **Add**
 
-	![Picture 51](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image28.png)
+	![Picture 51](Linked_image_Files/pl300-24.png)
 
 10. Configure the following forecast properties:
-
-
-	- Forecast length: 1 month
-
-	- Seasonality: 365
-	
-	- Confidence interval: 80%
-
-
+     - Forecast length: 1 month
+     - Seasonality: 365
+     - Confidence interval: 80%
 
 11. Click **Apply**.
 
-	![Picture 52](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image29.png)
+	![Picture 52](Linked_image_Files/pl300-25.png)
 
 12. In the line visual, notice that the forecast has extended one month beyond the history data.
 
@@ -288,6 +282,6 @@ In this task you will complete the lab.
 
 3. To publish the file to your **My workspace**, on the **Home** ribbon tab, from inside the **Share** group, click **Publish** and then click **Select** to publish.
 
-	![Picture 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
+	![Picture 23](Linked_image_Files/pl300-26.png)
 
 4.  Close Power BI Desktop.
