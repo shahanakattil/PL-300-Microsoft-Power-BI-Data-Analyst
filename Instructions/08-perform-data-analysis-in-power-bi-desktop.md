@@ -1,4 +1,4 @@
-# **PL-300 Module 9: Perform Data Analysis in Power BI Desktop**
+# **PL-300 Module 8: Perform Data Analysis in Power BI Desktop**
 
 **The estimated time to complete the lab is 45 minutes**
 
