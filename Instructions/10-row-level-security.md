@@ -1,132 +1,222 @@
----
-lab:
-    title: 'Enforce Row-Level Security'
-    module: '12 - Row-Level Security'
----
-
-
-# **Enforce Row-Level Security**
+# **PL-300 Module 10: Enforce Row-Level Security**
 
 **The estimated time to complete the lab is 45 minutes**
 
-In this lab, you'll enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
+In this lab you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table. You will also enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
 
 In this lab you learn how to:
+
+- Configure many-to-many relationships
 
 - Enforce row-level security
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Prepare Data in Power BI Desktop
-1. Load Data in Power BI Desktop
-1. Design a Data Model in Power BI
-1. Create DAX Calculations in Power BI Desktop
-1. Create Advanced DAX Calculations in Power BI Desktop
-1. Design a Report in Power BI Desktop
-1. Enhance a Report in Power BI Desktop
-1. Perform Data Analysis in Power BI Desktop
-1. Create a Power BI Dashboard
-1. **Enforce Row-Level Security**
+
+2. Load Data in Power BI Desktop
+
+3. Model Data in Power BI Desktop
+
+4. Create DAX Calculations in Power BI Desktop
+
+5. Create Advanced DAX Calculations in Power BI Desktop
+
+6. Design a Report in Power BI Desktop
+
+7. Enhance a Report in Power BI Desktop
+
+8. Create a Power BI Dashboard
+
+9. Perform Data Analysis in Power BI Desktop
+
+10. **Enforce Row-Level Security**
 
 ## **Exercise 1: Enforce row-level security**
 
-In this exercise, you'll enforce row-level security to ensure a salesperson can only ever see sales made in their assigned region(s).
+In this exercise you will enforce row-level security to ensure a salesperson can only ever see sales made in their assigned region(s).
 
 ### **Task 1: Get started**
 
-In this task, you'll set up the environment for the lab.
+In this task you will setup the environment for the lab.
 
-*Important: If you're continuing on from the previous lab (and you completed that lab successfully), don't complete this task; instead, continue from the next task.*
+*Important: If you are continuing on from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
 
-1. Open Power BI Desktop.
+1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
-    ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
+	![Picture 8](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image1.png)
 
-    *Tip: By default, the Getting Started dialog box opens in front of Power BI Desktop. **Sign-in** and then close the pop-up.*
+1. To close the getting started window, at the top-left of the window, click **X**.
 
-1. To open the starter Power BI Desktop file, select the **File > Open Report > Browse Reports**.
+	![Picture 7](Linked_image_Files/lab10-image2.png)
+	
+1. To sign in to the Power BI service, at the top-right, click **Sign In**.
 
-1. In the **Open** window, navigate to the **D:\PL300\Labs\10-row-level-security\Starter** folder, and open the **Sales Analysis** file.
+	![Picture 8](Linked_image_Files/lab10-image6.png)
+	
+1. Complete the sign in process using the same account used to sign in to the Azure portal.
+
+1. Enter the Lab username in **Enter your email address** page.
+    * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+    
+      ![](Linked_image_Files/lab7-image1.png)
+
+    * Complete the sign up process by selecting the username
+  
+      ![](Linked_image_Files/lab7-image2.png)
+  
+1. Enter the password.
+    * Azure Password: <inject key="AzureAdUserPassword"></inject>
+         
+       ![](Linked_image_Files/lab7-image3.png)
+       
+1. Complete the sign in process by clicking on **Continue**
+
+   ![](Linked_image_Files/lab6-image-T01.png)
+   
+1. Enter a 10 digit phone number and select Get started. Select Get started once more. You will be redirected to Power BI.
+   
+   ![](Linked_image_Files/lab6-image-(T02).png)
+   
+   ![](Linked_image_Files/lab6-image-(T003).png)
+   
+1. Leave the Microsoft Edge browser window open.
+
+1. Navigate back to **Power BI Desktop**
+
+1. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
+
+1. Select **Open Report**.
+
+	![Picture 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(3).png)
+
+1. Click **Browse Reports**.
+
+	![Picture 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
+
+1. In the **Open** window, navigate to the **C:\AllFiles\Labs\10-row-level-security\Starter** folder.
+
+1. Select the **Sales Analysis** file.
+
+1. Click **Open**.
+
+	![Picture 4](Linked_image_Files/lab10-image5.png)
 
 1. Close any informational windows that may open.
 
-1. Notice the yellow warning message beneath the ribbon. *This message alerts you to the fact that the queries haven't been applied to load as model tables. You’ll apply the queries later in this lab.*
-    
-	*To dismiss the warning message, at the right of the yellow warning message, select **X**.*
+1. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
 
-1. To create a copy of the file, go to **File > Save As** and save to **D:\PL300\MySolution** folder.
+	![Picture 8](Linked_image_Files/discard-changes-(1).png)
 
-1. If prompted to apply changes, select **Apply Later**.
+1. Now you will see another pop up as shown below, select **Discard**.
+
+	![Picture 8](Linked_image_Files/discard-changes-(2).png)
+
+1. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
+
+1. Select **Save As**.
+
+	![Picture 5](Linked_image_Files/saveas.png)
+	
+1. If prompted to apply changes, click **Apply Later**.
+
+
+1. In the **Save As** window, navigate to the **C:\AllFiles\MySolution** folder.
+
+1. Click **Save**.
+
+	![Picture 2](Linked_image_Files/lab10-image8.png)
 
 ### **Task 2: Enforce row-level security**
 
-In this task, you'll enforce row-level security to ensure a salesperson can only see sales made in their assigned region(s).
+In this task you will enforce row-level security to ensure a salesperson can only see sales made in their assigned region(s).
 
 1. Switch to Data view.
 
-   ![Picture 5701](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image20.png)
+	![Picture 5701](Linked_image_Files/lab10-image20.png)
 
-1. In the **Fields** pane, select the **Salesperson (Performance)** table.
+2. In the **Fields** pane, select the **Salesperson (Performance)** table.
 
+3. Review the data, noticing that Michael Blythe (EmployeeKey 281) has a UPN value of: *michael-blythe@adventureworks.com*
 
-1. Review the data, noticing that Michael Blythe (EmployeeKey 281) has a UPN value of: **michael-blythe@adventureworks.com**
-    
-	*You may recall that Michael Blythe is assigned to three sales regions: US Northeast, US Central, and US Southeast.*
+	*Recall that Michael Blythe is assigned to three sales regions: US Northeast, US Central, and US Southeast.*
 
-1. On the **Home** ribbon tab, from inside the **Security** group, select **Manage Roles**.
+4. Switch to Report view.
 
-    ![Picture 5700](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image21.png)
+5. On the **Modeling** ribbon tab, from inside the **Security** group, click **Manage Roles**.
 
-1. In the **Manage Roles** window, select **Create**.
+	![Picture 5700](Linked_image_Files/lab10-image21.png)
 
-1. In the box, replace the selected text with the name of the role: **Salespeople**, and then press **Enter**.
+6. In the **Manage Roles** window, click **Create**.
 
-   ![Picture 5703](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image23.png)
+	![Picture 5702](Linked_image_Files/lab10-image22.png)
 
-1. To assign a filter, for the **Salesperson (Performance)** table, select the ellipsis (…) character, and then select **Add Filter \| [UPN]**.
+7. In the box, replace the selected text with the name of the role: **Salespeople**, and then press **Enter**.
 
-   ![Picture 5704](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image24.png)
+	![Picture 5703](Linked_image_Files/lab10-image23.png)
 
-1. In the **Table Filter DAX Expression** box, modify the expression by replacing **“Value”** with **USERPRINCIPALNAME()**, and then **Save**.
-    
+8. To assign a filter, for the **Salesperson (Performance)** table, click the ellipsis (…) character, and then select **Add Filter \| [UPN]**.
+
+	![Picture 5704](Linked_image_Files/lab10-image24.png)
+
+9. In the **Table Filter DAX Expression** box, modify the expression by replacing **“Value”** with **USERPRINCIPALNAME()**.
+
+	![Picture 11](Linked_image_Files/lab10-image25.png)
+
 	*USERPRINCIPALNAME() is a Data Analysis Expressions (DAX) function that returns the name of the authenticated user. It means that the **Salesperson (Performance)** table will filter by the User Principal Name (UPN) of the user querying the model.*
 
-   ![Picture 11](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image25.png)
+10. Click **Save**.
 
-1. To test the security role, on the **Modeling** ribbon tab, from inside the **Security** group, select **View As**.
+	![Picture 5706](Linked_image_Files/lab10-image26.png)
 
-   ![Picture 5708](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image27.png)
+11. To test the security role, on the **Modeling** ribbon tab, from inside the **Security** group, click **View As**.
 
-1. In the **View as Roles** window, check the **Other User** item, and then in the corresponding box, enter: **michael-blythe@adventureworks.com**
+	![Picture 5708](Linked_image_Files/lab10-image27.png)
 
-1. Check the **Salespeople** role, and then **OK**.
-    
+12. In the **View as Roles** window, check the **Other User** item, and then in the corresponding box, enter: *michael-blythe@adventureworks.com*
+
+13. Check the **Salespeople** role.
+
+	![Picture 5709](Linked_image_Files/lab10-image28.png)
+
 	*This configuration results in using the **Salespeople** role and impersonating the user with your Michael Blythe’s name.*
 
-   ![Picture 5709](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image28.png)
+14. Click **OK**.
 
-1. Notice the yellow banner above the report page, describing the test security context.
+	![Picture 5710](Linked_image_Files/lab10-image29.png)
 
-   ![Picture 13](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image30.png)
+15. Notice the yellow banner above the report page, describing the test security context.
 
-1. In the table visual, notice that only the salesperson **Michael Blythe** is listed.
+	![Picture 13](Linked_image_Files/lab10-image30.png)
 
-   ![Picture 5713](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image31.png)
+16. In the table visual, notice that only the salesperson **Michael Blythe** is listed.
 
-1. To stop testing, at the right side of the yellow banner, select **Stop Viewing**.
+	![Picture 5713](Linked_image_Files/lab10-image31.png)
 
-   ![Picture 5712](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image32.png)
+17. To stop testing, at the right side of the yellow banner, click **Stop Viewing**.
 
-1. To delete the **Salespeople** role, on the **Modeling** ribbon tab, from inside the **Security** group, select **Manage Roles**.
+	![Picture 5712](Linked_image_Files/lab10-image32.png)
 
-   ![Picture 16](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image33.png)
+	*When the Power BI Desktop file is published to the Power BI service, you’ll need to complete a post-publication task to map security principals to the **Salespeople** role. You won’t do that in this lab.*
 
-1. In the **Manage Roles** window, select **Delete**. When prompted to confirm the deletion, select **Yes, Delete**.
+18. To delete the role, on the **Modeling** ribbon tab, from inside the **Security** group, click **Manage Roles**.
 
-   ![Picture 17](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image34.png)
+	![Picture 16](Linked_image_Files/lab10-image33.png)
 
-1. Select **Save**, then save the Power BI Desktop file to end the lab.
+19. In the **Manage Roles** window, click **Delete**.
 
-*Note: When the Power BI Desktop file is published to the Power BI service, you’ll need to complete a post-publication task to map security principals to the **Salespeople** role. You won’t do that in this lab.*
+	![Picture 17](Linked_image_Files/lab10-image34.png)
+
+20. When prompted to confirm the deletion, click **Yes, Delete**.
+
+21. Click **Save**.
+
+	![Picture 18](Linked_image_Files/lab10-image35.png)
+
+### **Task 3: Finish up**
+
+In this task you will complete the lab.
+
+1. Save the Power BI Desktop file.

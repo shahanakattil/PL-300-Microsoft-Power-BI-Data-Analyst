@@ -1,38 +1,46 @@
----
-lab:
-    title: 'Prepare Data in Power BI Desktop'
-    module: '2 - Get Data in Power BI'
----
+# **PL-300 Module 1: Prepare Data in Power BI Desktop**
 
-# Prepare Data in Power BI Desktop
+In this lab you commence the development of a Power BI Desktop solution for the Adventure Works company. It involves connecting to source data, previewing the data, and using data preview techniques to understand the characteristics and quality of the source data.
 
-**The estimated time to complete the lab is 45 minutes.**
-
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, we suggest you do them in the following order:
-
-1. **Prepare Data in Power BI Desktop**
-1. Load Data in Power BI Desktop
-1. Design a Data Model in Power BI
-1. Create DAX Calculations in Power BI Desktop
-1. Create Advanced DAX Calculations in Power BI Desktop
-1. Design a Report in Power BI Desktop
-1. Enhance a Report in Power BI Desktop
-1. Perform Data Analysis in Power BI
-1. Create a Power BI Dashboard
-1. Enforce Row-Level Security
-
-## **Lab story**
-
-This lab is designed to introduce you to Power BI Desktop application and how to connect to data and how to use data preview techniques to understand the characteristics and quality of the source data. The learning objectives are:
+In this lab you learn how to:
 
 - Open Power BI Desktop
+
+- Set Power BI Desktop options
+
 - Connect to source data
+
 - Preview source data
+
 - Use data preview techniques to better understand the data
+
+### **Lab story**
+
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+
+1. **Prepare Data in Power BI Desktop**
+
+2. Load Data in Power BI Desktop
+
+3. Model Data in Power BI Desktop
+
+5. Create DAX Calculations in Power BI Desktop
+
+6. Create Advanced DAX Calculations in Power BI Desktop
+
+7. Design a Report in Power BI Desktop
+
+8. Enhance a Report in Power BI Desktop
+
+9. Create a Power BI Dashboard
+
+10. Perform Data Analysis in Power BI Desktop
+
+11. Enforce Row-Level Security
 
 ## **Exercise 1: Prepare Data**
 
-In this exercise, you'll create eight Power BI Desktop queries. Six queries will source data from SQL Server, and two from CSV files.
+In this exercise you will create eight Power BI Desktop queries. Six queries will source data from SQL Server, and two from CSV files.
 
 ### **Task 1: Get started with Power BI Desktop**
 
@@ -43,176 +51,259 @@ In this task, you start by opening a starter Power BI file (.pbix). The starter 
 
 *Note: While having these two options enabled can be helpful when developing a data model, you disabled them earlier to support the lab experience. When you create relationships in the **Load Data in Power BI Desktop** lab, you’ll learn why you're adding each one.*
 
-<br/>
+1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
-1. Open Power BI Desktop.
+ 	![Picture 2](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    ![Power BI Desktop icon](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
+1. To close the getting started window, at the top-right of the window, click **X**.
 
-    *Tip: By default, the Getting Started dialog box opens in front of Power BI Desktop. You can choose to sign-in, and then close the pop-up.*
+ 	![Picture 3](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image2.png)
 
-1. To open the starter Power BI Desktop file, select the **File > Open Report > Browse Reports**.
+1. To save the file, click the **File** ribbon tab to open the backstage view.
 
-1. In the **Open** window, navigate to the **D:\PL300\Labs\01-prepare-data-with-power-query-in-power-bi-desktop\Starter** folder.
+1. Select **Save**.
 
-1. Select the **Sales Analysis** file.
+ 	![Picture 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
 
-1. Save a copy of the file with **Save As** in to the **D:\PL300\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
+
+1. In the **File Name** box, enter **Sales Analysis**.
+
+ 	![Picture 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(4).png)
+
+1. Click **Save**.
+
+	![Picture 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image-(5).png)
+
+	Tip: You can also save the file by click the **Save** icon located at the top-left.
+
+	![Picture 18](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(6).png)
 
 ### **Task 2: Get data from SQL Server**
 
-This task teaches you how to connect to a SQL Server database and import tables, which create queries in Power Query.
+In this task you will create queries based on SQL Server tables.
 
-1. On the **Home** ribbon tab, from inside the **Data** group, select **SQL Server**.
+1. On the **Home** ribbon tab, from inside the **Data** group, click **SQL Server**.
 
-     ![SQL Server Get Data icon](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image11.png)
+	![Picture 19](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(11).png)
 
-1. In the **SQL Server Database** window, in the **Server** box, enter **localhost**, then select **OK**.
-    
-    *Note: In this lab, you’ll connect to the SQL Server database by using **localhost** because gateway data sources can't resolve **localhost**. This isn’t a recommended practice when creating your own solutions.*
+2. In the **SQL Server Database** window, in the **Server** box, enter **localhost**.
 
-1. If prompted for credentials, in the **SQL Server Database** window, select **Use my current credentials**, and then **Connect**.
+	![Picture 21](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(12).png)
 
-1. In the **Navigator** window, at the left, expand the **AdventureWorksDW2020** database.
-    
-    *Note: The **AdventureWorksDW2020** database is based on the **AdventureWorksDW2017** sample database. It has been modified to support the learning objectives of the course labs.*
+	In this lab you’ll connect to the SQL Server database by using **localhost**. This isn’t a recommended practice when creating your own solutions. It’s because gateway data sources cannot resolve **localhost**.
 
-1. Select—but don’t check—the **DimEmployee** table
+3. Click **OK**.
 
-     ![AdventureWorksDW2020 database with DimEmployee indicated](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image18.png)
+	![Picture 22](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(13).png)
 
-1. In the right pane, notice a preview of the table data. The preview data allows you to see the columns and a sample of rows.
+4. If prompted for credentials, in the **SQL Server Database** window, select **Use my current credentials**. Then click on **Connect**.
 
-1. To create queries, select the checkbox next to the following six tables:
+4. In the **Navigator** window, at the left, expand the **AdventureWorksDW2020** database.
 
-    - DimEmployee
-    - DimEmployeeSalesTerritory
-    - DimProduct
-    - DimReseller
-    - DimSalesTerritory
-    - FactResellerSales
+	The **AdventureWorksDW2020** database is based on the **AdventureWorksDW2017** sample database. It has been modified to support the learning objectives of the course labs.
 
-1. Complete this task by clicking **Transform Data**, which will open Power Query Editor.
-    1. *This lab is only intended to connect to and profile the data, but not **transform data**.*
+	![Picture 28](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(17).png)
+
+5. Select—but don’t check—the **DimEmployee** table.
+
+	![Picture 29](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(18).png)
+
+6. In the right pane, notice a preview of the table data.
+
+	The preview data allows you to determine the columns and a sample of rows.
+
+7. To create queries, select the checkbox next to the following six tables:
+
+	- DimEmployee
+
+	- DimEmployeeSalesTerritory
+
+	- DimProduct
+
+	- DimReseller
+
+	- DimSalesTerritory
+
+	- FactResellerSales
+
+8. To apply transformations to the data of the selected tables, click **Transform Data**.
+
+	You won’t be transforming the data in this lab. The objectives of this lab focus on exploring and profiling the data in the **Power Query Editor** window.
+
+	![Picture 30](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(19).png)
 
 ### **Task 3: Preview Data in Power Query Editor**
 
-This task introduces the Power Query Editor and allows you to review and profile the data. This helps you determine how to clean and transform the data later.
+In this task you will preview the data of the SQL Server queries. First, you will learn relevant information about the data. You will also use column quality, column distribution, and column profile tools to understand the data and to assess data quality.
 
-1. In the **Power Query Editor** window, at the left, notice the **Queries** pane. The **Queries** pane contains one query for each table you checked.
+1. In the **Power Query Editor** window, at the left, notice the **Queries** pane.
 
-     ![List of loaded queries](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image20.png)
+	![Picture 31](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(20).png)
 
-1. Select the first query—**DimEmployee**.
+	The **Queries** pane contains one query for each table you checked.
 
-    *The **DimEmployee** table in the SQL Server database stores one row for each employee. A subset of the rows from this table represents the salespeople, which will be relevant to the model you’ll develop.*
+2. Select the first query—**DimEmployee**.
 
-1. At the bottom left corner of the status bar, some table statistics are provided—the table has 33 columns, and 296 rows.
+	![Picture 33](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(21).png)
 
-     ![Count of 33 columns, 296 rows](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image22.png)
+	The **DimEmployee** table in the SQL Server database stores one row for each employee. A subset of the rows from this table represents the salespeople, which will be relevant to the model you’ll develop.
 
-1. In the data preview pane, scroll horizontally to review all columns. Notice that the last five columns contain **Table** or **Value** links.
-    
-    *These five columns represent relationships to other tables in the database. They can be used to join tables together. You’ll join tables in the **Load Data in Power BI Desktop** lab.*
+3. At the bottom left, in the status bar, notice the table statistics—the table has 33 columns, and 296 rows.
 
-1. To assess column quality, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Quality**. The column quality feature allows you to easily determine the percentage of valid, error, or empty values found in columns.
+	![Picture 36](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(22).png)
 
-     ![Column Quality selection in ribbon](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image23.png)
+4. In the data preview pane, scroll horizontally to review all columns.
 
-1. Notice that the **Position** column has 94% empty (null) rows.
+5. Notice that the last five columns contain **Table** or **Value** links.
 
-     ![Column quality showing 94% empty rows](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image24.png)
+	These five columns represent relationships to other tables in the database. They can be used to join tables together. You’ll join tables in the **Load Data in Power BI Desktop** lab.
 
-1. To assess column distribution, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Distribution**.
+6. To assess column quality, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Quality**.
 
-1. Review the **Position** column again, and notice that there are four distinct values, and one unique value.
+	![Picture 35](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(23).png)
 
-1. Review the column distribution for the **EmployeeKey** column—there are 296 distinct values, and 296 unique values.
-    
-    *When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some model tables have unique columns. These unique columns can be used to create one-to-many relationships, which you'll do in the **Model Data in Power BI Desktop** lab.*
+	The column quality feature allows you to easily determine the percentage of valid, error, or empty values found in columns.
 
-     ![Column distribution showing 296 distinct, 296 unique values](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
+7. For the **Position** column (sixth last column), notice that 94% of rows are empty (null).
 
-1. In the **Queries** pane, select the **DimEmployeeSalesTerritory** query.
-    
-    *The **DimEmployeeSalesTerritory** table stores one row for each employee and the sales territory regions they manage. The table supports relating many regions to a single employee. Some employees manage one, two, or possibly more regions. When you model this data, you’ll need to define a many-to-many relationship.*
+	![Picture 38](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(24).png)
 
-1. In the **Queries** pane, select the **DimProduct** query. The **DimProduct** table contains one row per product sold by the company.
+8. To assess column distribution, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Distribution**.
 
-1. Horizontally scroll to reveal the last columns. Notice the **DimProductSubcategory** column.
-    
-    *When you add transformations to this query in the **Load Data in Power BI Desktop** lab, you’ll use the **DimProductSubcategory** column to join tables.*
+	![Picture 40](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(25).png)
 
-1. In the **Queries** pane, select the **DimReseller** query.
-    
-    *The **DimReseller** table contains one row per reseller. Resellers sell, distribute, or value add to the Adventure Works products.*
+9. Review the **Position** column again, and notice that there are four distinct values, and one unique value.
 
-1. To view column values, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Profile**.
+10. Review the column distribution for the **EmployeeKey** (first) column—there are 296 distinct values, and 296 unique values.
 
-1. Select the **BusinessType** column header, and notice the new pane beneath the data preview pane.
+	![Picture 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(26).png)
 
-1. Review the column statistics and value distribution in the data preview pane.
-    
-    *Notice the data quality issue: there are two labels for warehouse (**Warehouse**, and the misspelled **Ware House**).*
+	When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some model tables have unique columns. These unique columns can be used to create one-to-many relationships, which you will do in the **Model Data in Power BI Desktop** lab.
 
-     ![Value distribution for the BusinessType column](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image31.png)
+11. In the **Queries** pane, select the **DimEmployeeSalesTerritory** query.
 
-1. Hover the cursor over the **Ware House** bar, and notice that there are five rows with this value.
-    
-    *You’ll apply a transformation to relabel these five rows in the **Load Data in Power BI Desktop** lab.*
+	![Picture 44](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(27).png)
 
-1. In the **Queries** pane, select the **DimSalesTerritory** query.  
-    
-    *The **DimSalesTerritory** table contains one row per sales region, including **Corporate HQ** (headquarters). Regions are assigned to a country, and countries are assigned to groups. In the **Model Data in Power BI Desktop** lab, you’ll create a hierarchy to support analysis at region, country, or group level.*
+	The **DimEmployeeSalesTerritory** table stores one row for each employee and the sales territory regions they manage. The table supports relating many regions to a single employee. Some employees manage one, two, or possibly more regions. When you model this data, you’ll need to define a many-to-many relationship.
 
-1. In the **Queries** pane, select the **FactResellerSales** query.
-    
-    *The **FactResellerSales** table contains one row per sales order line—a sales order contains one or more line items.*
+12. In the **Queries** pane, select the **DimProduct** query.
 
-1. Review the column quality for the **TotalProductCost** column, and notice that 8% of the rows are empty.
-    
-    *Missing **TotalProductCost** column values is a data quality issue. To address the issue, in the **Load Data in Power BI Desktop** lab, you’ll apply transformations to fill in missing values by using the product standard cost, which is stored in the related **DimProduct** table.*
+	![Picture 46](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(28).png)
+
+	The **DimProduct** table contains one row per product sold by the company.
+
+13. Horizontally scroll to reveal the last columns.
+
+14. Notice the **DimProductSubcategory** column.
+
+	When you add transformations to this query in the **Load Data in Power BI Desktop** lab, you’ll use the **DimProductSubcategory** column to join tables.
+
+15. In the **Queries** pane, select the **DimReseller** query.
+
+	![Picture 49](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(29).png)
+
+	The **DimReseller** table contains one row per reseller. Resellers sell, distribute, or value add to the Adventure Works products.
+
+16. To view column values, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Profile**.
+
+	![Picture 41](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(30).png)
+
+17. Select the **BusinessType** column header.
+
+18. Notice the new pane beneath the data preview pane.
+
+19. Review the column statistics and value distribution in the data preview pane.
+
+20. Notice the data quality issue: there are two labels for warehouse (**Warehouse**, and the misspelled **Ware House**).
+
+	![Picture 51](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(31).png)
+
+21. Hover the cursor over the **Ware House** bar, and notice that there are five rows with this value.
+
+    You’ll apply a transformation to relabel these five rows in the **Load Data in Power BI Desktop** lab.
+
+22. In the **Queries** pane, select the **DimSalesTerritory** query.
+
+	![Picture 52](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(32).png)
+
+	The **DimSalesTerritory** table contains one row per sales region, including **Corporate HQ** (headquarters). Regions are assigned to a country, and countries are assigned to groups. In the **Model Data in Power BI Desktop** lab, you’ll create a hierarchy to support analysis at region, country, or group level.
+
+23. In the **Queries** pane, select the **FactResellerSales** query.
+
+	![Picture 54](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(33).png)
+
+	The **FactResellerSales** table contains one row per sales order line—a sales order contains one or more line items.
+
+24. Review the column quality for the **TotalProductCost** column, and notice that 8% of the rows are empty.
+
+	![Picture 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(34).png)
+
+	Missing **TotalProductCost** column values is a data quality issue. To address the issue, in the **Load Data in Power BI Desktop** lab, you’ll apply transformations to fill in missing values by using the product standard cost, which is stored in the related **DimProduct** table.
+
+25. Close the **Power Query Editor** window. Select **Not now**, to return to the **Power BI Desktop**.
 
 ### **Task 4: Get data from a CSV file**
 
-In this task, you'll create a new query based on CSV files.
+In this task you will create a query based on a CSV file.
 
-1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, select the **New Source** down-arrow, and then select **Text/CSV**.
+1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, click the **New Source** down-arrow, and then select **Text/CSV**.
 
-1. In the **Open** window, navigate to the **D:\PL300\Resources** folder, and select the **ResellerSalesTargets.csv** file. Select **Open**.
+	![Picture 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(35).png)
 
-1. In the **ResellerSalesTargets.csv** window, review the preview data. Select **OK**.
+2. In the **Open** window, navigate to the **C:\Allfiles\Resources** folder, and select the **ResellerSalesTargets.csv** file.
 
-1. In the **Queries** pane, notice the addition of the **ResellerSalesTargets** query.
-    
-    *The **ResellerSalesTargets** CSV file contains one row per salesperson, per year. Each row records 12 monthly sales targets (expressed in thousands). The business year for the Adventure Works company commences on July 1.*
+3. Click **Open**.
 
-1. Notice that no column contains empty values.  When there isn’t a monthly sales target, a hyphen character is stored instead.
+4. In the **ResellerSalesTargets.csv** window, review the preview data.
 
-1. Review the icons in each column header, to the left of the column name. The icons represent the column data type. **123** is whole number, and **ABC** is text.
+5. Click **OK**.
 
-     ![Picture 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image38.png)
+	![Picture 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(36).png)
+ 
 
-1. Repeat the steps to create a query based on the **D:\PL300\Resources\ColorFormats.csv** file.
-    
-    *The **ColorFormats** CSV file contains one row per product color. Each row records the HEX codes to format background and font colors.*
+6. In the **Queries** pane, notice the addition of the **ResellerSalesTargets** query.
 
-*You should now have two new queries, **ResellerSalesTargets** and **ColorFormats**.*
+	![Picture 72](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(37).png)
 
- ![Queries list](Linked_image_Files/01-all-queries-loaded.png)
+	The **ResellerSalesTargets** CSV file contains one row per salesperson, per year. Each row records 12 monthly sales targets (expressed in thousands). Note that the business year for the Adventure Works company commences on July 1.
+
+7. Notice that no column contains empty values.
+
+	When there isn’t a monthly sales target, a hyphen character is stored instead.
+
+8. Review the icons in each column header, to the left of the column name.
+
+	![Picture 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(38).png)
+
+	The icons represent the column data type. **123** is whole number, and **ABC** is text.
+
+	You’ll apply many transformations to achieve a different shaped result consisting of only three columns: **Date**, **EmployeeKey**, and **TargetAmount** in the **Load Data in Power BI Desktop** lab.
 
 ### **Task 5: Finish up**
 
-In this task, you'll complete the lab.
+In this task you will complete the lab.
 
 1. On the **View** ribbon tab, from inside the **Data Preview** group, uncheck the three data preview options that were previously enabled in this lab:
 
-    - Column quality
-    - Column distribution
-    - Column profile
+	- Column quality
 
-     ![Picture 76](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image40.png)
+	- Column distribution
 
-1. **Save** the Power BI Desktop file. When prompted to apply the pending changes, select **Apply Later**.
-    
-    *Tip: Applying the queries will load their data to the data model. You’re not ready to do that, as there are many transformations that must be applied first.*
+	- Column profile
+
+	![Picture 76](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(40).png)
+
+2. To save the Power BI Desktop file, in the **Power Query Editor** window, on the **File** backstage view, select **Save**.
+
+	![Picture 77](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(41).png)
+
+3. When prompted to apply the queries, click **Apply Later**.
+
+	![Picture 86](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(42).png)
+
+	Applying the queries will load their data to the data model. You’re not ready to do that, as there are many transformations that must be applied first.
+
+4. If you intend to start the next lab, leave Power BI Desktop open.
+
+	You’ll apply various transformations to the queries and then apply the queries to load them to the data model in the **Load Data in Power BI Desktop** lab.
