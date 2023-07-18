@@ -342,11 +342,11 @@ In this task you will design the second report page. When you’ve completed the
 
 	![Picture 43](Linked_image_Files/profit.png)
 
-  
-
 3. Add a slicer based on the **Region \| Region** field.
 
-4. Use the **Format** pane to enable the “Select All” option (in the **Selection** group).
+4. Use the **Visualizations > Format visual > Visual > Slicer Settings > Selection** pane to enable the “**Select All**” option.
+
+	![Picture 43](images/M6-T5-S4.png)
 
 5. Resize and position the slicer so it sits at the left side of the report page, and so it is about half the page height.
 
@@ -442,7 +442,7 @@ In this task you will design the third—and final—report page. When you’ve 
 
 	- Targets \| Variance Margin
 
-1. To format the visual, open the **Format** pane.
+1. To format the visual, open the **Format visual** pane.
    
    ![Picture 3](Linked_image_Files/formatvisual.png)
 
@@ -540,7 +540,7 @@ In this task you will explore the report that was published to Power BI.
 
 9. Hover the cursor over the bar chart visual, and then at the top-right, hover the cursor over the filter icon.
 
-	![Picture 95](Linked_image_Files/image(64).png)
+	![Picture 95](images/M6-Ex2-T2-S9.png)
 
 	*The filter icon allows you to understand all filters that are applied to the visual, including slicers and cross filters from other visual.*
 
@@ -550,7 +550,7 @@ In this task you will explore the report that was published to Power BI.
 
 12. Hover the cursor over the map visual, and then at the top-right, click the **Focus mode** icon.
 
-	![Picture 96](Linked_image_Files/image(65).png)
+	![Picture 96](images/M6-Ex2-T2-S12.png)
 
 	*Focus mode zooms the visual to full page size.*
 
@@ -562,7 +562,7 @@ In this task you will explore the report that was published to Power BI.
 
 15. Hover the cursor over the map visual again, and then at the top-right, click the ellipsis (…), and then notice the menu options.
 
-	![Picture 97](Linked_image_Files/image(67).png)
+	![Picture 97](images/M6-Ex2-T2-S15.png)
 
 16. Try out each of the options, except **Chat in Teams**.
 
