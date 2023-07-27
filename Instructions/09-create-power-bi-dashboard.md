@@ -111,7 +111,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
     ![Picture 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. In the **Open** window, navigate to the **C:\Allfiles\Labs\09-create-power-bi-dashboard\Starter** folder.
+8. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Labs\09-create-power-bi-dashboard\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -151,7 +151,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 22](Linked_image_Files/module09-image15.png)
 
-19. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
+19. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\MySolution** folder.
 
 20. Click **Save**.
 
@@ -167,7 +167,7 @@ In this task you will setup the environment for the lab by creating a dataset.
     
 1. Select **Upload > Browse**.
 
-4. In the **Open** window, navigate to the **C:\Allfiles\Labs\09-create-power-bi-dashboard\Starter** folder.
+4. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Labs\09-create-power-bi-dashboard\Starter** folder.
 
 5. Select the **Sales Analysis.pbix** file, and then click **Open**.
 
@@ -265,7 +265,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
     ![Picture 48](Linked_image_Files/09-create-power-bi-dashboard_image33.png)
 
-24. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **C:\Allfiles\Resources\AdventureWorksLogo_DataURL.txt** file.
+24. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Resources\AdventureWorksLogo_DataURL.txt** file.
 
     *You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
 
@@ -324,7 +324,7 @@ In this exercise you will first load sales order data for June 2020 into the **A
 
 In this task you will run a PowerShell script to update data in the **AdventureWorksDW2020** database.
 
-1. In File Explorer, inside the **C:\Allfiles\Setup** folder, right-click the **UpdateDatabase-2-AddSales.ps1** file, and then select **Run with PowerShell**.
+1. In File Explorer, inside the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Setup** folder, right-click the **UpdateDatabase-2-AddSales.ps1** file, and then select **Run with PowerShell**.
 
     ![Picture 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
 
