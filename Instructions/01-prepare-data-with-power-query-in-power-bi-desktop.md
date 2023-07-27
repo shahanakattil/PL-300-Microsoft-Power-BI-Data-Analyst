@@ -65,7 +65,7 @@ In this task, you start by opening a starter Power BI file (.pbix). The starter 
 
  	![Picture 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
 
-1. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\MySolution** folder.
 
 1. In the **File Name** box, enter **Sales Analysis**.
 
@@ -251,7 +251,7 @@ In this task you will create a query based on a CSV file.
 
 	![Picture 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(35).png)
 
-2. In the **Open** window, navigate to the **C:\Allfiles\Resources** folder, and select the **ResellerSalesTargets.csv** file.
+2. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Resources** folder, and select the **ResellerSalesTargets.csv** file.
 
 3. Click **Open**.
 
