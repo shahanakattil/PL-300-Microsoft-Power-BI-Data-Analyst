@@ -169,7 +169,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 3](Linked_image_Files/Lab7-image(11).png)
 
-18. In the **Save As** window, navigate to the **C:\AllFiles\MySolution** folder.
+18. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\MySolution** folder.
 
 19. Click **Save**.
 
