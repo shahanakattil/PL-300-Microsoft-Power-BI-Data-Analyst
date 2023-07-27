@@ -146,7 +146,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
 
-8. In the **Open** window, navigate to the **C:\Allfiles\Labs\06-design-report-in-power-bi-desktop\Starter** folder.
+8. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Labs\06-design-report-in-power-bi-desktop\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -172,7 +172,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 16. If prompted to apply changes, click **Apply Later**.
 
-17. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
+17. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\MySolution** folder.
 
 18. Click **Save**.
 
@@ -198,7 +198,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 	![Picture 1](Linked_image_Files/image(15).png)
 
-4. In the **Open** window, navigate to the **C:\AllFiles\Resources** folder.
+4. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\Resources** folder.
 
 5. Select the **AdventureWorksLogo.jpg** file, and then click **Open**.
 
