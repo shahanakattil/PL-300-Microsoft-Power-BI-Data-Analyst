@@ -99,6 +99,8 @@ In this task you will create queries based on SQL Server tables.
 
 4. If prompted for credentials, in the **SQL Server Database** window, select **Use my current credentials**. Then click on **Connect**.
 
+	>**Note**: if Pop-up appears click on **Ok**.
+
 4. In the **Navigator** window, at the left, expand the **AdventureWorksDW2020** database.
 
 	> **Note**: The **AdventureWorksDW2020** database is based on the **AdventureWorksDW2017** sample database. It has been modified to support the learning objectives of the course labs.
