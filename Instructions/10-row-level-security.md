@@ -96,7 +96,7 @@ In this task you will setup the environment for the lab.
 
 	![Picture 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. In the **Open** window, navigate to the **C:\AllFiles\Labs\10-row-level-security\Starter** folder.
+1. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\Labs\10-row-level-security\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -123,7 +123,7 @@ In this task you will setup the environment for the lab.
 1. If prompted to apply changes, click **Apply Later**.
 
 
-1. In the **Save As** window, navigate to the **C:\AllFiles\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\MySolution** folder.
 
 1. Click **Save**.
 
