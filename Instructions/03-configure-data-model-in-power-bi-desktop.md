@@ -688,3 +688,5 @@ In this task you will complete the lab.
 2. If prompted to apply queries, click **Apply Later**.
 
 3. If you intend to start the next lab, leave Power BI Desktop open.
+
+### **You have successfully completed the lab**
