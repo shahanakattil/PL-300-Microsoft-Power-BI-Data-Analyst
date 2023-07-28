@@ -126,7 +126,7 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 3. In the **Data** pane, notice that the table icon is a shade of blue (denoting a calculated table).
 
-	![Picture 10](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image11.png)
+	![Picture 10](images/salespersondata.png)
 
 	*Calculated tables are defined by using a DAX formula which returns a table. It’s important to understand that calculated tables increase the size of the data model because they materialize and store values. They’re recomputed whenever formula dependencies are refreshed, as will be the case for this data model when new (future) date values are loaded into tables.*
 
