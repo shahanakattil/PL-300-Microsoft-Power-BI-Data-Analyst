@@ -111,7 +111,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
     ![Picture 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. In the **Open** window, navigate to the **C:\Allfiles\Labs\09-create-power-bi-dashboard\Starter** folder.
+8. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Labs\09-create-power-bi-dashboard\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -151,11 +151,17 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 22](Linked_image_Files/module09-image15.png)
 
-19. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
+19. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\MySolution** folder.
 
 20. Click **Save**.
 
     ![Picture 9](Linked_image_Files/Module09-image20.png)
+
+    **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### **Task 3: Get started – Publish the report**
 
@@ -167,7 +173,7 @@ In this task you will setup the environment for the lab by creating a dataset.
     
 1. Select **Upload > Browse**.
 
-4. In the **Open** window, navigate to the **C:\Allfiles\Labs\09-create-power-bi-dashboard\Starter** folder.
+4. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Labs\09-create-power-bi-dashboard\Starter** folder.
 
 5. Select the **Sales Analysis.pbix** file, and then click **Open**.
 
@@ -265,7 +271,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
     ![Picture 48](Linked_image_Files/09-create-power-bi-dashboard_image33.png)
 
-24. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **C:\Allfiles\Resources\AdventureWorksLogo_DataURL.txt** file.
+24. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Resources\AdventureWorksLogo_DataURL.txt** file.
 
     *You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
 
@@ -280,6 +286,12 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 27. Organize the tiles so that the logo appears at the top-left, with the **Sales YTD** tile beneath it, and the **Sales, Profit Margin** tile at the right.
 
     ![Picture 52](Linked_image_Files/module09-26.png)
+
+    **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### **Task 5: Edit tile details**
 
@@ -324,7 +336,7 @@ In this exercise you will first load sales order data for June 2020 into the **A
 
 In this task you will run a PowerShell script to update data in the **AdventureWorksDW2020** database.
 
-1. In File Explorer, inside the **C:\Allfiles\Setup** folder, right-click the **UpdateDatabase-2-AddSales.ps1** file, and then select **Run with PowerShell**.
+1. In File Explorer, inside the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Setup** folder, right-click the **UpdateDatabase-2-AddSales.ps1** file, and then select **Run with PowerShell**.
 
     ![Picture 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
 
@@ -374,4 +386,4 @@ In this task you will review the dashboard to notice updated sales.
 
     ![Picture 33](Linked_image_Files/module9.30.png)
 
-    
+**You have successfully completed the lab**

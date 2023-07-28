@@ -98,7 +98,7 @@ In this task you will setup the environment for the lab.
 
  	![Picture 8](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image4.png)
 
-1. In the **Open** window, navigate to the **C:\Allfiles\Labs\03-configure-data-model-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Labs\03-configure-data-model-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -131,11 +131,18 @@ In this task you will setup the environment for the lab.
 
     ![Picture 22](Linked_image_Files/applychanges.png)
 
-1. In the **Save As** window, navigate to the **C:\Allfiles\MySolution** folder.
+1. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\MySolution** folder.
 
 1. Click **Save**.
 
  	![Picture 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(8).png)
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions 
+       in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### **Task 2: Create model relationships**
 
@@ -508,7 +515,7 @@ In this task you will create two quick measures to calculate profit and profit m
 
 5. Drag the **Cost** field into the **Value to Subtract** box.
 
-	![Picture 368](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(48).png)
+	![Picture 368](Linked_image_Files/pl-300-ex-4-task-1-step-5.png)
 
 6. Click **OK**.
 
@@ -610,11 +617,11 @@ In this task you will create a many-to-many relationship between the **Salespers
 
 10. Check the **Apply Security Filter in Both Directions** checkbox.
 
-	![Picture 381](Linked_image_Files/image(12).png)
+	![Picture 381](Linked_image_Files/pl-300-ex-4-task-2-step-10.png)
 
 11. Click **OK**.
 
-	![Picture 335](Linked_image_Files/image(13).png)
+	![Picture 335](Linked_image_Files/pl-300-ex-4-task-2-step-17.png)
 
 12. Notice that the relationship has a double arrowhead.
 
@@ -630,11 +637,11 @@ In this task you will create a many-to-many relationship between the **Salespers
 
 16. In the **Edit Relationship** window, uncheck the **Make This Relationship Active** checkbox.
 
-	![Picture 383](Linked_image_Files/image(15).png)
+	![Picture 383](Linked_image_Files/pl-300-ex-4-task-2-step-16.png)
 
 17. Click **OK**.
 
-	![Picture 5696](Linked_image_Files/image(16).png)
+	![Picture 5696](Linked_image_Files/pl-300-ex-4-task-2-step-17.png)
 
 	*The filter propagation will now follow the only active path.*
 

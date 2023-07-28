@@ -136,7 +136,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
 
-8. In the **Open** window, navigate to the **C:\AllFiles\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** folder.
+8. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -169,11 +169,17 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 3](Linked_image_Files/Lab7-image(11).png)
 
-18. In the **Save As** window, navigate to the **C:\AllFiles\MySolution** folder.
+18. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\MySolution** folder.
 
 19. Click **Save**.
 
 	![Picture 2](Linked_image_Files/Lab7-image(12).png)
+
+**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### **Task 3: Sync slicers**
 
@@ -534,3 +540,5 @@ In this task you will complete the lab.
 	![Picture 23](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image56.png)
 
 2. Leave the Microsoft Edge browser window open.
+
+**You have successfully completed the lab**
