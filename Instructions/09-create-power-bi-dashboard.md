@@ -54,7 +54,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
 3. Click **Sign In** (located at the top-right corner).
 
-    ![Picture 41](Linked_image_Files/09-create-power-bi-dashboard_image3.png)
+    ![Picture 41](Linked_image_Files/Task1step3.png)
 
 4. If prompted, enter the account details 
 
@@ -156,10 +156,11 @@ In this task you will setup the environment for the lab by opening the starter r
 20. Click **Save**.
 
     ![Picture 9](Linked_image_Files/Module09-image20.png)
+    
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 
-    **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
@@ -187,7 +188,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
 2. In the **Overview** page, set the **Year** slicer to **FY2020**.
 
-    ![Picture 4](Linked_image_Files/09-create-power-bi-dashboard_image17.png)
+    ![Picture 4](Linked_image_Files/yearfy2020.png)
 
 3. Set the **Region** slicer to **Select All**.
 
@@ -231,7 +232,7 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
 15. Notice the response of **(Blank)**.
 
-    ![Picture 14](Linked_image_Files/09-create-power-bi-dashboard_image25.png)
+    ![Picture 14](Linked_image_Files/blank.png)
 
     *You may recall you added the **Sales YTD** measure in the **Create DAX Calculations in Power BI Desktop, Part 2** lab. This measure is a Time Intelligence expression and it so requires a filter on the **Date** table to produce a result.*
 
@@ -241,55 +242,56 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
 17. Notice the response is now **$33M**.
 
-    > **Note:** You might get the different value in response.
+     ![Picture 13](Linked_image_Files/33M.png)
 
-    ![Picture 13](Linked_image_Files/09-create-power-bi-dashboard_image27.png)
+     > **Note:** You might get the different value in response.
 
-18. To pin the response to the dashboard, at the top-right corner, click **Pin Visual**.
+19. To pin the response to the dashboard, at the top-right corner, click **Pin Visual**.
 
     ![Picture 15](Linked_image_Files/module09pinvisual.png)
 
-19. When prompted to pin the tile to the dashboard, click **Pin**.
+20. When prompted to pin the tile to the dashboard, click **Pin**.
 
     ![Picture 17](Linked_image_Files/module09pintodasboard.png)
 
-20. To return to the dashboard, at the top-left corner, click **Exit Q&amp;A**.
+21. To return to the dashboard, at the top-left corner, click **Exit Q&amp;A**.
 
     ![Picture 16](Linked_image_Files/module09exitQA.png)
 
-21. To add the company logo, on the menu bar, click **Edit**, and then select **Add a Tile**.
+22. To add the company logo, on the menu bar, click **Edit**, and then select **Add a Tile**.
 
     ![Picture 46](Linked_image_Files/module19image20.png)
 
     *Using this technique to add a dashboard tile lets you embellish your dashboard with media, including web content, images, richly-formatted text boxes, and video (using YouTube or Vimeo links).*
 
-22. In the **Add a Tile** pane (located at the right), select the **Image** tile.
+23. In the **Add a Tile** pane (located at the right), select the **Image** tile.
 
-    ![Picture 47](Linked_image_Files/09-create-power-bi-dashboard_image32.png)
+    ![Picture 47](Linked_image_Files/image.png)
 
-23. Click **Next**.
+24. Click **Next**.
 
     ![Picture 48](Linked_image_Files/09-create-power-bi-dashboard_image33.png)
 
-24. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Resources\AdventureWorksLogo_DataURL.txt** file.
+25. In the **Add Image Tile** pane, in the **URL** box, enter the complete URL found in the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Resources\AdventureWorksLogo_DataURL.txt** file.
 
     *You can embed an image by using its URL, or you can use a data URL, which embeds content inline.*
 
-25. At the bottom of the pane, click **Apply**.
+26. At the bottom of the pane, click **Apply**.
 
-    ![Picture 49](Linked_image_Files/09-create-power-bi-dashboard_image34.png)
+    ![Picture 49](Linked_image_Files/apply.png)
 
-26. To resize the logo tile, drag the bottom-right corner, and resize the tile to become one unit wide, and two units high.
+27. To resize the logo tile, drag the bottom-right corner, and resize the tile to become one unit wide, and two units high.
 
     *Tile sizes are constrained into a rectangular shape. It’s only possible to resize into multiples of the rectangular shape.*
 
-27. Organize the tiles so that the logo appears at the top-left, with the **Sales YTD** tile beneath it, and the **Sales, Profit Margin** tile at the right.
+28. Organize the tiles so that the logo appears at the top-left, with the **Sales YTD** tile beneath it, and the **Sales, Profit Margin** tile at the right.
 
     ![Picture 52](Linked_image_Files/module09-26.png)
 
-    **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+
 - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
@@ -307,11 +309,11 @@ In this task you will edit the details of two tiles.
 
 3. Click **Apply**.
 
-    ![Picture 20](Linked_image_Files/09-create-power-bi-dashboard_image38.png)
+    ![Picture 20](Linked_image_Files/apply1.png)
 
 4. Notice that the **Sales YTD** tile displays a subtitle.
 
-    ![Picture 21](Linked_image_Files/09-create-power-bi-dashboard_image39.png)
+    ![Picture 21](Linked_image_Files/33withy.png)
 
 5. Edit the tile details for the **Sales, Profit Margin** tile.
 
@@ -321,7 +323,7 @@ In this task you will edit the details of two tiles.
 
 7. Click **Apply**.
 
-    ![Picture 23](Linked_image_Files/09-create-power-bi-dashboard_image41.png)
+    ![Picture 23](Linked_image_Files/apply1.png)
 
 8. Notice that the tile describes the last refresh time (which done when loading the data model in Power BI Desktop).
 
