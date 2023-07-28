@@ -70,7 +70,7 @@ In this task you will setup the environment for the lab.
 
 1. Click **Open**.
 
- 	![Picture 35](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image5.png)
+ 	![Picture 35](Linked_image_Files/OPEN2_image5.png)
 
 1. Close any informational windows that may open.
 
