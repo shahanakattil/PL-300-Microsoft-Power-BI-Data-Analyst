@@ -169,7 +169,7 @@ In this task you will create a scatter chart that can be animated.
 
 	- Play Axis: **Date \| Quarter**
 
-	![Picture 39](Linked_image_Files/pl300-14.png)
+	![Picture 39](Linked_image_Files/pl-300-ex-033.png)
 
 	*The chart can be animated when a field is added to the **Play Axis** well/area.*
 
@@ -223,7 +223,7 @@ In this task you will create a forecast to determine possible future sales reven
 
 	-Y Axis: **Sales | Sales** 
 
-	![Picture 46](Linked_image_Files/pl-300-Exercise-3.png)
+	![Picture 46](Linked_image_Files/pl-300-Exercise-03.png)
 
 4. In the **Filters** pane, add the **Date \| Year** field to the **Filters On This Page** well/area.
 
