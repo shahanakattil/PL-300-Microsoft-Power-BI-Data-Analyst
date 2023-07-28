@@ -59,8 +59,8 @@ In this task you will setup the environment for the lab by signing in to Power B
  	![Picture 5](Linked_image_Files/pl300-02.png)
 
 1. Enter the account details provided to you.
-   * Username/Email: <inject key="Username"></inject>
-   * Password: <inject key="Password"></inject>
+   * Username/Email: <inject</inject> key="Username"></inject>
+   * Password: <inject</inject> key="Password"></inject>
 
 1. If prompted to update the password, reenter the provided password, and then enter and confirm a new password.
 
@@ -84,7 +84,7 @@ In this task, you'll set up the environment for the lab by creating a dataset. *
 
 2. Select **Upload > Browse**.
 
-3. Navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\Labs\08-create-power-bi-dashboard\Solution** folder.
+3. Navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\Labs\08-create-power-bi-dashboard\Starter** folder.
 
 4. Select the **Sales Analysis.pbix** file, and then click **Open**.
 
@@ -220,11 +220,11 @@ In this task you will create a forecast to determine possible future sales reven
 
 3. Add the following fields to the visual wells/areas:
 
-	- Axis: **Date | Date**
+	-X Axis: **Date | Date**
 
-	- Values: **Sales | Sales** 
+	-Y Axis: **Sales | Sales** 
 
-	![Picture 46](Linked_image_Files/pl300-20.png)
+	![Picture 46](Linked_image_Files/pl-300-Exercise-3.png)
 
 4. In the **Filters** pane, add the **Date \| Year** field to the **Filters On This Page** well/area.
 
@@ -285,3 +285,9 @@ In this task you will complete the lab.
 	![Picture 23](Linked_image_Files/pl300-26.png)
 
 4.  Close Power BI Desktop.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+
+- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
