@@ -188,7 +188,7 @@ In this task you will create the **Date** table.
 
 2. On the **Home** ribbon tab, from inside the **Calculations** group, click **New Table**.
 
-	![Picture 5](images/newtable.png)
+   ![Picture 30](images/newtable.png)
 
 3. In the formula bar, enter the following:
 
@@ -197,7 +197,7 @@ In this task you will create the **Date** table.
 	CALENDARAUTO(6)
 	```
 
-        ![Picture 6](images/formulabar.png)
+   ![Picture 30](images/formulabar.png)
 	
 *The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behavior scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data is stored.*
 
@@ -205,11 +205,12 @@ In this task you will create the **Date** table.
 
 4. Notice the column of date values.
 
-	![Picture 7](imagesFiles/05-create-dax-calculations-in-power-bi-desktop_image17.png)
+
+   ![Picture 7](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image17.png)
 
 	*The dates shown are formatted using US regional settings (i.e. mm/dd/yyyy).*
 
-5. At the bottom-left corner, in the status bar, notice the table statistics, confirming that 1826 rows of data have been generated, which represents five full years’ data.
+6. At the bottom-left corner, in the status bar, notice the table statistics, confirming that 1826 rows of data have been generated, which represents five full years’ data.
 
 	![Picture 9](images/table15.png)
 
