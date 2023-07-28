@@ -68,7 +68,7 @@ In this task you will setup the environment for the lab.
 
 1. Click **Open**.
 
-    ![Picture 8](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image5.png)
+    ![Picture 8](images/openimage.png)
 
 1. Close any informational windows that may open.
 
@@ -107,11 +107,11 @@ In this task you will create a matrix visual to support testing your new measure
 
 1. In Power BI Desktop, in Report view, create a new report page.
 
-    ![Picture 1](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image9.png)
+    ![Picture 1](images/save.png)
 
 2. On **Page 3**, add a matrix visual.
 
-    ![Picture 13](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image10.png)
+    ![Picture 13](images/visuvalizationtab.png)
 
 3. Resize the matrix visual to fill the entire page.
 
