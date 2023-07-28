@@ -59,9 +59,8 @@ In this task you will setup the environment for the lab by signing in to Power B
  	![Picture 5](Linked_image_Files/pl300-02.png)
 
 1. Enter the account details provided to you.
-   * Username/Email: <inject</inject> key="Username"></inject>
-   * Password: <inject</inject> key="Password"></inject>
-
+   * Username/Email:  <inject key="Username"></inject>
+   * Password:  <inject key="Password"></inject>
 1. If prompted to update the password, reenter the provided password, and then enter and confirm a new password.
 
  	*Important: Be sure to record your new password.*
@@ -291,3 +290,6 @@ In this task you will complete the lab.
 - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+
+  **You have successfully completed the lab**
