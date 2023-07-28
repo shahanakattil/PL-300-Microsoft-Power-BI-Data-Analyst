@@ -224,7 +224,7 @@ In this task you will create a forecast to determine possible future sales reven
 
 	- Values: **Sales | Sales** 
 
-	![Picture 46](Linked_image_Files/pl300-20.png)
+	![Picture 46](Linked_image_Files/pl-300-Exercise-3.png)
 
 4. In the **Filters** pane, add the **Date \| Year** field to the **Filters On This Page** well/area.
 
