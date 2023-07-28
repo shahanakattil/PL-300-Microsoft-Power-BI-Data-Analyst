@@ -621,7 +621,7 @@ In this task you will create a many-to-many relationship between the **Salespers
 
 11. Click **OK**.
 
-	![Picture 335](Linked_image_Files/image(13).png)
+	![Picture 335](Linked_image_Files/pl-300-ex-4-task-2-step-17.png)
 
 12. Notice that the relationship has a double arrowhead.
 
