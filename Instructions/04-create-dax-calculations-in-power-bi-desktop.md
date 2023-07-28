@@ -184,11 +184,11 @@ In this task you will create the **Date** table.
 
 1. Switch to Data view.
 
-	![Picture 29](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image14.png)
+	![Picture 29](images/viewpoint.png)
 
 2. On the **Home** ribbon tab, from inside the **Calculations** group, click **New Table**.
 
-	![Picture 5](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image15.png)
+	![Picture 5](images/newtable.png)
 
 3. In the formula bar, enter the following:
 
@@ -197,9 +197,7 @@ In this task you will create the **Date** table.
 	CALENDARAUTO(6)
 	```
 
-
-![Picture 6](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image16.png)
-
+        ![Picture 6](images/formulabar.png)
 	
 *The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behavior scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data is stored.*
 
@@ -207,13 +205,13 @@ In this task you will create the **Date** table.
 
 4. Notice the column of date values.
 
-	![Picture 7](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image17.png)
+	![Picture 7](imagesFiles/05-create-dax-calculations-in-power-bi-desktop_image17.png)
 
 	*The dates shown are formatted using US regional settings (i.e. mm/dd/yyyy).*
 
 5. At the bottom-left corner, in the status bar, notice the table statistics, confirming that 1826 rows of data have been generated, which represents five full years’ data.
 
-	![Picture 9](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image18.png)
+	![Picture 9](images/table15.png)
 
 ### **Task 4:** **Create calculated columns**
 
@@ -239,7 +237,7 @@ In this task you will add additional columns to enable filtering and grouping by
 
 3. Verify that the new column was added.
 
-	![Picture 12](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image20.png)
+	![Picture 12](images/year15.png)
 
 4. Perform step-1 again, then use the snippets file definitions to create the following two calculated columns for the **Date** table:
    
@@ -249,7 +247,7 @@ In this task you will add additional columns to enable filtering and grouping by
 
 	- Month
 
-	![Picture 14](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image21.png)
+	![Picture 14](images/quartermonth17.png)
 	
 	> **Note:** For creating the mentioned above colums, you can copy the formula from the the snippets file, located in **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.
 
@@ -257,13 +255,13 @@ In this task you will add additional columns to enable filtering and grouping by
 
 6. To create a new report page, at the bottom-left, click the plus icon.
 
-	![Picture 15](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image22.png)
+	![Picture 15](images/page1.png)
 
 7. To add a matrix visual to the new report page, in the **Visualizations** pane, select the matrix visual type.
 
 	*Tip: You can hover the cursor over each icon to reveal a tooltip describing the visual type.*
 
-	![Picture 51](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image23.png)
+	![Picture 51](images/visuvalizationtab.png)
 
 8. In the **Data** pane, from inside the **Date** table, drag the **Year** field into the **Rows** well/area.
 
