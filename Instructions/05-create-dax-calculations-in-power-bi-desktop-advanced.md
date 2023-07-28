@@ -68,7 +68,7 @@ In this task you will setup the environment for the lab.
 
 1. Click **Open**.
 
-    ![Picture 8](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image5.png)
+    ![Picture 8](images/openimage.png)
 
 1. Close any informational windows that may open.
 
@@ -107,11 +107,11 @@ In this task you will create a matrix visual to support testing your new measure
 
 1. In Power BI Desktop, in Report view, create a new report page.
 
-    ![Picture 1](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image9.png)
+    ![Picture 1](images/save.png)
 
 2. On **Page 3**, add a matrix visual.
 
-    ![Picture 13](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image10.png)
+    ![Picture 13](images/visuvalizationtab.png)
 
 3. Resize the matrix visual to fill the entire page.
 
@@ -432,3 +432,13 @@ In this task you will complete the lab.
 6. If you intend to start the next lab, leave Power BI Desktop open.
 
     *You’ll create a report based on the data model in the **Design a Report in Power BI Desktop, Part 1** lab.*
+
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+
+- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+**You have successfully completed the lab**
