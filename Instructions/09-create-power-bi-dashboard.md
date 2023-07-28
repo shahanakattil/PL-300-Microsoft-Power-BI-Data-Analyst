@@ -157,6 +157,12 @@ In this task you will setup the environment for the lab by opening the starter r
 
     ![Picture 9](Linked_image_Files/Module09-image20.png)
 
+    **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ### **Task 3: Get started – Publish the report**
 
 In this task you will setup the environment for the lab by creating a dataset.
@@ -280,6 +286,12 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 27. Organize the tiles so that the logo appears at the top-left, with the **Sales YTD** tile beneath it, and the **Sales, Profit Margin** tile at the right.
 
     ![Picture 52](Linked_image_Files/module09-26.png)
+
+    **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### **Task 5: Edit tile details**
 
