@@ -540,3 +540,5 @@ In this task you will complete the lab.
 	![Picture 23](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image56.png)
 
 2. Leave the Microsoft Edge browser window open.
+
+**You have successfully completed the lab**
