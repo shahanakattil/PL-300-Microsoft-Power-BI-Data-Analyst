@@ -100,7 +100,7 @@ In this task you will setup the environment for the lab.
 
 1. Click **Save**.
 
-	![Picture 13](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image8.png)
+	![Picture 13](images/save.png)
 
 ### **Task 2: Create the Salesperson table**
 
