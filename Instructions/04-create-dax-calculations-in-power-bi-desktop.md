@@ -108,11 +108,11 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 1. In Power BI Desktop, in Report view, on the **Modeling** ribbon, from inside the **Calculations** group, click **New Table**.
 
-	![Picture 1](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image9.png)
+	![Picture 1](image/newtable1.png)
 
 2. In the formula bar (which opens directly beneath the ribbon when creating or editing calculations), type **Salesperson =**, press **Shift+Enter**, type **'Salesperson (Performance)'**, and then press **Enter**.
 
-	![Picture 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
+	![Picture 4](image/salesperson.png)
 
 	*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
