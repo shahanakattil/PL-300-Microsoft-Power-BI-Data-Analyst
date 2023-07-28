@@ -386,4 +386,4 @@ In this task you will review the dashboard to notice updated sales.
 
     ![Picture 33](Linked_image_Files/module9.30.png)
 
-    
+**You have successfully completed the lab**
