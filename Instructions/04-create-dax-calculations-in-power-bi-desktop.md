@@ -474,7 +474,7 @@ In this task, you will create simple measures. Simple measures aggregate values 
 
 17. Verify that the results looks sensible and are correctly formatted.
 
-	![Picture 39](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image43.png)
+	![Picture 39](images/orderlines.png)
 
 ### **Task 2: Create additional measures**
 
@@ -482,7 +482,7 @@ In this task you will create additional measures that use more complex formulas.
 
 1. In Report view, select **Page 1**.
 
-	![Picture 40](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image44.png)
+	![Picture 40](images/pageee.png)
 
 2. Review the table visual, noticing the total for the **Target** column.
 
@@ -492,7 +492,7 @@ In this task you will create additional measures that use more complex formulas.
 
 3. Select the table visual, and then in the **Visualizations** pane, remove the **Target** field.
 
-	![Picture 42](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image46.png)
+	![Picture 42](images/targetss.png)
 
 4. Rename the **Targets \| Target** column as **Targets \| TargetAmount**.
 
@@ -551,13 +551,13 @@ In this task you will create additional measures that use more complex formulas.
 
 15. At the top-right corner of the **Data** pane, collapse and then expand open the pane.
 
-	![Picture 45](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image49.png)
+	![Picture 45](images/fields.png)
 
 	*Collapsing and re-opening the pane resets the content.*
 
 16. Notice that the **Targets** table now appears at the top of the list.
 
-	![Picture 46](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image50.png)
+	![Picture 46](images/fields.png)
 
 	*Tables that comprise only visible measures are automatically listed at the top of the list.*
 
