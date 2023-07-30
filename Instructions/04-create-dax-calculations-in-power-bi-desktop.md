@@ -94,7 +94,7 @@ In this task you will setup the environment for the lab.
 
 1. If prompted to apply changes, click **Apply Later**.
 
-	![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
+	![Picture 22](images/applylater.png)
 
 1. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\MySolution** folder.
 
@@ -222,7 +222,7 @@ In this task you will add additional columns to enable filtering and grouping by
 
 1. On the **Table Tools** contextual ribbon, from inside the **Calculations** group, click **New Column**.
 
-	![Picture 11](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image19.png)
+	![Picture 11](images/newcolumn.png)
 
 2. In the formula bar, type the following (or copy from the snippets file), and then press **Enter**:
 
@@ -266,19 +266,19 @@ In this task you will add additional columns to enable filtering and grouping by
 
 8. In the **Data** pane, from inside the **Date** table, drag the **Year** field into the **Rows** well/area.
 
-	![Picture 17](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image24.png)
+	![Picture 17](images/year.png)
 
 9. Drag the **Month** field into the **Rows** well/area, directly beneath the **Year** field.
 
-	![Picture 18](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image25.png)
+	![Picture 18](images/year.png)
 
 10. At the top-right of the matrix visual (or bottom, depending on the location of the visual), click the forked-double arrow icon (which will expand all years down one level).
 
-	![Picture 19](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image26.png)
+	![Picture 19](images/doublearrow.png)
 
 11. Notice that the years expand to months, and that the months are sorted alphabetically rather than chronologically.
 
-	![Picture 20](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image27.png)
+	![Picture 20](images/yearrrr.png)
 
 	*By default, text values sort alphabetically, numbers sort from smallest to largest, and dates sort from earliest to latest.*
 
@@ -296,7 +296,7 @@ In this task you will add additional columns to enable filtering and grouping by
 
 14. In Data view, verify that the new column contains numeric values (e.g. 201707 for July 2017, etc.).
 
-	![Picture 21](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image28.png)
+	![Picture 21](images/monthkeyy.png)
 
 15. Switch back to Report view.
 
@@ -304,7 +304,7 @@ In this task you will add additional columns to enable filtering and grouping by
 
 17. On the **Column Tools** contextual ribbon, from inside the **Sort** group, click **Sort by Column**, and then select **MonthKey**.
 
-	![Picture 22](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image29.png)
+	![Picture 22](images/column.png)
 
 18. In the matrix visual, notice that the months are now chronologically sorted.
 
