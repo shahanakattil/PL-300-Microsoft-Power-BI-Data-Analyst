@@ -308,7 +308,7 @@ In this task you will add additional columns to enable filtering and grouping by
 
 18. In the matrix visual, notice that the months are now chronologically sorted.
 
-	![Picture 23](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image30.png)
+	![Picture 23](images/yearfy.png)
 
 ### **Task 5:** **Complete the Date table**
 
@@ -327,7 +327,7 @@ In this task, you will complete the design of the **Date** table by hiding a col
 
 	- Month
 
-	![Picture 24](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image31.png)
+	![Picture 24](images/fiscal.png)
 
 6. Create the following two model relationships:
 
@@ -351,15 +351,15 @@ In this task, you will mark the **Date** table as a date table.
 
 3. On the **Table Tools** contextual ribbon, from inside the **Calendars** group, click **Mark as Date Table**, and then select **Mark as Date Table**.
 
-	![Picture 8](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image32.png)
+	![Picture 8](images/markasdate.png)
 
 4. In the **Mark as Date Table** window, in the **Date Column** dropdown list, select **Date**.
 
-	![Picture 37](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image33.png)
+	![Picture 37](images/datecooo.png)
 
 5. Click **OK**.
 
-	![Picture 26](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image34.png)
+	![Picture 26](images/clickok.png)
 
 6. Save the Power BI Desktop file.
 
@@ -379,17 +379,17 @@ In this task, you will create simple measures. Simple measures aggregate values 
 
 	*The labs use a shorthand notation to reference a field. It will look like this: **Sales \| Unit Price**. In this example, **Sales** is the table name and **Unit Price** is the field name.*
 
-	![Picture 27](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image35.png)
+	![Picture 27](images/unirprice.png)
 
 	*You may recall that in the **Model Data in Power BI Desktop** lab, you set the **Unit Price** column to summarize by **Average**. The result you see in the matrix visual is the monthly average unit price (sum of unit price values divided by the count of unit prices).*
 
 2. In the visual fields pane (located beneath the **Visualizations** pane), in the **Values** field well/area, notice that **Unit Price** is listed.
 
-	![Picture 28](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image36.png)
+	![Picture 28](images/values.png)
 
 3. Click the down-arrow for **Unit Price**, and then notice the available menu options.
 
-	![Picture 30](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image37.png)
+	![Picture 30](images/removef.png)
 
 	*Visible numeric columns allow report authors at report design time to decide how column values will summarize (or not). It can result in inappropriate reporting. Some data modellers don’t like leaving things to chance, however, and choose to hide these columns and instead expose aggregation logic defined in measures. It’s the approach you will now take in this lab.*
 
@@ -411,7 +411,7 @@ In this task, you will create simple measures. Simple measures aggregate values 
 
 8. In the **Values** well, open the context menu for the **Avg Price** field, and notice that it is not possible to change the aggregation technique.
 
-	![Picture 32](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image39.png)
+	![Picture 32](images/average.png)
 
 	*It’s not possible to modify the aggregation behavior of a measure.*
 
@@ -456,7 +456,7 @@ In this task, you will create simple measures. Simple measures aggregate values 
 
 14. In Report view, in the **Values** well/area of the matrix visual, for the **Unit Price** field, click **X** to remove it.
 
-	![Picture 38](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image42.png)
+	![Picture 38](images/valueee.png)
 
 15. Increase the size of the matrix visual to fill the page width and height.
 
