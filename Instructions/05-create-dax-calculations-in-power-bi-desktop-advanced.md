@@ -93,13 +93,13 @@ In this task you will setup the environment for the lab.
 
 1. If prompted to apply changes, click **Apply Later**.
 
-    ![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
+    ![Picture 22](images/applylater.png)
 
 1. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\MySolution** folder.
 
 1. Click **Save**.
 
-    ![Picture 2](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image8.png)
+    ![Picture 2](images/save.png)
 
 ### **Task 2: Create a matrix visual**
 
@@ -123,7 +123,7 @@ In this task you will create a matrix visual to support testing your new measure
 
 6. To expand the entire hierarchy, at the top-right of the matrix visual, click the forked-double arrow icon twice.
 
-    ![Picture 47](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image11.png)
+    ![Picture 47](images/arrowww.png)
 
     *You may recall that the **Regions** hierarchy has the levels **Group**, **Country**, and **Region**.*
 
@@ -135,11 +135,11 @@ In this task you will create a matrix visual to support testing your new measure
 
 9. Set the **Stepped Layout** property to **Off**.
 
-    ![Picture 49](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image14.png)
+    ![Picture 49](images/stepped.png)
 
 10. Verify that the matrix visual now has four column headers.
 
-    ![Picture 50](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image15.png)
+    ![Picture 50](images/group.png)
 
     *At Adventure Works, the sales regions are organized into groups, countries, and regions. All countries—except the United States—have just one region, which is named after the country. As the United States is such a large sales territory, it’s divided into five sales regions.*
 
@@ -168,7 +168,7 @@ In this task you will create several measures with DAX expressions that use the 
 
 2. Add the **Sales All Region** measure to the matrix visual.
 
-    ![Picture 52](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image16.png)
+    ![Picture 52](images/country.png)
 
 3. Notice that the **Sales All Region** measure computes the total of all region sales for each region, country (subtotal) and group (subtotal).
 
@@ -200,7 +200,7 @@ DIVIDE(
 
 7. In the matrix visual, review the **Sales % All Region** measure values.
 
-    ![Picture 53](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image17.png)
+    ![Picture 53](images/allregion.png)
 
 8. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
@@ -224,7 +224,7 @@ DIVIDE(
 
 11. Notice that only the United States’ regions produce a value which is not 100%.
 
-    ![Picture 54](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image18.png)
+    ![Picture 54](images/northamrica.png)
 
     *You may recall that only the United States has multiple regions. All other countries comprise a single region, which explains why they are all 100%.*
 
