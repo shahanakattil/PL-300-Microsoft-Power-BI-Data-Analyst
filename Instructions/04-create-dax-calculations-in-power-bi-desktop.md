@@ -50,55 +50,55 @@ In this task you will setup the environment for the lab.
 
  	![Picture 50](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image1.png)
 
-1. To close the getting started window, at the top-left of the window, click **X**.
+2. To close the getting started window, at the top-left of the window, click **X**.
 
  	![Picture 49](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image2.png)
 
-1. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
+3. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
 
-1. Select **Open Report**.
+4. Select **Open Report**.
 
  	![Picture 48](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image3.png)
 
-1. Click **Browse Reports**.
+5. Click **Browse Reports**.
 
  	![Picture 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-1. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Starter** folder.
+6. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Starter** folder.
 
-1. Select the **Sales Analysis** file.
+7. Select the **Sales Analysis** file.
 
-1. Click **Open**.
+8. Click **Open**.
 
  	![Picture 35](images/openimage.png)
 
-1. Close any informational windows that may open.
+9. Close any informational windows that may open.
 
-1. Notice the yellow warning message beneath the ribbon.
+10. Notice the yellow warning message beneath the ribbon.
 
 	*The message alerts you to the fact that the queries have not been applied to load as model tables.*
 
-1. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
+11. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
 
 	![Picture 8](Linked_image_Files/discard-changes-1.png)
 
-1. Now you will see another pop up as shown below, select **Discard**.
+12. Now you will see another pop up as shown below, select **Discard**.
 
 	![Picture 8](Linked_image_Files/discard-changes-2.png)
 
-1. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
+13. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
 
-1. Select **Save As**.
+14. Select **Save As**.
 
  	![Picture 34](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image6.png)
 
-1. If prompted to apply changes, click **Apply Later**.
+15. If prompted to apply changes, click **Apply Later**.
 
 	![Picture 22](images/applylater.png)
 
-1. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\MySolution** folder.
+16. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\Allfiles\MySolution** folder.
 
-1. Click **Save**.
+17. Click **Save**.
 
 	![Picture 13](images/save.png)
 
@@ -138,27 +138,27 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 5. Notice that the **Salesperson** table is available (take care, it might be hidden from view, in which case scroll horizontally to locate it).
 
-1. Click on **Manage relationships** under the Home tab.
+6. Click on **Manage relationships** under the Home tab.
     
       ![](Linked_image_Files/upd-2.png)
     
-1. Under Manage relationships, select **New**.
+7. Under Manage relationships, select **New**.
 
       ![](Linked_image_Files/upd-3.png)
    
-1. Create a relationship from the **Salesperson \| EmployeeKey** column to the **Sales \| EmployeeKey** column.
+8. Create a relationship from the **Salesperson \| EmployeeKey** column to the **Sales \| EmployeeKey** column.
 
       ![](Linked_image_Files/upd-5.png)
 
-7. Right-click the inactive relationship between the **Salesperson (Performance)** and **Sales (1)** tables, and then select **Delete (2)**.
+9. Right-click the inactive relationship between the **Salesperson (Performance)** and **Sales (1)** tables, and then select **Delete (2)**.
 
       ![](Linked_image_Files/upd-4.png)
 
-8. When prompted to confirm the deletion, click **Delete**.
+10. When prompted to confirm the deletion, click **Delete**.
 
 	![Picture 3](Linked_image_Files/upd-6.png)
 
-9. In the **Salesperson** table, multi-select the following columns, and then hide them (set the **Is Hidden** property to **Yes**):
+11. In the **Salesperson** table, multi-select the following columns, and then hide them (set the **Is Hidden** property to **Yes**):
 
 	- EmployeeID
 
@@ -168,13 +168,13 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
       ![Picture 3](Linked_image_Files/upd-7.png)
 
-10. In the model diagram, select the **Salesperson** table.
+12. In the model diagram, select the **Salesperson** table.
 
-11. In the **Properties** pane, in the **Description** box, enter: **Salesperson related to Sales**
+13. In the **Properties** pane, in the **Description** box, enter: **Salesperson related to Sales**
 
 	*You may recall that descriptions appear as tooltips in the **Data** pane when the user hovers their cursor over a table or field.*
 
-12. For the **Salesperson (Performance)** table, set the description to: **Salesperson related to region(s)**
+14. For the **Salesperson (Performance)** table, set the description to: **Salesperson related to region(s)**
 
 	*The data model now provides two alternatives when analyzing salespeople. The **Salesperson** table allows analyzing sales made by a salesperson, while the **Salesperson (Performance)** table allows analyzing sales made in the sales region(s) assigned to the salesperson.*
 
@@ -210,7 +210,7 @@ In this task you will create the **Date** table.
 
 	*The dates shown are formatted using US regional settings (i.e. mm/dd/yyyy).*
 
-6. At the bottom-left corner, in the status bar, notice the table statistics, confirming that 1826 rows of data have been generated, which represents five full years’ data.
+5. At the bottom-left corner, in the status bar, notice the table statistics, confirming that 1826 rows of data have been generated, which represents five full years’ data.
 
 	![Picture 9](images/table15.png)
 
