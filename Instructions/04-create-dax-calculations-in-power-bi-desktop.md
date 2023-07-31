@@ -359,7 +359,7 @@ In this task, you will mark the **Date** table as a date table.
 
 5. Click **OK**.
 
-	![Picture 26](images/clickok.png)
+	![Picture 26](Linked_image_Files/clickok.png)
 
 6. Save the Power BI Desktop file.
 
