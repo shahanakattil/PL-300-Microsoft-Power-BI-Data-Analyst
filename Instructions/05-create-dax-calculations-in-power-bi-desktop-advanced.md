@@ -93,13 +93,13 @@ In this task you will setup the environment for the lab.
 
 1. If prompted to apply changes, click **Apply Later**.
 
-    ![Picture 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
+    ![Picture 22](images/applylater.png)
 
 1. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\MySolution** folder.
 
 1. Click **Save**.
 
-    ![Picture 2](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image8.png)
+    ![Picture 2](images/save.png)
 
 ### **Task 2: Create a matrix visual**
 
@@ -123,7 +123,7 @@ In this task you will create a matrix visual to support testing your new measure
 
 6. To expand the entire hierarchy, at the top-right of the matrix visual, click the forked-double arrow icon twice.
 
-    ![Picture 47](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image11.png)
+    ![Picture 47](images/arrowww.png)
 
     *You may recall that the **Regions** hierarchy has the levels **Group**, **Country**, and **Region**.*
 
@@ -135,11 +135,11 @@ In this task you will create a matrix visual to support testing your new measure
 
 9. Set the **Stepped Layout** property to **Off**.
 
-    ![Picture 49](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image14.png)
+    ![Picture 49](images/stepped.png)
 
 10. Verify that the matrix visual now has four column headers.
 
-    ![Picture 50](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image15.png)
+    ![Picture 50](images/group.png)
 
     *At Adventure Works, the sales regions are organized into groups, countries, and regions. All countries—except the United States—have just one region, which is named after the country. As the United States is such a large sales territory, it’s divided into five sales regions.*
 
@@ -168,7 +168,7 @@ In this task you will create several measures with DAX expressions that use the 
 
 2. Add the **Sales All Region** measure to the matrix visual.
 
-    ![Picture 52](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image16.png)
+    ![Picture 52](images/country.png)
 
 3. Notice that the **Sales All Region** measure computes the total of all region sales for each region, country (subtotal) and group (subtotal).
 
@@ -200,7 +200,7 @@ DIVIDE(
 
 7. In the matrix visual, review the **Sales % All Region** measure values.
 
-    ![Picture 53](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image17.png)
+    ![Picture 53](images/allregion.png)
 
 8. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
@@ -224,7 +224,7 @@ DIVIDE(
 
 11. Notice that only the United States’ regions produce a value which is not 100%.
 
-    ![Picture 54](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image18.png)
+    ![Picture 54](images/northamrica.png)
 
     *You may recall that only the United States has multiple regions. All other countries comprise a single region, which explains why they are all 100%.*
 
@@ -251,7 +251,7 @@ IF(
 
 13. Notice that the **Sales % Country** measure now only returns a value when a region is in scope.
 
-    ![Picture 55](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image19.png)
+    ![Picture 55](images/salescou.png)
 
 14. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
@@ -301,7 +301,7 @@ IF(
 
 18. In Model view, place the three new measures into a display folder named **Ratios**.
 
-    ![Picture 56](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image20.png)
+    ![Picture 56](images/rations.png)
 
 19. Save the Power BI Desktop file.
 
@@ -334,7 +334,7 @@ In this task you will create a sales YTD measure.
 
 4. Notice the accumulation of sales values within the year.
 
-    ![Picture 59](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image21.png)
+    ![Picture 59](images/salesytd.png)
 
     *The TOTALYTD() function performs filter manipulation, specifically time filter manipulation. For example, to compute YTD sales for September 2017 (the third month of the fiscal year), all filters on the **Date** table are removed and replaced with a new filter of dates commencing at the beginning of the year (July 1, 2017) and extending through to the last date of the in-context date period (September 30, 2017).*
 
@@ -374,7 +374,7 @@ RETURN
 
 4. Notice that the **Sales YoY Growth** measure value for **2018 Jul** is the **Sales** value for **2017 Jul**.
 
-    ![Picture 61](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image22.png)
+    ![Picture 61](images/caliculation.png)
 
     *Now that the “difficult part” of the formula has been tested, you can overwrite the measure with the final formula which computes the growth result.*
 
@@ -403,13 +403,13 @@ RETURN
 
 7. Verify that the YoY growth for **2018 Jul** is **392.83%**.
 
-    ![Picture 62](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image23.png)
+    ![Picture 62](images/salessss.png)
 
     *It means that July 2018 sales ($2,411,559) represents a nearly 400% (almost 4x) improvement over the sales achieved at the same time of the prior year ($489,328).*
 
 8. In Model view, place the two new measures into a display folder named **Time Intelligence**.
 
-    ![Picture 63](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image24.png)
+    ![Picture 63](images/timeintee.png)
 
 ### **Task 3: Finish up**
 
@@ -421,7 +421,7 @@ In this task you will complete the lab.
 
 2. When prompted to delete the page, click **Delete**.
 
-    ![Picture 18](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image26.png)
+    ![Picture 18](images/delete.png)
 
 3. Delete **Page 3** also.
 
