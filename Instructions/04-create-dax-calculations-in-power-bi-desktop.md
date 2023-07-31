@@ -112,7 +112,7 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 2. In the formula bar (which opens directly beneath the ribbon when creating or editing calculations), type **Salesperson =**, press **Shift+Enter**, type **'Salesperson (Performance)'**, and then press **Enter**.
 
-	![Picture 4](images/salesperson.png)
+	![Picture 4](images/salespersonformula.png)
 
 	*For your convenience, all DAX definitions in this lab can be copied from the snippets file, located in **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.*
 
@@ -199,17 +199,17 @@ In this task you will create the **Date** table.
 
    ![Picture 30](images/formulabar.png)
 	
-*The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behavior scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data is stored.*
+*The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behaviour scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data are stored.*
 
-*This function can take a single optional argument that is the last month number of a year. When omitted, the value is 12, meaning that December is the last month of the year. In this case, 6 is entered, meaning that June is the last month of the year.*
+*This function can take a single optional argument, the last month's number of a year. When omitted, the value is 12, meaning December is the year's last month. In this case, 6 is entered, meaning that June is the last month of the year.*
 
 4. Notice the column of date values.
 
 
-   ![Picture 7](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image17.png)
+   	![Picture 7](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image17.png)
 
-	*The dates shown are formatted using US regional settings (i.e. mm/dd/yyyy).*
-
+   	>**Note** The dates shown are formatted using US regional settings (i.e. mm/dd/yyyy).
+ 
 5. At the bottom-left corner, in the status bar, notice the table statistics, confirming that 1826 rows of data have been generated, which represents five full years’ data.
 
 	![Picture 9](images/table15.png)
