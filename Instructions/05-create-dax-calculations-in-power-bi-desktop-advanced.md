@@ -48,56 +48,56 @@ In this task you will setup the environment for the lab.
 
     ![Picture 12](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image1.png)
 
-1. To close the getting started window, at the top-left of the window, click **X**.
+2. To close the getting started window, at the top-left of the window, click **X**.
 
     ![Picture 11](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image2.png)
 
-1. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
+3. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
 
-1. Select **Open Report**.
+4. Select **Open Report**.
 
     ![Picture 10](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image3.png)
 
-1. Click **Browse Reports**.
+5. Click **Browse Reports**.
 
     ![Picture 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-1. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** folder.
+6. In the **Open** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** folder.
 
-1. Select the **Sales Analysis** file.
+7. Select the **Sales Analysis** file.
 
-1. Click **Open**.
+8. Click **Open**.
 
     ![Picture 8](images/openimage.png)
 
-1. Close any informational windows that may open.
+9. Close any informational windows that may open.
 
-1. Notice the yellow warning message beneath the ribbon.
+10. Notice the yellow warning message beneath the ribbon.
 
 	*The message alerts you to the fact that the queries have not been applied to load as model tables.*
 
-1. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
+11. On the **"There are pending changes in your queries that haven't been applied"** warning message, select **Discard Changes**.
 
 	![Picture 8](Linked_image_Files/discard-changes-1.png)
 
-1. Now you will see another pop up as shown below, select **Discard**.
+12. Now you will see another pop up as shown below, select **Discard**.
 
 	![Picture 8](Linked_image_Files/discard-changes-2.png)
 
 
-1. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
+13. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
 
-1. Select **Save As**.
+14. Select **Save As**.
 
     ![Picture 7](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image6.png)
 
-1. If prompted to apply changes, click **Apply Later**.
+15. If prompted to apply changes, click **Apply Later**.
 
     ![Picture 22](images/applylater.png)
 
-1. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\MySolution** folder.
+16. In the **Save As** window, navigate to the **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\MySolution** folder.
 
-1. Click **Save**.
+17. Click **Save**.
 
     ![Picture 2](images/save.png)
 
