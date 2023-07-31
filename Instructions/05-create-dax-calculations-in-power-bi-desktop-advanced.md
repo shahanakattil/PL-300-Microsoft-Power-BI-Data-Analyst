@@ -160,11 +160,11 @@ In this task you will create several measures with DAX expressions that use the 
     ```
 
 
-*The CALCULATE() function is a powerful function used to manipulate the filter context. The first argument takes an expression or a measure (a measure is just a named expression). Subsequent arguments allow modifying the filter context.*
+     *The CALCULATE() function is a powerful function used to manipulate the filter context. The first argument takes an expression or a measure (a measure is just a named expression). Subsequent arguments allow modifying the filter context.*
 
-*The REMOVEFILTERS() function removes active filters. It can take either no arguments, or a table, a column, or multiple columns as its argument.*
+      *The REMOVEFILTERS() function removes active filters. It can take either no arguments, or a table, a column, or multiple columns as its argument.*
 
-*In this formula, the measure evaluates the sum of the **Sales** column in a modified filter context, which removes any filters applied to the columns of the **Region** table.*
+      *In this formula, the measure evaluates the sum of the **Sales** column in a modified filter context, which removes any filters applied to the columns of the **Region** table.*
 
 2. Add the **Sales All Region** measure to the matrix visual.
 
@@ -176,23 +176,23 @@ In this task you will create several measures with DAX expressions that use the 
 
 4. In the **Fields** pane, ensure that the **Sales All Region** measure is selected (when selected, it will have a dark gray background), and then in the formula bar, replace the measure name and formula with the following formula:
 
-*Tip: To replace the existing formula, first copy the snippet. Then, click inside the formula bar and press **Ctrl+A** to select all text. Then, press **Ctrl+V** to paste the snippet to overwrite the selected text. Then press **Enter**.*
+    *Tip: To replace the existing formula, first copy the snippet. Then, click inside the formula bar and press **Ctrl+A** to select all text. Then, press **Ctrl+V** to paste the snippet to overwrite the selected text. Then press **Enter**.*
 
 
 
-```
-    Sales % All Region =
-DIVIDE(
-	SUM(Sales[Sales]),
-	CALCULATE(
-		SUM(Sales[Sales]),
-		REMOVEFILTERS(Region)
-	)
-)
-```
+     ```
+        Sales % All Region =
+        DIVIDE(
+	     SUM(Sales[Sales]),
+	     CALCULATE(
+		   SUM(Sales[Sales]),
+		   REMOVEFILTERS(Region)
+	      )
+         )
+     ```
 
 
-*The measure has been renamed to accurately reflect the updated formula. The DIVIDE() function divides the **Sales** measure (not modified by filter context) by the **Sales** measure in a modified context, which removes any filters applied to the **Region** table.*
+     *The measure has been renamed to accurately reflect the updated formula. The DIVIDE() function divides the **Sales** measure (not modified by filter context) by the **Sales** measure in a modified context, which removes any filters applied to the **Region** table.*
 
 5. In the matrix visual, notice that the measure has been renamed and that a different values now appear for each group, country, and region.
 
@@ -204,17 +204,17 @@ DIVIDE(
 
 8. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
-```
-    Sales % Country =
-DIVIDE(
-	SUM(Sales[Sales]),
-	CALCULATE(
+   ```
+     Sales % Country =
+     DIVIDE(
+	  SUM(Sales[Sales]),
+	  CALCULATE(
 		SUM(Sales[Sales]),
 		REMOVEFILTERS(Region[Region])
-	)
-)
+	   )
+     )
 
-```
+   ```
     
 9. Notice that the **Sales % Country** measure formula differs slightly from the **Sales % All Region** measure formula.
 
@@ -232,22 +232,22 @@ DIVIDE(
 
 
 
-```
-    Sales % Country =
-IF(
-	ISINSCOPE(Region[Region]),
-	DIVIDE(
-		SUM(Sales[Sales]),
-		CALCULATE(
+	```
+	    Sales % Country =
+	IF(
+		ISINSCOPE(Region[Region]),
+		DIVIDE(
 			SUM(Sales[Sales]),
-			REMOVEFILTERS(Region[Region])
+			CALCULATE(
+				SUM(Sales[Sales]),
+				REMOVEFILTERS(Region[Region])
+			)
 		)
 	)
-)
-```
+	```
 
 
-*Embedded within the IF() function, the ISINSCOPE() function is used to test whether the region column is the level in a hierarchy of levels. When true, the DIVIDE() function is evaluated. The absence of a false part means that blank is returned when the region column is not in scope.*
+	*Embedded within the IF() function, the ISINSCOPE() function is used to test whether the region column is the level in a hierarchy of levels. When true, the DIVIDE() function is evaluated. The absence of a false part means that blank is returned when the region column is not in scope.*
 
 13. Notice that the **Sales % Country** measure now only returns a value when a region is in scope.
 
@@ -256,33 +256,8 @@ IF(
 14. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
 
-```
-   Sales % Group =
-DIVIDE(
-	SUM(Sales[Sales]),
-	CALCULATE(
-		SUM(Sales[Sales]),
-		REMOVEFILTERS(
-			Region[Region],
-			Region[Country]
-		)
-	)
-)
-```
-
-
-*To achieve sales as a percentage of group, two filters can be applied to effectively remove the filters on two columns.*
-
-15. Add the **Sales % Group** measure to the matrix visual.
-
-16. To improve the readability of this measure in visual, overwrite the **Sales % Group** measure with this improved formula.
-
-
-```
-Sales % Group =
-IF(
-	ISINSCOPE(Region[Region])
-		|| ISINSCOPE(Region[Country]),
+	```
+	   Sales % Group =
 	DIVIDE(
 		SUM(Sales[Sales]),
 		CALCULATE(
@@ -293,8 +268,33 @@ IF(
 			)
 		)
 	)
-)
-```
+	```
+
+
+	*To achieve sales as a percentage of group, two filters can be applied to effectively remove the filters on two columns.*
+
+15. Add the **Sales % Group** measure to the matrix visual.
+
+16. To improve the readability of this measure in visual, overwrite the **Sales % Group** measure with this improved formula.
+
+
+	```
+	Sales % Group =
+	IF(
+		ISINSCOPE(Region[Region])
+			|| ISINSCOPE(Region[Country]),
+		DIVIDE(
+			SUM(Sales[Sales]),
+			CALCULATE(
+				SUM(Sales[Sales]),
+				REMOVEFILTERS(
+					Region[Region],
+					Region[Country]
+				)
+			)
+		)
+	)
+	```
 
 
 17. Notice that the **Sales % Group** measure now only returns a value when a region or country is in scope.
@@ -320,15 +320,15 @@ In this task you will create a sales YTD measure.
 2. Add a measure to the **Sales** table, based on the following expression, and formatted to zero decimal places:
 
 
-```
-    Sales YTD =  
-    TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
-```
+	```
+	    Sales YTD =  
+	    TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
+	```
 
 
-*The TOTALYTD() function evaluates an expression—in this case the sum of the **Sales** column—over a given date column. The date column must belong to a date table marked as a date table, as was done in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
+   *The TOTALYTD() function evaluates an expression—in this case the sum of the **Sales** column—over a given date column. The date column must belong to a date table marked as a date table, as was done in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
 
-*The function can also take a third optional argument representing the last date of a year. The absence of this date means that December 31 is the last date of the year. For Adventure Works, June in the last month of their year, and so “6-30” is used.*
+   *The function can also take a third optional argument representing the last date of a year. The absence of this date means that December 31 is the last date of the year. For Adventure Works, June in the last month of their year, and so “6-30” is used.*
 
 3. Add the **Sales** field and the **Sales YTD** measure to the matrix visual.
 
@@ -336,9 +336,9 @@ In this task you will create a sales YTD measure.
 
     ![Picture 59](images/salesytd.png)
 
-    *The TOTALYTD() function performs filter manipulation, specifically time filter manipulation. For example, to compute YTD sales for September 2017 (the third month of the fiscal year), all filters on the **Date** table are removed and replaced with a new filter of dates commencing at the beginning of the year (July 1, 2017) and extending through to the last date of the in-context date period (September 30, 2017).*
+   *The TOTALYTD() function performs filter manipulation, specifically time filter manipulation. For example, to compute YTD sales for September 2017 (the third month of the fiscal year), all filters on the **Date** table are removed and replaced with a new filter of dates commencing at the beginning of the year (July 1, 2017) and extending through to the last date of the in-context date period (September 30, 2017).*
 
-    *Note that many Time Intelligence functions are available in DAX to support common time filter manipulations.*
+    > **Note** that many Time Intelligence functions are available in DAX to support common time filter manipulations.*
 
 ### **Task 2: Create a YoY growth measure**
 
@@ -348,25 +348,25 @@ In this task you will create a sales YoY growth measure.
 
 
 
-```
-    Sales YoY Growth =
-VAR SalesPriorYear =
-	CALCULATE(
-		SUM(Sales[Sales]),
-		PARALLELPERIOD(
-			'Date'[Date],
-			-12,
-			MONTH
+	```
+	    Sales YoY Growth =
+	VAR SalesPriorYear =
+		CALCULATE(
+			SUM(Sales[Sales]),
+			PARALLELPERIOD(
+				'Date'[Date],
+				-12,
+				MONTH
+			)
 		)
-	)
-RETURN
-	SalesPriorYear
-```
+	RETURN
+		SalesPriorYear
+	```
 
 
-*The **Sales YoY Growth** measure formula declares a variable. Variables can be useful for simplifying the formula logic, and more efficient when an expression needs to be evaluated multiple times within the formula (which will be the case for the YoY growth logic). Variables are declared by a unique name, and the measure expression must then be output after the **RETURN** keyword.*
+   *The **Sales YoY Growth** measure formula declares a variable. Variables can be useful for simplifying the formula logic, and more efficient when an expression needs to be evaluated multiple times within the formula (which will be the case for the YoY growth logic). Variables are declared by a unique name, and the measure expression must then be output after the **RETURN** keyword.*
 
-*The **SalesPriorYear** variable is assigned an expression which calculates the sum of the **Sales** column in a modified context that uses the PARALLELPERIOD() function to shift 12 months back from each date in filter context.*
+   *The **SalesPriorYear** variable is assigned an expression which calculates the sum of the **Sales** column in a modified context that uses the PARALLELPERIOD() function to shift 12 months back from each date in filter context.*
 
 2. Add the **Sales YoY Growth** measure to the matrix visual.
 
@@ -382,7 +382,7 @@ RETURN
 
     ```
     Sales YoY Growth =
-VAR SalesPriorYear =
+    VAR SalesPriorYear =
 	CALCULATE(
 		SUM(Sales[Sales]),
 		PARALLELPERIOD(
@@ -391,12 +391,12 @@ VAR SalesPriorYear =
 			MONTH
 		)
 	)
-RETURN
+        RETURN
 	DIVIDE(
 		(SUM(Sales[Sales]) - SalesPriorYear),
 		SalesPriorYear
 	)
-    ```
+     ```
 
 
 6. In the formula, in the **RETURN** clause, notice that the variable is referenced twice.
@@ -405,7 +405,7 @@ RETURN
 
     ![Picture 62](images/salessss.png)
 
-    *It means that July 2018 sales ($2,411,559) represents a nearly 400% (almost 4x) improvement over the sales achieved at the same time of the prior year ($489,328).*
+    *It means that July 2018 sales ($2,411,559) represent a nearly 400% (almost 4x) improvement over the sales achieved at the same time of the prior year ($489,328).*
 
 8. In Model view, place the two new measures into a display folder named **Time Intelligence**.
 
