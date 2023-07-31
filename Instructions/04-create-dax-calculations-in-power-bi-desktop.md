@@ -184,7 +184,7 @@ In this task you will create the **Date** table.
 
 1. Switch to Data view.
 
-	![Picture 29](images/viewpoint.png)
+   ![Picture 29](images/viewpoint.png)
 
 2. On the **Home** ribbon tab, from inside the **Calculations** group, click **New Table**.
 
