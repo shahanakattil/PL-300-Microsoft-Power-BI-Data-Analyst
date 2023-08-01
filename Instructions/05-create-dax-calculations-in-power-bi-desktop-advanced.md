@@ -294,19 +294,17 @@ In this task you will create a sales YTD measure.
 
 2. Add a measure to the **Sales** table, based on the following expression, and formatted to zero decimal places:
 
-
    ```
-   Sales YTD =  
-   TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
+   Sales YTD = TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
    ```
 
    *The TOTALYTD() function evaluates an expression—in this case the sum of the **Sales** column—over a given date column. The date column must belong to a date table marked as a date table, as was done in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
 
    *The function can also take a third optional argument representing the last date of a year. The absence of this date means that December 31 is the last date of the year. For Adventure Works, June in the last month of their year, and so “6-30” is used.*
 
-3. Add the **Sales** field and the **Sales YTD** measure to the matrix visual.
+4. Add the **Sales** field and the **Sales YTD** measure to the matrix visual.
 
-4. Notice the accumulation of sales values within the year.
+5. Notice the accumulation of sales values within the year.
 
     ![Picture 59](images/salesytd.png)
 

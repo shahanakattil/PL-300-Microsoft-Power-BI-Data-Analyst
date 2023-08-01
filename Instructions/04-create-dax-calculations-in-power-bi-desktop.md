@@ -192,16 +192,15 @@ In this task you will create the **Date** table.
 
 3. In the formula bar, enter the following:
 
-	```
-	Date =  
-	CALENDARAUTO(6)
-	```
+   ```
+   Date = CALENDARAUTO(6)
+   ```
 
    ![Picture 30](images/formulabar.png)
 	
-   	*The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behaviour scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data are stored.*
+   *The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behaviour scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data are stored.*
 
-   	*This function can take a single optional argument, the last month's number of a year. When omitted, the value is 12, meaning December is the year's last month. In this case, 6 is entered, meaning that June is the last month of the year.*
+   *This function can take a single optional argument, the last month's number of a year. When omitted, the value is 12, meaning December is the year's last month. In this case, 6 is entered, meaning that June is the last month of the year.*
 
 4. Notice the column of date values.
 
@@ -284,27 +283,26 @@ In this task you will add additional columns to enable filtering and grouping by
 
 13. Add the **MonthKey** column to the **Date** table.
 
-	```
-	MonthKey =
-	(YEAR('Date'[Date]) * 100) + MONTH('Date'[Date])
-	```
+    ```
+    MonthKey =
+    (YEAR('Date'[Date]) * 100) + MONTH('Date'[Date])
+    ```
 
+    *This formula computes a numeric value for each year/month combination.*
 
-	*This formula computes a numeric value for each year/month combination.*
-
-14. In Data view, verify that the new column contains numeric values (e.g. 201707 for July 2017, etc.).
+15. In Data view, verify that the new column contains numeric values (e.g. 201707 for July 2017, etc.).
 
 	![Picture 21](images/monthkeyy.png)
 
-15. Switch back to Report view.
+16. Switch back to Report view.
 
-16. In the **Data** pane, ensure that the **Month** field is selected (when selected, it will have a dark gray background).
+17. In the **Data** pane, ensure that the **Month** field is selected (when selected, it will have a dark gray background).
 
-17. On the **Column Tools** contextual ribbon, from inside the **Sort** group, click **Sort by Column**, and then select **MonthKey**.
+18. On the **Column Tools** contextual ribbon, from inside the **Sort** group, click **Sort by Column**, and then select **MonthKey**.
 
 	![Picture 22](images/column.png)
 
-18. In the matrix visual, notice that the months are now chronologically sorted.
+19. In the matrix visual, notice that the months are now chronologically sorted.
 
 	![Picture 23](images/yearfy.png)
 
@@ -486,34 +484,26 @@ In this task you will create additional measures that use more complex formulas.
 
 	![Picture 41](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image45.png)
 
-	
-
 3. Select the table visual, and then in the **Visualizations** pane, remove the **Target** field.
 
 	![Picture 42](images/targetss.png)
 
 4. Rename the **Targets \| Target** column as **Targets \| TargetAmount**.
 
-	*Tip: There are several ways to rename the column in Report view: In the **Data** pane, you can right-click the column, and then select **Rename**—or, double-click the column, or press **F2**.*
+   *Tip: There are several ways to rename the column in Report view: In the **Data** pane, you can right-click the column, and then select **Rename**—or, double-click the column, or press **F2**.*
 
-	*You’re about to create a measure named **Target**. It’s not possible to have a column and measure in the same table with the same name.*
+   *You’re about to create a measure named **Target**. It’s not possible to have a column and measure in the same table with the same name.*
 
 5. Create the following measure on the **Targets** table:
 
-	```
-	Target =
+   ```
+   Target =
+   IF(HASONEVALUE('Salesperson (Performance)'[Salesperson]),
+      SUM(Targets[TargetAmount])
+     )
+   ```
 
-	IF(
-
-	HASONEVALUE('Salesperson (Performance)'[Salesperson]),
-
-	SUM(Targets[TargetAmount])
-
-	)
-	```
-
-
-	*The HASONEVALUE() function tests whether a single value in the **Salesperson** column is filtered. When true, the expression returns the sum of target amounts (for just that salesperson). When false, BLANK is returned.*
+   *The HASONEVALUE() function tests whether a single value in the **Salesperson** column is filtered. When true, the expression returns the sum of target amounts (for just that salesperson). When false, BLANK is returned.*
 
 6. Switch to the **Model View** and format the **Target** measure for zero decimal places.
 
