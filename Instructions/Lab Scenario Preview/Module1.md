@@ -1,13 +1,17 @@
-# Lab Scenario Preview: AI-900: Explore decision support
+# Lab Scenario Preview: PL-300: Prepare data for analysis with Power BI
 
-## Lab 01: Explore Cognitive Services
+## Lab 01: Prepare Data in Power BI Desktop
 
 ### Lab overview
 
-In this lab, you will learn how cognitive services are provisioned and used. 
+In this lab you commence the development of a Power BI Desktop solution for the Adventure Works company. It involves connecting to source data, previewing the data, and using data preview techniques to understand the characteristics and quality of the source data.
 
 ## Objective
   
-After completing this lab, you will be able to create an Anomaly Detector resource
+After completing this lab, you will be able to:
+
+- Set Power BI Desktop options
+- Connect and preview to source data
+- Use data preview techniques to better understand the data
 
 ## Architecture Diagram
