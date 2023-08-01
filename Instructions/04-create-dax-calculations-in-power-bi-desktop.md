@@ -199,16 +199,15 @@ In this task you will create the **Date** table.
 
    ![Picture 30](images/formulabar.png)
 	
-*The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behaviour scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data are stored.*
+   	*The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behaviour scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data are stored.*
 
-*This function can take a single optional argument, the last month's number of a year. When omitted, the value is 12, meaning December is the year's last month. In this case, 6 is entered, meaning that June is the last month of the year.*
+   	*This function can take a single optional argument, the last month's number of a year. When omitted, the value is 12, meaning December is the year's last month. In this case, 6 is entered, meaning that June is the last month of the year.*
 
 4. Notice the column of date values.
 
+   ![Picture 7](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image17.png)
 
-   	![Picture 7](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image17.png)
-
-   	>**Note** The dates shown are formatted using US regional settings (i.e. mm/dd/yyyy).
+   > **Note** The dates shown are formatted using US regional settings (i.e. mm/dd/yyyy).
  
 5. At the bottom-left corner, in the status bar, notice the table statistics, confirming that 1826 rows of data have been generated, which represents five full years’ data.
 
@@ -231,10 +230,9 @@ In this task you will add additional columns to enable filtering and grouping by
 	"FY" & YEAR('Date'[Date]) + IF(MONTH('Date'[Date]) > 6, 1)
 	```
 
+	*A calculated column is created by first entering the column name, followed by the equals symbol (=), followed by a DAX formula that returns a single-value result. The column name cannot already exist in the table.*
 
-*A calculated column is created by first entering the column name, followed by the equals symbol (=), followed by a DAX formula that returns a single-value result. The column name cannot already exist in the table.*
-
-*The formula uses the date’s year value but adds one to the year value when the month is after June. It’s how fiscal years at Adventure Works are calculated.*
+	*The formula uses the date’s year value but adds one to the year value when the month is after June. It’s how fiscal years at Adventure Works are calculated.*
 
 3. Verify that the new column was added.
 
@@ -242,15 +240,15 @@ In this task you will add additional columns to enable filtering and grouping by
 
 4. Perform step-1 again, then use the snippets file definitions to create the following two calculated columns for the **Date** table:
    
-	> **Note:** after creating quarter column, again perform step-1, for creating new column for month.
+   > **Note:** after creating quarter column, again perform step-1, for creating new column for month.
 	
 	- Quarter
 
 	- Month
 
-	![Picture 14](images/quartermonth17.png)
+   ![Picture 14](images/quartermonth17.png)
 	
-	> **Note:** For creating the mentioned above colums, you can copy the formula from the the snippets file, located in **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.
+   > **Note:** For creating the mentioned above columns, you can copy the formula from the snippets file, located in **C:\PL300\PL-300-Microsoft-Power-BI-Data-Analyst-prod\AllFiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**.
 
 5. To validate the calculations, switch to Report view.
 
@@ -260,7 +258,7 @@ In this task you will add additional columns to enable filtering and grouping by
 
 7. To add a matrix visual to the new report page, in the **Visualizations** pane, select the matrix visual type.
 
-	*Tip: You can hover the cursor over each icon to reveal a tooltip describing the visual type.*
+   *Tip: You can hover the cursor over each icon to reveal a tooltip describing the visual type.*
 
 	![Picture 51](images/visuvalizationtab.png)
 
@@ -292,7 +290,7 @@ In this task you will add additional columns to enable filtering and grouping by
 	```
 
 
-*This formula computes a numeric value for each year/month combination.*
+	*This formula computes a numeric value for each year/month combination.*
 
 14. In Data view, verify that the new column contains numeric values (e.g. 201707 for July 2017, etc.).
 
@@ -515,7 +513,7 @@ In this task you will create additional measures that use more complex formulas.
 	```
 
 
-*The HASONEVALUE() function tests whether a single value in the **Salesperson** column is filtered. When true, the expression returns the sum of target amounts (for just that salesperson). When false, BLANK is returned.*
+	*The HASONEVALUE() function tests whether a single value in the **Salesperson** column is filtered. When true, the expression returns the sum of target amounts (for just that salesperson). When false, BLANK is returned.*
 
 6. Switch to the **Model View** and format the **Target** measure for zero decimal places.
 

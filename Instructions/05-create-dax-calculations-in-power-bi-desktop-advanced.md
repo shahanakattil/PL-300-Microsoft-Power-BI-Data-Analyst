@@ -159,10 +159,9 @@ In this task you will create several measures with DAX expressions that use the 
     CALCULATE(SUM(Sales[Sales]), REMOVEFILTERS(Region))
     ```
 
+    *The CALCULATE() function is a powerful function used to manipulate the filter context. The first argument takes an expression or a measure (a measure is just a named expression). Subsequent arguments allow modifying the filter context.*
 
-     *The CALCULATE() function is a powerful function used to manipulate the filter context. The first argument takes an expression or a measure (a measure is just a named expression). Subsequent arguments allow modifying the filter context.*
-
-      *The REMOVEFILTERS() function removes active filters. It can take either no arguments, or a table, a column, or multiple columns as its argument.*
+     *The REMOVEFILTERS() function removes active filters. It can take either no arguments, or a table, a column, or multiple columns as its argument.*
 
       *In this formula, the measure evaluates the sum of the **Sales** column in a modified filter context, which removes any filters applied to the columns of the **Region** table.*
 
@@ -178,19 +177,14 @@ In this task you will create several measures with DAX expressions that use the 
 
     *Tip: To replace the existing formula, first copy the snippet. Then, click inside the formula bar and press **Ctrl+A** to select all text. Then, press **Ctrl+V** to paste the snippet to overwrite the selected text. Then press **Enter**.*
 
-
-
      ```
-        Sales % All Region =
-        DIVIDE(
-	     SUM(Sales[Sales]),
-	     CALCULATE(
-		   SUM(Sales[Sales]),
-		   REMOVEFILTERS(Region)
-	      )
-         )
+     Sales % All Region =
+     DIVIDE(
+	SUM(Sales[Sales]),
+	CALCULATE(
+	SUM(Sales[Sales]),
+	REMOVEFILTERS(Region)))
      ```
-
 
      *The measure has been renamed to accurately reflect the updated formula. The DIVIDE() function divides the **Sales** measure (not modified by filter context) by the **Sales** measure in a modified context, which removes any filters applied to the **Region** table.*
 
@@ -205,15 +199,12 @@ In this task you will create several measures with DAX expressions that use the 
 8. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
    ```
-     Sales % Country =
-     DIVIDE(
-	  SUM(Sales[Sales]),
-	  CALCULATE(
-		SUM(Sales[Sales]),
-		REMOVEFILTERS(Region[Region])
-	   )
-     )
-
+   Sales % Country =
+   DIVIDE(
+   SUM(Sales[Sales]),
+   CALCULATE(
+	SUM(Sales[Sales]),
+	REMOVEFILTERS(Region[Region])))
    ```
     
 9. Notice that the **Sales % Country** measure formula differs slightly from the **Sales % All Region** measure formula.
@@ -230,24 +221,18 @@ In this task you will create several measures with DAX expressions that use the 
 
 12. To improve the readability of this measure in visual, overwrite the **Sales % Country** measure with this improved formula.
 
+    ```
+    Sales % Country =
+    IF(
+     ISINSCOPE(Region[Region]),
+     DIVIDE(
+	SUM(Sales[Sales]),
+	CALCULATE(
+	  SUM(Sales[Sales]),
+	REMOVEFILTERS(Region[Region]))))
+    ```
 
-
-	```
-	    Sales % Country =
-	IF(
-		ISINSCOPE(Region[Region]),
-		DIVIDE(
-			SUM(Sales[Sales]),
-			CALCULATE(
-				SUM(Sales[Sales]),
-				REMOVEFILTERS(Region[Region])
-			)
-		)
-	)
-	```
-
-
-	*Embedded within the IF() function, the ISINSCOPE() function is used to test whether the region column is the level in a hierarchy of levels. When true, the DIVIDE() function is evaluated. The absence of a false part means that blank is returned when the region column is not in scope.*
+    *Embedded within the IF() function, the ISINSCOPE() function is used to test whether the region column is the level in a hierarchy of levels. When true, the DIVIDE() function is evaluated. The absence of a false part means that blank is returned when the region column is not in scope.*
 
 13. Notice that the **Sales % Country** measure now only returns a value when a region is in scope.
 
@@ -255,55 +240,45 @@ In this task you will create several measures with DAX expressions that use the 
 
 14. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
+    ```
+    Sales % Group =
+    DIVIDE(
+      SUM(Sales[Sales]),
+      CALCULATE(
+	SUM(Sales[Sales]),
+	REMOVEFILTERS(
+	  Region[Region],
+	  Region[Country])))
+    ```
 
-	```
-	   Sales % Group =
+    *To achieve sales as a percentage of group, two filters can be applied to effectively remove the filters on two columns.*
+
+16. Add the **Sales % Group** measure to the matrix visual.
+
+17. To improve the readability of this measure in visual, overwrite the **Sales % Group** measure with this improved formula.
+
+    ```
+    Sales % Group =
+      IF(
+	ISINSCOPE(Region[Region])
+	|| ISINSCOPE(Region[Country]),
 	DIVIDE(
-		SUM(Sales[Sales]),
-		CALCULATE(
-			SUM(Sales[Sales]),
-			REMOVEFILTERS(
-				Region[Region],
-				Region[Country]
-			)
-		)
-	)
-	```
+   	  SUM(Sales[Sales]),
+	  CALCULATE(
+	     SUM(Sales[Sales]),
+             REMOVEFILTERS(
+		Region[Region],
+		Region[Country]))))
+      ```
 
 
-	*To achieve sales as a percentage of group, two filters can be applied to effectively remove the filters on two columns.*
+18. Notice that the **Sales % Group** measure now only returns a value when a region or country is in scope.
 
-15. Add the **Sales % Group** measure to the matrix visual.
-
-16. To improve the readability of this measure in visual, overwrite the **Sales % Group** measure with this improved formula.
-
-
-	```
-	Sales % Group =
-	IF(
-		ISINSCOPE(Region[Region])
-			|| ISINSCOPE(Region[Country]),
-		DIVIDE(
-			SUM(Sales[Sales]),
-			CALCULATE(
-				SUM(Sales[Sales]),
-				REMOVEFILTERS(
-					Region[Region],
-					Region[Country]
-				)
-			)
-		)
-	)
-	```
-
-
-17. Notice that the **Sales % Group** measure now only returns a value when a region or country is in scope.
-
-18. In Model view, place the three new measures into a display folder named **Ratios**.
+19. In Model view, place the three new measures into a display folder named **Ratios**.
 
     ![Picture 56](images/rations.png)
 
-19. Save the Power BI Desktop file.
+20. Save the Power BI Desktop file.
 
     *The measures added to the **Sales** table have modified filter context to achieve hierarchical navigation. Notice that the pattern to achieve the calculation of a subtotal requires removing some columns from the filter context, and to arrive at a grand total, all columns must be removed.*
 
@@ -320,11 +295,10 @@ In this task you will create a sales YTD measure.
 2. Add a measure to the **Sales** table, based on the following expression, and formatted to zero decimal places:
 
 
-	```
-	    Sales YTD =  
-	    TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
-	```
-
+   ```
+   Sales YTD =  
+   TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
+   ```
 
    *The TOTALYTD() function evaluates an expression—in this case the sum of the **Sales** column—over a given date column. The date column must belong to a date table marked as a date table, as was done in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
 
@@ -346,23 +320,15 @@ In this task you will create a sales YoY growth measure.
 
 1. Add an additional measure to the **Sales** table, based on the following expression:
 
-
-
-	```
-	    Sales YoY Growth =
-	VAR SalesPriorYear =
-		CALCULATE(
-			SUM(Sales[Sales]),
-			PARALLELPERIOD(
-				'Date'[Date],
-				-12,
-				MONTH
-			)
-		)
-	RETURN
-		SalesPriorYear
-	```
-
+   ```
+   Sales YoY Growth =
+   VAR SalesPriorYear =
+   CALCULATE(
+   SUM(Sales[Sales]),
+   PARALLELPERIOD('Date'[Date],-12,MONTH))
+   RETURN
+   SalesPriorYear
+   ```
 
    *The **Sales YoY Growth** measure formula declares a variable. Variables can be useful for simplifying the formula logic, and more efficient when an expression needs to be evaluated multiple times within the formula (which will be the case for the YoY growth logic). Variables are declared by a unique name, and the measure expression must then be output after the **RETURN** keyword.*
 
@@ -380,24 +346,15 @@ In this task you will create a sales YoY growth measure.
 
 5. To complete the measure, overwrite the **Sales YoY Growth** measure with this formula, formatting it as a percentage with two decimal places:
 
-    ```
-    Sales YoY Growth =
-    VAR SalesPriorYear =
-	CALCULATE(
-		SUM(Sales[Sales]),
-		PARALLELPERIOD(
-			'Date'[Date],
-			-12,
-			MONTH
-		)
-	)
-        RETURN
-	DIVIDE(
-		(SUM(Sales[Sales]) - SalesPriorYear),
-		SalesPriorYear
-	)
-     ```
-
+   ```
+   Sales YoY Growth =
+   VAR SalesPriorYear =
+   CALCULATE(
+   SUM(Sales[Sales]),
+   PARALLELPERIOD('Date'[Date],-12,MONTH))
+   RETURN
+      DIVIDE((SUM(Sales[Sales]) - SalesPriorYear),SalesPriorYear)
+   ```
 
 6. In the formula, in the **RETURN** clause, notice that the variable is referenced twice.
 
@@ -432,7 +389,6 @@ In this task you will complete the lab.
 6. If you intend to start the next lab, leave Power BI Desktop open.
 
     *You’ll create a report based on the data model in the **Design a Report in Power BI Desktop, Part 1** lab.*
-
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 
