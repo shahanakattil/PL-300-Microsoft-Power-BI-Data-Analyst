@@ -199,14 +199,13 @@ In this task you will create the **Date** table.
 
    ![Picture 30](images/formulabar.png)
 	
-*The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behaviour scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data are stored.*
+   *The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behaviour scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data are stored.*
 
-*This function can take a single optional argument, the last month's number of a year. When omitted, the value is 12, meaning December is the year's last month. In this case, 6 is entered, meaning that June is the last month of the year.*
+  *This function can take a single optional argument, the last month's number of a year. When omitted, the value is 12, meaning December is the year's last month. In this case, 6 is entered, meaning that June is the last month of the year.*
 
 4. Notice the column of date values.
 
-
-   	![Picture 7](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image17.png)
+      ![Picture 7](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image17.png)
 
    	>**Note** The dates shown are formatted using US regional settings (i.e. mm/dd/yyyy).
  
