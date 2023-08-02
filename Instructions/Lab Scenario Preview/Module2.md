@@ -1,13 +1,16 @@
-# Lab Scenario Preview: AI-900: Explore decision support
+# Lab Scenario Preview: PL-300: Prepare data for analysis with Power BI
 
-## Lab 01: Explore Cognitive Services
+## Lab 01: Load Data in Power BI Desktop
 
 ### Lab overview
 
-In this lab, you will learn how cognitive services are provisioned and used. 
+In this lab you will commence apply transformations to each of the queries created in the previous lab. You will then apply the queries to load each as a table to the data model 
 
 ## Objective
   
-After completing this lab, you will be able to create an Anomaly Detector resource
+After completing this lab, you will be able to:
+
+- Apply various transformations
+- Apply queries to load them to the data model
 
 ## Architecture Diagram
