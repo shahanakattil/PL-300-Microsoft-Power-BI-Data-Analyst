@@ -1,4 +1,4 @@
-# Lab Scenario Preview: PL-300: Explore decision support
+# Lab Scenario Preview: PL-300: Manage workspaces and datasets in Power BI
 
 ## Lab 08: Create a Power BI Dashboard
 
