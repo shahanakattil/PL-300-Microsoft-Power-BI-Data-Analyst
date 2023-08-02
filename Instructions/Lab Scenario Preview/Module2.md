@@ -1,6 +1,6 @@
 # Lab Scenario Preview: PL-300: Prepare data for analysis with Power BI
 
-## Lab 01: Load Data in Power BI Desktop
+## Lab 02: Load Data in Power BI Desktop
 
 ### Lab overview
 
