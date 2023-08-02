@@ -1,13 +1,17 @@
-# Lab Scenario Preview: AI-900: Explore decision support
+# Lab Scenario Preview: PL-300: Model data with Power BI
 
 ## Lab 01: Explore Cognitive Services
 
 ### Lab overview
 
-In this lab, you will learn how cognitive services are provisioned and used. 
+In this lab you will commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You will also create hierarchies and create quick measures.. 
 
 ## Objective
   
-After completing this lab, you will be able to create an Anomaly Detector resource
+After completing this lab, you will be able to:
+
+- Create model relationships
+- Configure table and column properties
+- Create hierarchies
 
 ## Architecture Diagram
