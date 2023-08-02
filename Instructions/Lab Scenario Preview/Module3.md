@@ -1,17 +1,18 @@
-# Lab Scenario Preview: PL-300: Model data with Power BI
+# Lab Scenario Preview: PL-300: Explore decision support
 
-## Lab 01: Explore Cognitive Services
+## Lab 03: Create DAX Calculations in Power BI Desktop, Part 1
 
 ### Lab overview
 
-In this lab you will commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You will also create hierarchies and create quick measures.. 
+In this lab you will create calculated tables, calculated columns, and simple measures using Data Analysis Expressions (DAX). 
 
 ## Objective
   
-After completing this lab, you will be able to:
+After completing this lab, you will be able to: 
 
-- Create model relationships
-- Configure table and column properties
-- Create hierarchies
+- Create calculated tables
+- Create calculated columns
+- Create measures
 
 ## Architecture Diagram
+
