@@ -1,13 +1,16 @@
-# Lab Scenario Preview: AI-900: Explore decision support
+# Lab Scenario Preview: PL-300: Model data with Power BI
 
-## Lab 01: Explore Cognitive Services
+## Lab 05: Create DAX Calculations in Power BI Desktop, Part 2
 
 ### Lab overview
 
-In this lab, you will learn how cognitive services are provisioned and used. 
+In this lab you will create measures with DAX expressions involving filter context manipulation. 
 
 ## Objective
   
-After completing this lab, you will be able to create an Anomaly Detector resource
+After completing this lab, you will be able to:
+
+- Use the CALCULATE() function to manipulate filter context
+- Use Time Intelligence functions
 
 ## Architecture Diagram
