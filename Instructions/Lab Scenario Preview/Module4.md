@@ -1,6 +1,6 @@
-# Lab Scenario Preview: PL-300: Explore decision support
+# Lab Scenario Preview: PL-300: Model data with Power BI
 
-## Lab 03: Create DAX Calculations in Power BI Desktop, Part 1
+## Lab 04: Create DAX Calculations in Power BI Desktop, Part 1
 
 ### Lab overview
 
