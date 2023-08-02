@@ -1,13 +1,16 @@
-# Lab Scenario Preview: AI-900: Explore decision support
+# Lab Scenario Preview: PL-300: Explore decision support
 
-## Lab 01: Explore Cognitive Services
+## Lab 08: Create a Power BI Dashboard
 
 ### Lab overview
 
-In this lab, you will learn how cognitive services are provisioned and used. 
+In this lab you will create the Sales Monitoring dashboard.
 
 ## Objective
   
-After completing this lab, you will be able to create an Anomaly Detector resource
+After completing this lab, you will be able to:
+
+- Pin visuals to a dashboard
+- Use Q&A to create dashboard tiles
 
 ## Architecture Diagram
