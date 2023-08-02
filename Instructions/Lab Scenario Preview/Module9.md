@@ -1,13 +1,16 @@
-# Lab Scenario Preview: AI-900: Explore decision support
+# Lab Scenario Preview: PL-300: Build Power BI visuals and reports
 
-## Lab 01: Explore Cognitive Services
+## Lab 09: Perform Data Analysis in Power BI Desktop
 
 ### Lab overview
 
-In this lab, you will learn how cognitive services are provisioned and used. 
+In this lab you will create the Sales Exploration report.
 
 ## Objective
   
-After completing this lab, you will be able to create an Anomaly Detector resource
+After completing this lab, you will be able to:
+
+- Create animated scatter charts
+- Use a visual to forecast values
 
 ## Architecture Diagram
