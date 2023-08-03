@@ -14,3 +14,5 @@ After completing this lab, you will be able to:
 - Use Time Intelligence functions
 
 ## Architecture Diagram
+
+  ![](media/Mod5.png)
