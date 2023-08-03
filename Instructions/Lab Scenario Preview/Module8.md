@@ -1,18 +1,20 @@
-# Lab Scenario Preview: PL-300: Manage workspaces and datasets in Power BI
+# Lab Scenario Preview: PL-300: Build Power BI visuals and reports
 
-## Lab 08: Create a Power BI Dashboard
+## Lab 08: Perform Data Analysis in Power BI Desktop
 
 ### Lab overview
 
-In this lab you will create the Sales Monitoring dashboard.
+In this lab you will create the Sales Exploration report.
 
 ## Objective
   
 After completing this lab, you will be able to:
 
-- Pin visuals to a dashboard
-- Use Q&A to create dashboard tiles
+- Create animated scatter charts
+- Use a visual to forecast values
 
 ## Architecture Diagram
 
   ![](media/Mod8.png)
+
+
