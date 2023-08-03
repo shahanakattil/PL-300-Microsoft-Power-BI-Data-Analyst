@@ -14,3 +14,5 @@ After completing this lab, you will be able to:
 - Apply queries to load them to the data model
 
 ## Architecture Diagram
+
+  ![](media/Mod2.png)
