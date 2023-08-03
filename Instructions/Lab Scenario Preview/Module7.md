@@ -16,3 +16,5 @@ After completing this lab, you will be able to:
 - Create and use bookmarks
 
 ## Architecture Diagram
+
+  ![](media/Mod7.png)
