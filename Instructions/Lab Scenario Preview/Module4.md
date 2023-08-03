@@ -15,3 +15,5 @@ After completing this lab, you will be able to:
 - Create measures
 
 ## Architecture Diagram
+
+  ![](media/Mod4.png)
