@@ -14,3 +14,5 @@ After completing this lab, you will be able to:
 - Use a visual to forecast values
 
 ## Architecture Diagram
+
+  ![](media/Mod9.png)
