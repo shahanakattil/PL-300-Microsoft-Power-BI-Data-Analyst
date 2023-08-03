@@ -14,3 +14,5 @@ After completing this lab, you will be able to:
 - Enforce row-level security
 
 ## Architecture Diagram
+
+ ![](media/Mod10.png)
