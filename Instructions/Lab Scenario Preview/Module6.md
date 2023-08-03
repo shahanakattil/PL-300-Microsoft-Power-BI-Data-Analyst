@@ -14,3 +14,5 @@ After completing this lab, you will be able to:
 - Configure visual fields and format properties
   
 ## Architecture Diagram
+
+  ![](media/Mod6.png)
