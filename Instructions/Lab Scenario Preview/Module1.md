@@ -15,3 +15,5 @@ After completing this lab, you will be able to:
 - Use data preview techniques to better understand the data
 
 ## Architecture Diagram
+
+ ![](media/Mod1.png)
