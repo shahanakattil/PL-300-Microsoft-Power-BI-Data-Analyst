@@ -15,4 +15,4 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
- ![](media/Mod10.png)
+ ![](media/Mod10-PL300.png)
