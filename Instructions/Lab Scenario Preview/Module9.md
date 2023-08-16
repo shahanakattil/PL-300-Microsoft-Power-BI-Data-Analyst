@@ -14,4 +14,4 @@ After completing this lab, you will be able to:
 - Use Q&A to create dashboard tiles
 ## Architecture Diagram
 
-  ![](media/Mod9.png)
+  ![](media/Mod9-PL300.png)
