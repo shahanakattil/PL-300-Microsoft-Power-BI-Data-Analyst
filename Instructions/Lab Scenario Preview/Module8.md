@@ -15,6 +15,6 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
-  ![](media/Mod8.png)
+  ![](media/Mod8-PL300.png)
 
 
