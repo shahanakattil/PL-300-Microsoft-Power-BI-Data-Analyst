@@ -35,6 +35,10 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 11. Enforce Row-Level Security
 
+## Architecture Diagram
+
+  ![Picture 1](Linked_image_Files/Mod3-PL300.png)
+
 ## **Exercise 1: Create Model Relationships**
 
 In this exercise you will create model relationships.
@@ -137,12 +141,12 @@ In this task you will setup the environment for the lab.
 
  	![Picture 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image(8).png)
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions 
-       in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+	- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+	- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+	- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### **Task 2: Create model relationships**
 
@@ -689,4 +693,12 @@ In this task you will complete the lab.
 
 3. If you intend to start the next lab, leave Power BI Desktop open.
 
-### **You have successfully completed the lab**
+#### Review
+ In this lab, you have completed the following :
+- Get started with Power BI Desktop
+- Create model relationships
+- Relate the Targets table
+
+**You have successfully completed the lab**
+
+
