@@ -4,11 +4,11 @@
     "Language": "English",
     "Files": [
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-300-Microsoft-Power-BI-Data-Analyst/stage/Instructions/Lab%20Scenario%20Preview/Module4.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-300-Microsoft-Power-BI-Data-Analyst/prod/Instructions/Lab-Scenario-Preview/Module4.md",
           "Order": 1
         },
        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-300-Microsoft-Power-BI-Data-Analyst/stage/Instructions/Lab%20Scenario%20Preview/Module5.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-300-Microsoft-Power-BI-Data-Analyst/prod/Instructions/Lab-Scenario-Preview/Module5.md",
           "Order": 2
         }
      ]  
