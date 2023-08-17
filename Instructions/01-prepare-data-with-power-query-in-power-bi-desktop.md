@@ -14,6 +14,8 @@ In this lab you learn how to:
 
 - Use data preview techniques to better understand the data
 
+## Estimated timing: 90 minutes
+
 ### **Lab story**
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
@@ -38,6 +40,10 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 11. Enforce Row-Level Security
 
+## Architecture Diagram
+
+![Picture 1](Linked_image_Files/Mod1-PL300.png)
+   
 ## **Exercise 1: Prepare Data**
 
 In this exercise you will create eight Power BI Desktop queries. Six queries will source data from SQL Server, and two from CSV files.
@@ -78,6 +84,13 @@ In this task, you start by opening a starter Power BI file (.pbix). The starter 
 	> **Note**: You can also save the file by click the **Save** icon located at the top-left.
 
 	![Picture 18](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image(6).png)
+
+	  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+	- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+	- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+	- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### **Task 2: Get data from SQL Server**
 
@@ -308,9 +321,11 @@ In this task you will complete the lab.
 
 	> **Note**: You’ll apply various transformations to the queries and then apply the queries to load them to the data model in the **Load Data in Power BI Desktop** lab.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+#### Review
+ In this lab, you have completed the following :
+- Get started with Power BI Desktop
+- Get data from SQL Server
+- Preview Data in Power Query Editor
+- Get data from a CSV file
 
-- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+**You have successfully completed the lab**
