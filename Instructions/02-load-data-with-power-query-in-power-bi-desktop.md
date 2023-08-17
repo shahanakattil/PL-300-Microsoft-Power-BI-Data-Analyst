@@ -33,6 +33,8 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 11. Enforce Row-Level Security
 
+## Estimated timing: 90 minutes  
+
 ## Architecture Diagram
 
   ![Picture 8](Linked_image_Files/Mod2-PL300.png)
