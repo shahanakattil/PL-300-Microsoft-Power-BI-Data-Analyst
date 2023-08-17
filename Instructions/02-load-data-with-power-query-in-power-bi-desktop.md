@@ -33,6 +33,10 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 11. Enforce Row-Level Security
 
+## Architecture Diagram
+
+  ![Picture 8](Linked_image_Files/Mod2-PL300.png)
+
 ## **Exercise 1: Load Data**
 
 In this exercise you will apply transformations to each of the queries created in the previous lab.
@@ -128,6 +132,13 @@ In this task you will setup the environment for the lab.
 
 	![Picture 2012](Linked_image_Files/select-ok.png)
 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+   - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   
 
 ### **Task 2: Configure the Salesperson query**
 
@@ -764,9 +775,7 @@ In this task you will complete the lab.
 
 	>**Note**: You’ll configure data model tables and relationships in the **Model Data in Power BI Desktop** lab.
 
- > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+#### Review
+ In this lab, you have configured the different queries in Power BI  Desktop.
 
- - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
- - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
- - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+**You have successfully completed the lab**
