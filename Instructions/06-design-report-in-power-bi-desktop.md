@@ -34,6 +34,12 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 11. Enforce Row-Level Security
 
+ ## Estimated timing: 90 minutes    
+
+## Architecture Diagram
+
+![Picture 1](Linked_image_Files/Mod6-PL300.png)   
+
 ## **Exercise 1: Create a Report**
 
 In this exercise you will create a three-page report named **Sales Report**.
@@ -177,6 +183,13 @@ In this task you will setup the environment for the lab by opening the starter r
 18. Click **Save**.
 
 	![Picture 4](Linked_image_Files/image(11).png)
+
+       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+	- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+	- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+	- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### **Task 4: Design page 1**
 
@@ -594,7 +607,14 @@ In this task you will explore the report that was published to Power BI.
 
 25. Click the left icon to exit full screen mode.
 
-	![Picture 91](Linked_image_Files/image(71).png)
+    ![Picture 91](Linked_image_Files/image(71).png)
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### **Task 2: Finish up**
 
@@ -607,14 +627,13 @@ In this task you will complete the lab.
 2. Leave the Microsoft Edge browser window open.
 
 	*You will enhance the report design with advanced features in the **Enhance a Report in Power BI Desktop** lab.*
-
-
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-
-- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+  
+### Review
+ In this lab, you have completed the following :
+- Get started – Sign in
+- Enable Map and filled map visuals
+- Design page 1,2 and 3
+- Publish and explore the Report
 
 **You have successfully completed the lab**
 
