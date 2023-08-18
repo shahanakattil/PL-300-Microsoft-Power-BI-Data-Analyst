@@ -14,8 +14,6 @@ In this lab you learn how to:
 
 - Use data preview techniques to better understand the data
 
-## Estimated timing: 90 minutes
-
 ### **Lab story**
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
@@ -39,6 +37,8 @@ This lab is one of many in a series of labs that was designed as a complete stor
 10. Perform Data Analysis in Power BI Desktop
 
 11. Enforce Row-Level Security
+
+## Estimated timing: 90 minutes    
 
 ## Architecture Diagram
 
@@ -321,7 +321,7 @@ In this task you will complete the lab.
 
 	> **Note**: You’ll apply various transformations to the queries and then apply the queries to load them to the data model in the **Load Data in Power BI Desktop** lab.
 
-#### Review
+### Review
  In this lab, you have completed the following :
 - Get started with Power BI Desktop
 - Get data from SQL Server
