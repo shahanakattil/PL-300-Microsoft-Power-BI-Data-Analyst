@@ -1,7 +1,5 @@
 # **PL-300 Module 10: Enforce Row-Level Security**
 
-**The estimated time to complete the lab is 45 minutes**
-
 In this lab you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table. You will also enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
 
 In this lab you learn how to:
@@ -33,6 +31,12 @@ This lab is one of many in a series of labs that was designed as a complete stor
 9. Perform Data Analysis in Power BI Desktop
 
 10. **Enforce Row-Level Security**
+
+## Estimated timing: 90 minutes    
+
+## Architecture Diagram
+
+![Picture 1](Linked_image_Files/Mod10-PL300.png)
 
 ## **Exercise 1: Enforce row-level security**
 
@@ -129,6 +133,13 @@ In this task you will setup the environment for the lab.
 
 	![Picture 2](Linked_image_Files/lab10-image8.png)
 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+	- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+	- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+	- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ### **Task 2: Enforce row-level security**
 
 In this task you will enforce row-level security to ensure a salesperson can only see sales made in their assigned region(s).
@@ -221,12 +232,7 @@ In this task you will complete the lab.
 
 1. Save the Power BI Desktop file.
 
-
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-
-- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+### Review
+ In this lab, you have enforced row level security.
 
 **You have successfully completed the lab**
