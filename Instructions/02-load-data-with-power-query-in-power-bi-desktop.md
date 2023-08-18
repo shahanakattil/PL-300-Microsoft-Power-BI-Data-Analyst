@@ -777,7 +777,7 @@ In this task you will complete the lab.
 
 	>**Note**: You’ll configure data model tables and relationships in the **Model Data in Power BI Desktop** lab.
 
-#### Review
+### Review
  In this lab, you have configured the different queries in Power BI  Desktop.
 
 **You have successfully completed the lab**
