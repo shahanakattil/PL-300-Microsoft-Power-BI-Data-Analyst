@@ -1,7 +1,5 @@
 # **PL-300 Module 5: Create DAX Calculations in Power BI Desktop, Part 2**
 
-**The estimated time to complete the lab is 45 minutes**
-
 In this lab you will create measures with DAX expressions involving filter context manipulation.
 
 In this lab you learn how to:
