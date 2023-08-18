@@ -32,6 +32,12 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 10. Enforce Row-Level Security
 
+ ## Estimated timing: 90 minutes    
+
+## Architecture Diagram
+
+![Picture 1](Linked_image_Files/Mod9-PL300.png)   
+
 ## **Exercise 1: Create a Dashboard**
 
 In this exercise you will create the **Sales Monitoring** dashboard. The completed dashboard will look like the following:
@@ -157,12 +163,12 @@ In this task you will setup the environment for the lab by opening the starter r
 
     ![Picture 9](Linked_image_Files/Module09-image20.png)
     
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 
-- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### **Task 3: Get started – Publish the report**
 
@@ -288,12 +294,12 @@ In this task you will create the **Sales Monitoring** dashboard. You will pin a 
 
     ![Picture 52](Linked_image_Files/module09-26.png)
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 
-- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### **Task 5: Edit tile details**
 
@@ -387,5 +393,11 @@ In this task you will review the dashboard to notice updated sales.
     *If you don’t see the June 2020 data, you might need to press **F5** to reload the web browser.*
 
     ![Picture 33](Linked_image_Files/module9.30.png)
+
+### Review
+ In this lab, you have completed the following :
+- Create a Dashboard
+- Refresh the Dataset
+- Review the Dashboard
 
 **You have successfully completed the lab**
