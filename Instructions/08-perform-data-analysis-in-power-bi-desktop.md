@@ -1,7 +1,5 @@
 # **PL-300 Module 8: Perform Data Analysis in Power BI Desktop**
 
-**The estimated time to complete the lab is 45 minutes**
-
 In this lab you will create the **Sales Exploration** report.
 
 In this lab you learn how to:
