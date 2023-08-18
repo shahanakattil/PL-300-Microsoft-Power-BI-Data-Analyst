@@ -695,7 +695,7 @@ In this task you will complete the lab.
 
 3. If you intend to start the next lab, leave Power BI Desktop open.
 
-#### Review
+### Review
  In this lab, you have completed the following :
 - Get started with Power BI Desktop
 - Create model relationships
