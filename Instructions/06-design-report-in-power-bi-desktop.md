@@ -1,7 +1,5 @@
 # **PL-300 Module 6: Design a Report in Power BI Desktop**
 
-**The estimated time to complete the lab is 45 minutes**
-
 In this lab you will create a three-page report. You will then publish it to Power BI, whereupon you will open and interact with the report.
 
 In this lab you learn how to:
