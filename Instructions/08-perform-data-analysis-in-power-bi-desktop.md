@@ -36,6 +36,12 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 10. Enforce Row-Level Security
 
+## Estimated timing: 90 minutes    
+
+## Architecture Diagram
+
+![Picture 1](Linked_image_Files/Mod8-PL300.png)
+
 ## **Exercise 1: Create the Report**
 
 In this exercise you will create the **Sales Exploration** report.
@@ -133,7 +139,14 @@ In this task you will create the **Sales Exploration** report.
 
 12. Save the Power BI Desktop file.
 
-	*You’ll now create two report pages, and on each page you’ll work with a different visual to analyze and explore data.*
+	>**Note**: You’ll now create two report pages, and on each page you’ll work with a different visual to analyze and explore data.
+ 
+	  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+	- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+	- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+	- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## **Exercise 2: Create a Scatter Chart**
 
@@ -284,12 +297,13 @@ In this task you will complete the lab.
 	![Picture 23](Linked_image_Files/pl300-26.png)
 
 4.  Close Power BI Desktop.
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 
-- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+### Review
+ In this lab, you have completed the following :
+- Create the Report
+- Create a Scatter Chart
+- Create a Forecast
 
+**You have successfully completed the lab**
 
-  **You have successfully completed the lab**
+ 
