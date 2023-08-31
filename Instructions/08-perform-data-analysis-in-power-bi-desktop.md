@@ -7,8 +7,6 @@ lab:
 
 # **Perform Data Analysis in Power BI**
 
-**The estimated time to complete the lab is 45 minutes**
-
 In this lab, you'll create the **Sales Exploration** report.
 
 In this lab you learn how to:
