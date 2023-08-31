@@ -7,8 +7,6 @@ lab:
 
 # Create DAX Calculations in Power BI Desktop
 
-**The estimated time to complete the lab is 45 minutes.**
-
 In this lab you'll create calculated tables, calculated columns, and simple measures using Data Analysis Expressions (DAX).
 
 In this lab you learn how to:
