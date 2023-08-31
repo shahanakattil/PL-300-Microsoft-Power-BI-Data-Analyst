@@ -7,8 +7,6 @@ lab:
 
 # Enhance a Report in Power BI Desktop
 
-**The estimated time to complete the lab is 45 minutes.**
-
 In this lab, you'll enhance the **Sales Analysis** with advanced design features.
 
 In this lab you learn how to:
