@@ -7,8 +7,6 @@ lab:
 
 # **Create a Power BI Dashboard**
 
-**The estimated time to complete the lab is 45 minutes**
-
 In this lab, you'll create the **Sales Monitoring** dashboard.
 
 In this lab you learn how to:
@@ -30,6 +28,8 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. Perform Data Analysis in Power BI Desktop
 1. **Create a Power BI Dashboard**
 1. Enforce Row-Level Security
+
+## Estimated timing: 60 minutes
 
 ## **Exercise 1: Create a Dashboard**
 
