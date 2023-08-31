@@ -30,6 +30,8 @@ This lab is designed to introduce you to Power BI Desktop application and how to
 - Preview source data
 - Use data preview techniques to better understand the data
 
+## Estimated timing: 60 minutes
+
 ## **Exercise 1: Prepare Data**
 
 In this exercise, you'll create eight Power BI Desktop queries. Six queries will source data from SQL Server, and two from CSV files.
