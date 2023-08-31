@@ -7,8 +7,6 @@ lab:
 
 # Design a Report in Power BI Desktop
 
-**The estimated time to complete the lab is 45 minutes.**
-
 In this lab, you'll create a three-page report. You'll then publish it to Power BI, whereupon you'll open and interact with the report.
 
 In this lab you learn how to:
