@@ -7,8 +7,6 @@ lab:
 
 # Create Advanced DAX Calculations in Power BI Desktop
 
-**The estimated time to complete the lab is 45 minutes.**
-
 In this lab, you'll create measures with DAX expressions involving filter context manipulation.
 
 In this lab you learn how to:
