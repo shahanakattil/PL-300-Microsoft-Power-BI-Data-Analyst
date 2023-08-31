@@ -6,8 +6,6 @@ lab:
 
 # Load Data in Power BI Desktop
 
-**The estimated time to complete the lab is 45 minutes.**
-
 In this lab, you'll apply transformations to each of the queries created in the previous lab. You'll then apply the queries to load each as a table to the data model.
 
 In this lab you learn how to:
