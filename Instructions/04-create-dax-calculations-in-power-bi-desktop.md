@@ -32,6 +32,8 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. Create a Power BI Dashboard
 1. Enforce Row-Level Security
 
+## Estimated timing: 60 minutes
+
 ## **Exercise 1: Create Calculated Tables**
 
 In this exercise, you'll create two calculated tables. The first will be the **Salesperson** table, to allow a direct relationship between it and the **Sales** table. The second will be the **Date** table.
