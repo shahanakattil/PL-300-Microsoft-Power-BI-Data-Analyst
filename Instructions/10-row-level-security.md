@@ -7,8 +7,6 @@ lab:
 
 # **Enforce Row-Level Security**
 
-**The estimated time to complete the lab is 45 minutes**
-
 In this lab, you'll enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
 
 In this lab you learn how to:
@@ -29,6 +27,8 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. Perform Data Analysis in Power BI Desktop
 1. Create a Power BI Dashboard
 1. **Enforce Row-Level Security**
+
+## Estimated timing: 60 minutes
 
 ## **Exercise 1: Enforce row-level security**
 
